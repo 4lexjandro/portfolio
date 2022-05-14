@@ -5,7 +5,7 @@ import About from './Routes/About'
 import Work from './Routes/Work'
 import NotFound from './Routes/NotFound'
 import Bar from './Parts/Bar'
-
+import Soundbar from './Parts/Soundbar'
 
 
 import './style.css';
@@ -17,9 +17,10 @@ function App() {
     
     
     
-    
+   
    <Router>
    <Bar/>
+   
      <Routes>
      <Route path='/' element={<Home />} />
      <Route path='/home' element={<Home />} />
