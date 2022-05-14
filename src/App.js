@@ -4,19 +4,22 @@ import Contact from './Routes/Contact'
 import About from './Routes/About'
 import Work from './Routes/Work'
 import NotFound from './Routes/NotFound'
-import Navbar from './Parts/Navbar'
+import Bar from './Parts/Bar'
 
 
-import './App.css';
+
+import './style.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
-    <Navbar/>
+    
     
     
     
    <Router>
+   <Bar/>
      <Routes>
      <Route path='/' element={<Home />} />
      <Route path='/home' element={<Home />} />
