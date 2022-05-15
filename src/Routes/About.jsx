@@ -1,6 +1,6 @@
 import React from 'react'
 import Boat from '../Visuals/Boat.mp4';
-
+import Footer from '../Parts/Footer.jsx'
 
 function About() {
   return (
@@ -8,8 +8,10 @@ function About() {
       
       
   <header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+    
   <div class="relative z-30 p-5 text-2xl text-white bg-red-300 bg-opacity-50 rounded-xl">
     Welcome to my site!
+    
   </div>
   
 
@@ -18,15 +20,12 @@ function About() {
           src={Boat}
           type="video/mp4"
         />
-       
-      
-
-      
-      
       
     
        </video>
+       
        </header>
+       
        
        
        

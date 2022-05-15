@@ -5,7 +5,7 @@ import About from './Routes/About'
 import Work from './Routes/Work'
 import NotFound from './Routes/NotFound'
 import Bar from './Parts/Bar'
-import Soundbar from './Parts/Soundbar'
+import Footer from './Parts/Footer'
 
 
 import './style.css';
@@ -31,6 +31,13 @@ function App() {
      <Route path='/*' element={<NotFound />} />
      </Routes>
    </Router>
+
+
+   <div className="bottom"> 
+   
+      <Footer />
+      </div>
+
    
    </>
   );

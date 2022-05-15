@@ -339,7 +339,7 @@ html {
   .home-about-social {
     text-align: center !important;
     padding-top: 25px;
-    color: rgb(25, 71, 150) !important;
+    color: rgb(101, 180, 84) !important;
   }
   
   .home-about-social-links {
@@ -744,8 +744,21 @@ html {
 
  
 .bar {
-  color: rgb(121, 201, 50);
+  color: rgb(31, 159, 202);
   right: 150px;
 }
 
 
+.bottom{
+  position:fixed;
+  bottom:0%;
+  width:100%;
+ }
+
+ {/* .bottom{
+  position:fixed;
+  bottom:0%;
+  width:100%;
+ }*/}
+
+ 
