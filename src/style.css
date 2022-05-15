@@ -57,18 +57,18 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2d1950;
+    background: #000000;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(29, 127, 212, 0.959);
+    background: rgba(98, 5, 42, 0.959);
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(215, 56, 31, 0.911);
+    background: rgba(146, 222, 38, 0.911);
     border-radius: 12px;
   }
   
@@ -97,7 +97,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #be50f4 !important;
+    background-color: #a60c51 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -734,7 +734,7 @@ html {
   
   .fork-btn-inner:hover {
     transform: translateY(-2px) !important;
-    background-color: #a24dd386 !important;
+    background-color: #51911686 !important;
     border-color: #a24dd386 !important;
   }
   .fork-btn-inner::after {
@@ -761,4 +761,4 @@ html {
   width:100%;
  }*/}
 
- 
+
