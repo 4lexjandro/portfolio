@@ -10,9 +10,24 @@ function About() {
   <header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
     
   <div class="relative z-30 p-5 text-2xl text-white bg-red-300 bg-opacity-50 rounded-xl">
-    Welcome to my site!
-    
+    Currently open to work
   </div>
+  
+  <p>xxxxxxxxxx</p>
+  
+  
+
+  <div class="relative z-30 p-5 text-2xl text-white bg-red-300 bg-opacity-50 rounded-xl">
+    I enjoy being creative with Blender, React, 
+    <p>and
+    interested in Real estate, financial 
+    <p>independence, and space!</p>
+    </p>
+  </div>
+  
+
+ 
+  
   
 
       <video autoPlay loop muted id='video' class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
@@ -20,10 +35,11 @@ function About() {
           src={Boat}
           type="video/mp4"
         />
+
+
       
     
        </video>
-       
        </header>
        
        

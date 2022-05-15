@@ -20,7 +20,7 @@ export default function SocialFollow() {
       
 
     
-    <div className="grid grid-flow-col gap-10 bg-black-900 shadow-xl shadow-orange-600/20">
+    <div className="grid grid-flow-col gap-3 bg-black-900 shadow-xl shadow-orange-600/20">
        <p>Copyright &copy; {footerYear} 4lexmendez</p>
       
       

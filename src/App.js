@@ -36,6 +36,7 @@ function App() {
    <div className="bottom"> 
    
       <Footer />
+      
       </div>
 
    
