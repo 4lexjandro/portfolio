@@ -2,7 +2,70 @@ import React from 'react'
 
 function Work() {
   return (
-    <div>Work</div>
+    <div>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+
+      <p>This is the work page</p><p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+      <p>This is the work page</p><p>This is the work page</p>
+      <p>This is the work page</p>
+
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      <p>This is the work page</p>
+      
+
+
+
+
+
+    </div>
   )
 }
 

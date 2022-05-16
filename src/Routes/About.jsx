@@ -1,6 +1,6 @@
 import React from 'react'
 import Boat from '../Visuals/Boat.mp4';
-import Footer from '../Parts/Footer.jsx'
+
 
 function About() {
   return (
@@ -13,7 +13,7 @@ function About() {
     Currently open to work
   </div>
   
-  <p>xxxxxxxxxx</p>
+  <p>About page here</p>
   
   
 
@@ -38,9 +38,22 @@ function About() {
 
 
       
-    
+<p>About page here</p>
+<p>About page here</p>
+<p>About page here</p>
+<p>About page here</p>
+<p>About page here</p>
+<p>About page here</p>
+<p>About page here</p>
+<p>About page here</p>
+<p>About page here</p>
+<p>About page here</p>
        </video>
+
+       
        </header>
+
+       
        
        
        
