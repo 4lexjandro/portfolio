@@ -4,11 +4,7 @@ import Boat from '../Visuals/Boat.mp4';
 
 function About() {
   return (
-   
-      
-  
-
-       <div className="main">
+      <div className="main">
       <div className="overlay"></div>
       
 
@@ -25,31 +21,15 @@ function About() {
           <p>To my site</p>
           <p>To my site</p>
           <p>To my site</p>
-
-          <p>To my site</p>
-
-          <p>To my site</p>
-
-          <p>To my site</p>
-
           <p>To my site</p>
           <p>To my site</p>
-          
-
+          <p>To my site</p>
+          <p>To my site</p>
+          <p>To my site</p>
+          <p>Ned to add content here on about me</p>
            </div>
-    
+           
       </div>
-
-       
-
-       
-       
-       
-       
-       
-      
-      
-      
       
   )
 }

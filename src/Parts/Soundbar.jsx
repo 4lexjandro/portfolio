@@ -7,8 +7,6 @@ const Box = styled.div`
   display: flex;
   cursor: pointer;
 
- 
-
   & > *:nth-child(1) {
     animation-delay: 0.2s;
   }
