@@ -29,9 +29,9 @@ function Bar () {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
+      <Container >
         <Navbar.Brand href="/" className="d-flex">
-          <img src={AM} alt="" width="80" height="80" />
+          <img src={AM} alt="" width="80" height="80" className="rotate" />
           
           
         </Navbar.Brand>
