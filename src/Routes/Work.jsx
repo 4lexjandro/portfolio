@@ -2,7 +2,7 @@ import React from 'react'
 
 function Work() {
   return (
-    <div>
+    <div className="text">
       <p>This is the work page</p>
       <p>This is the work page</p>
       <p>This is the work page</p>

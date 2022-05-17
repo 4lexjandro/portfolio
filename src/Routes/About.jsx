@@ -4,19 +4,13 @@ import Boat from '../Visuals/Boat.mp4';
 
 function About() {
   return (
-    <div >
+    <div className="text">
+      
+      
+      
       
       
   <header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
-    
-  <div class="relative z-30 p-5 text-2xl text-white bg-red-300 bg-opacity-50 rounded-xl">
-    Currently open to work
-  </div>
-  
-  <p>About page here</p>
-  
-  
-
   <div class="relative z-30 p-5 text-2xl text-white bg-red-300 bg-opacity-50 rounded-xl">
     I enjoy being creative with Blender, React, 
     <p>and
@@ -37,7 +31,7 @@ function About() {
         />
 
 
-      
+      <p>About page here</p>
 <p>About page here</p>
 <p>About page here</p>
 <p>About page here</p>
@@ -47,11 +41,13 @@ function About() {
 <p>About page here</p>
 <p>About page here</p>
 <p>About page here</p>
-<p>About page here</p>
+
        </video>
+      
 
        
        </header>
+       
 
        
        
