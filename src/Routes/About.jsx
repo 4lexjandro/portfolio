@@ -15,18 +15,49 @@ function About() {
         />
         </video>
         <div className="content">
-          <h1>Welcome</h1>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>To my site</p>
-          <p>Ned to add content here on about me</p>
+          
+          <h1>I enjoy pushing my creative boundaries</h1>
+          <br/>
+            <h3>Web development</h3>
+            <ul>
+              <li>React, Django</li>
+              <li>HTML, Python</li>
+              <li>CSS, TailwindCSS, Daisyui</li>
+            </ul>
+            <br/>
+
+            <h3>3D Animations</h3>
+            <ul>
+              <li>Blender</li>
+              <li>Short Films Coming soon</li>
+             
+            </ul>
+            <br/>
+
+            <h3>Financial Independence</h3>
+            <ul>
+              <li>Investing</li>
+              <li>Seeking oppurtunities </li>
+              <li>Real Estate</li>
+            </ul>
+
+
+
+
+                 
+                 
+                
+         
+          
+
+                
+  
+
+
+
+
+
+
            </div>
            
       </div>
