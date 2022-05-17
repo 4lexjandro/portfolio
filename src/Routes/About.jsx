@@ -18,7 +18,7 @@ function About() {
           
           <h1>I enjoy pushing my creative boundaries</h1>
           <br/>
-            <h3>Web development</h3>
+            <h3 className="h3">Web development</h3>
             <ul>
               <li>React, Django</li>
               <li>HTML, Python</li>
@@ -26,7 +26,7 @@ function About() {
             </ul>
             <br/>
 
-            <h3>3D Animations</h3>
+            <h3 className="h3">3D Animations</h3>
             <ul>
               <li>Blender</li>
               <li>Short Films Coming soon</li>
@@ -34,31 +34,16 @@ function About() {
             </ul>
             <br/>
 
-            <h3>Financial Independence</h3>
+            <h3 className="h3">Financial Independence</h3>
             <ul>
               <li>Investing</li>
               <li>Seeking oppurtunities </li>
               <li>Real Estate</li>
             </ul>
 
-
-
-
-                 
-                 
-                
-         
-          
-
-                
-  
-
-
-
-
-
-
            </div>
+
+     
            
       </div>
       
