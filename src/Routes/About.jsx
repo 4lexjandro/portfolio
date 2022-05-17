@@ -4,60 +4,53 @@ import Boat from '../Visuals/Boat.mp4';
 
 function About() {
   return (
-    <div className="text">
+   
       
-      
-      
-      
-      
-  <header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
-  <div class="relative z-30 p-5 text-2xl text-white bg-red-300 bg-opacity-50 rounded-xl">
-    I enjoy being creative with Blender, React, 
-    <p>and
-    interested in Real estate, financial 
-    <p>independence, and space!</p>
-    </p>
-  </div>
   
 
- 
-  
-  
+       <div className="main">
+      <div className="overlay"></div>
+      
 
-      <video autoPlay loop muted id='video' class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
+      <video autoPlay loop muted id='video' className="vid">
         <source
           src={Boat}
           type="video/mp4"
         />
+        </video>
+        <div className="content">
+          <h1>Welcome</h1>
+          <p>To my site</p>
+          <p>To my site</p>
+          <p>To my site</p>
+          <p>To my site</p>
+          <p>To my site</p>
 
+          <p>To my site</p>
 
-      <p>About page here</p>
-<p>About page here</p>
-<p>About page here</p>
-<p>About page here</p>
-<p>About page here</p>
-<p>About page here</p>
-<p>About page here</p>
-<p>About page here</p>
-<p>About page here</p>
-<p>About page here</p>
+          <p>To my site</p>
 
-       </video>
-      
+          <p>To my site</p>
 
-       
-       </header>
-       
+          <p>To my site</p>
+          <p>To my site</p>
+          
 
-       
-       
-       
-       
-       
-      
-      
-      
+           </div>
+    
       </div>
+
+       
+
+       
+       
+       
+       
+       
+      
+      
+      
+      
   )
 }
 
