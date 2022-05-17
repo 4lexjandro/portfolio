@@ -3,12 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div>
-      <p>Home pge here</p>
-      <p>Home pge here</p>
-      <p>Home pge here</p>
-      <p>Home pge here</p>
-      <p>Home pge here</p>
-      <p>Home pge here</p>
+      <p>Learn to have content overlapping video background</p>
 
       
       
