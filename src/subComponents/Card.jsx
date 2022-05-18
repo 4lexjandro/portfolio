@@ -2,13 +2,7 @@ import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faYoutube,
-    faGithub,
-    faTwitter,
-    faInstagram,
-    faLinkedin
-  } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { mediaQueries } from "../Parts/Themes";
 
 const Box = styled(motion.li)`

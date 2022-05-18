@@ -4,13 +4,13 @@ import { useEffect, useRef, lazy, Suspense } from "react";
 import styled, { ThemeProvider } from "styled-components";
 
 import { YinYang } from "../subComponents/AllSvgs";
-
-
 import { Work } from "../subComponents/WorkData";
 import { DarkTheme, mediaQueries } from "../Parts/Themes";
 
 import Card from "../subComponents/Card";
 import Loading from "../subComponents/Loading";
+
+
 const BigTitle = lazy(() => import("../subComponents/BigTitle"));
 
 const Box = styled(motion.div)`
@@ -127,8 +127,7 @@ const WorkPage = () => {
           animate={{ opacity: 1, transition: { duration: 1 } }}
           exit={{ opacity: 0, transition: { duration: 0.5 } }}
         >
-          
-          
+        
 
           <Main ref={ref} variants={container} initial="hidden" animate="show">
             {Work.map((d) => (
@@ -147,4 +146,4 @@ const WorkPage = () => {
   );
 };
 
-export default WorkPage;
+export default Work;
