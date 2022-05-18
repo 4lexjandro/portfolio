@@ -5,6 +5,16 @@ import agency from '../Visuals/agency.mov'
 import github from '../Visuals/github.mov'
 import ADVP from '../Visuals/ADVP.mov'
 import rest from '../Visuals/rest.mov'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    
+    faGithub,
+    faTwitter,
+    faInstagram,
+    faCoffee
+    
+  } from "@fortawesome/free-brands-svg-icons";
+
 
 
 const WorkPage = () => {
@@ -16,7 +26,6 @@ const WorkPage = () => {
        <br/>
        <br/>
        <br/>
-
        <br/>
        <br/>
        <br/>
@@ -26,7 +35,6 @@ const WorkPage = () => {
        <br/>
        <br/>
        <br/>
-
        <br/>
        <br/>
        <br/>
@@ -51,7 +59,7 @@ const WorkPage = () => {
 <div class="flex space-x-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
 
-
+<a href="https://github.com/4lexmendez" className="ico">
 <video autoPlay loop muted id='video'>
         <source
           src={LY}
@@ -59,18 +67,26 @@ const WorkPage = () => {
           alt="" width="20" height="20"
         />
 </video>
+</a>
 
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Loving Years</div>
     <p class="text-gray-700 text-base" className="text">
       Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
+    <a href="https://github.com/4lexmendez"
+        className="ico">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+       <br/>
+      </a>
     
   </div>
+  
   <div class="px-6 pt-4 pb-2">
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#react-router</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#react</span>
+    
   </div>
   </div>
     </div>
