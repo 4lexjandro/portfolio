@@ -21,7 +21,7 @@ function About() {
             <h3 className="h3">Web development</h3>
             <ul>
               <li>React, Django</li>
-              <li>HTML, Python</li>
+              <li>HTML, Javascript, Python</li>
               <li>CSS, TailwindCSS, Daisyui</li>
             </ul>
             <br/>
