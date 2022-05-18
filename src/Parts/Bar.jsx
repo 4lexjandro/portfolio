@@ -31,7 +31,7 @@ function Bar () {
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex">
-          <img src={AM} alt="" width="80" height="80" className="rotate" />
+          <img src={AM} alt="" width="80" height="80" />
           
           
         </Navbar.Brand>
