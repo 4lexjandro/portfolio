@@ -59,7 +59,7 @@ const WorkPage = () => {
 <div class="flex space-x-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
 
-<a href="https://github.com/4lexmendez" className="ico">
+<a href="https://loving-years.vercel.app/" className="ico">
 <video autoPlay loop muted id='video'>
         <source
           src={LY}
@@ -96,6 +96,7 @@ const WorkPage = () => {
     
   <div><div class="flex space-x-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+<a href="https://agency-beige.vercel.app/" className="ico">
 <video autoPlay loop muted id='video'>
         <source
           src={agency}
@@ -103,6 +104,7 @@ const WorkPage = () => {
           alt="" width="20" height="20"
         />
 </video>
+</a>
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Agency Page</div>
     <p class="text-gray-700 text-base" className="text">
@@ -119,6 +121,7 @@ const WorkPage = () => {
     </div></div>
   <div><div class="flex space-x-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+<a href="https://github-finder-pi-pink.vercel.app/" className="ico">
 <video autoPlay loop muted id='video'>
         <source
           src={github}
@@ -126,6 +129,7 @@ const WorkPage = () => {
           alt="" width="20" height="20"
         />
 </video>
+</a>
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Github Finder</div>
     <p class="text-gray-700 text-base" className="text">
@@ -151,6 +155,7 @@ const WorkPage = () => {
        <div class="flex justify-center space-x-4">
   <div><div class="flex space-x-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+<a href="https://advancepages.vercel.app/" className="ico">
 <video autoPlay loop muted id='video'>
         <source
           src={ADVP}
@@ -158,6 +163,7 @@ const WorkPage = () => {
           alt="" width="20" height="20"
         />
 </video>
+</a>
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Advance Pages</div>
     <p class="text-gray-700 text-base" className="text">
@@ -175,6 +181,7 @@ const WorkPage = () => {
   
   <div><div class="flex space-x-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+
 <video autoPlay loop muted id='video'>
         <source
           src={rest}
@@ -182,6 +189,7 @@ const WorkPage = () => {
           alt="" width="20" height="20"
         />
 </video>
+
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Restaurant</div>
     <p class="text-gray-700 text-base" className="text">
