@@ -1,10 +1,36 @@
 import React from 'react'
-import AM from '../Visuals/AM.png'
+
+import LY from '../Visuals/LY.mov'
+import agency from '../Visuals/agency.mov'
+import github from '../Visuals/github.mov'
+import ADVP from '../Visuals/ADVP.mov'
+import rest from '../Visuals/rest.mov'
+
 
 const WorkPage = () => {
   return (
+    <div className="change">
     <div className="content">
         <div className="text">
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+
+       <br/>
+       <br/>
+       <br/>
+       <br/>
        <br/>
        <br/>
        <br/>
@@ -23,18 +49,28 @@ const WorkPage = () => {
     <div class="flex justify-center space-x-4">
   <div>
 <div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-rose-900">
-<img src={AM} alt="" width="80" height="80" />
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+
+
+<video autoPlay loop muted id='video'>
+        <source
+          src={LY}
+          type="video/mp4"
+          alt="" width="20" height="20"
+        />
+</video>
+
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Project 1</div>
+    <div class="font-bold text-xl mb-2">Loving Years</div>
     <p class="text-gray-700 text-base" className="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
+    
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#react-router</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#react</span>
   </div>
   </div>
     </div>
@@ -43,35 +79,48 @@ const WorkPage = () => {
 
     
   <div><div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-rose-900">
-<img src={AM} alt="" width="80" height="80" />
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+<video autoPlay loop muted id='video'>
+        <source
+          src={agency}
+          type="video/mp4"
+          alt="" width="20" height="20"
+        />
+</video>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Project 2</div>
+    <div class="font-bold text-xl mb-2">Agency Page</div>
     <p class="text-gray-700 text-base" className="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      Marketing agency Page advertising services to generate revenue
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+    
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Smooth Scroll</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Famer Motion</span>
   </div>
   </div>
 
     </div></div>
   <div><div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-rose-900">
-<img src={AM} alt="" width="80" height="80" />
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+<video autoPlay loop muted id='video'>
+        <source
+          src={github}
+          type="video/mp4"
+          alt="" width="20" height="20"
+        />
+</video>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Project 3</div>
+    <div class="font-bold text-xl mb-2">Github Finder</div>
     <p class="text-gray-700 text-base" className="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      Locate your github with this github finder
     </p>
+    <br/>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#github</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#api</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Find Yourself</span>
   </div>
   </div>
 
@@ -85,36 +134,49 @@ const WorkPage = () => {
        <br/>
        <div class="flex justify-center space-x-4">
   <div><div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-rose-900">
-<img src={AM} alt="" width="80" height="80" />
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+<video autoPlay loop muted id='video'>
+        <source
+          src={ADVP}
+          type="video/mp4"
+          alt="" width="20" height="20"
+        />
+</video>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">4</div>
+    <div class="font-bold text-xl mb-2">Advance Pages</div>
     <p class="text-gray-700 text-base" className="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      Bare bones for advance pages, business advice on achieving financial independece through investing in real estate
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Real Estate</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Financial Independence</span>
+    
   </div>
   </div>
 
     </div></div>
   
   <div><div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-rose-900">
-<img src={AM} alt="" width="80" height="80" />
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900">
+<video autoPlay loop muted id='video'>
+        <source
+          src={rest}
+          type="video/mp4"
+          alt="" width="20" height="20"
+        />
+</video>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">6</div>
+    <div class="font-bold text-xl mb-2">Restaurant</div>
     <p class="text-gray-700 text-base" className="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+     El Cazador Cafe located at 20 Park Hill Ave in Yonkers 
+     <p>Check back later for deployed result</p>
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Framer Motion</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Developing</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ReactRouterDom</span>
   </div>
   </div>
   </div>
@@ -129,6 +191,7 @@ const WorkPage = () => {
 
 
 
+    </div>
     </div>
     </div>
     
