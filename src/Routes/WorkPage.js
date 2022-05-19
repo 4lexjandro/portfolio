@@ -81,7 +81,7 @@ const WorkPage = () => {
     <a href="https://github.com/4lexmendez/LovingYears"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    </a>
     
   </div>
   
