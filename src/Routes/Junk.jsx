@@ -60,7 +60,7 @@ const Junk = () => {
     <a href="https://github.com/4lexmendez/LovingYears"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    </a>
     
   </div>
   
@@ -101,14 +101,14 @@ const Junk = () => {
 </video>
 </a>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12"></div>
+    <div class="font-bold text-xl mb-2 h-12">Agency Page</div>
     <p class="text-gray-700 text-base" className="text">
       Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
-    <a href="https://github.com/4lexmendez/LovingYears"
+    <a href="https://github.com/4lexmendez/agency"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    </a>
     
   </div>
   
@@ -145,14 +145,14 @@ const Junk = () => {
 </video>
 </a>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Loving Years</div>
+    <div class="font-bold text-xl mb-2 h-12">Github Finder</div>
     <p class="text-gray-700 text-base" className="text">
       Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
-    <a href="https://github.com/4lexmendez/LovingYears"
+    <a href="https://github.com/4lexmendez/github-finder"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    </a>
     
   </div>
   
@@ -188,14 +188,14 @@ const Junk = () => {
 </video>
 </a>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Loving Years</div>
+    <div class="font-bold text-xl mb-2 h-12">ADV PGS</div>
     <p class="text-gray-700 text-base" className="text">
       Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
-    <a href="https://github.com/4lexmendez/LovingYears"
+    <a href="https://github.com/4lexmendez/advancepages"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    </a>
     
   </div>
   
@@ -225,11 +225,11 @@ const Junk = () => {
 </video>
 </a>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Loving Years</div>
+    <div class="font-bold text-xl mb-2 h-12"> Resturant </div>
     <p class="text-gray-700 text-base" className="text">
       Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
-    <a href="https://github.com/4lexmendez/LovingYears"
+    <a href="https://github.com/4lexmendez/restaurant"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>

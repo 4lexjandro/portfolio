@@ -145,7 +145,7 @@ const WorkPage = () => {
     <a href="https://github.com/4lexmendez/github-finder"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    </a>
     <br/>
   </div>
   <div class="px-6 pt-4 pb-2">
@@ -183,7 +183,7 @@ const WorkPage = () => {
     <a href="https://github.com/4lexmendez/advancepages"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    </a>
   </div>
   <div class="px-6 pt-4 pb-2">
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Real Estate</span>
@@ -214,7 +214,7 @@ const WorkPage = () => {
     <a href="https://github.com/4lexmendez/restaurant"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    </a>
   </div>
   <div class="px-6 pt-4 pb-2">
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Framer Motion</span>
