@@ -111,7 +111,14 @@ const mq = window.matchMedia("(max-width: 50em)").matches;
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                 <ButtonMailto  label="E-Mail Me " mailto="mailto:alexjandrom99@gmail.com" />
+
+
+          <button class=" p-2  shadow-xl shadow-orange-600/20 sm:px-1 rounded-md animate-bounce">
+          <ButtonMailto  label="E-Mail Me " mailto="mailto:alexjandrom99@gmail.com" />
+      </button>
+        
+   
+                 
                  
                  
               </motion.h3>

@@ -45,6 +45,13 @@ const WorkPage = () => {
        <br/>
        <br/>
        <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       
+       
+       
        
        <h3 className="text">Projects & Work Experience</h3>
 
