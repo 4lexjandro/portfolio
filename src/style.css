@@ -750,6 +750,7 @@
 
 .text {
   color:white !important;
+  text-align:center;
 }
 
 .p {
@@ -825,6 +826,7 @@ body {
     background: linear-gradient(-45deg, #4225cf, #833352, #273807, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    position: center;
 }
 
 @keyframes gradient {
