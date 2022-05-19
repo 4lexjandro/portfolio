@@ -74,10 +74,9 @@ const WorkPage = () => {
     <p class="text-gray-700 text-base" className="text">
       Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
-    <a href="https://github.com/4lexmendez"
+    <a href="https://github.com/4lexmendez/LovingYears"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-       <br/>
       </a>
     
   </div>
@@ -110,6 +109,10 @@ const WorkPage = () => {
     <p class="text-gray-700 text-base" className="text">
       Marketing agency Page advertising services to generate revenue
     </p>
+    <a href="https://github.com/4lexmendez/agency"
+        className="ico">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+      </a>
   </div>
   <div class="px-6 pt-4 pb-2">
     
@@ -135,6 +138,10 @@ const WorkPage = () => {
     <p class="text-gray-700 text-base" className="text">
       Locate your github with this github finder
     </p>
+    <a href="https://github.com/4lexmendez/github-finder"
+        className="ico">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+      </a>
     <br/>
   </div>
   <div class="px-6 pt-4 pb-2">
@@ -169,6 +176,10 @@ const WorkPage = () => {
     <p class="text-gray-700 text-base" className="text">
       Bare bones for advance pages, business advice on achieving financial independece through investing in real estate
     </p>
+    <a href="https://github.com/4lexmendez/advancepages"
+        className="ico">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+      </a>
   </div>
   <div class="px-6 pt-4 pb-2">
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Real Estate</span>
@@ -196,6 +207,10 @@ const WorkPage = () => {
      El Cazador Cafe located at 20 Park Hill Ave in Yonkers 
      <p>Check back later for deployed result</p>
     </p>
+    <a href="https://github.com/4lexmendez/restaurant"
+        className="ico">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+      </a>
   </div>
   <div class="px-6 pt-4 pb-2">
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Framer Motion</span>
@@ -207,14 +222,9 @@ const WorkPage = () => {
   </div>
 </div>
 <br/>
-       <br/>
-       <br/>
-       <br/>
-
-
-
-
-
+<br/>
+<br/>
+<br/>
     </div>
     </div>
     </div>
