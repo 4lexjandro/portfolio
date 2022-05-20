@@ -5,6 +5,7 @@ import agency from '../Visuals/agency.mov'
 import github from '../Visuals/github.mov'
 import ADVP from '../Visuals/ADVP.mov'
 import rest from '../Visuals/rest.mov'
+import CS from '../Visuals/CS.mov'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -15,50 +16,30 @@ const WorkPage = () => {
     <div className="change">
     <div className="content">
     <div className="text">
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
+    
+    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+    <br/> <br/> <br/> <br/> <br/> <br/>
        
-       
-       
-       
-       <h3 className="text">Projects & Work Experience</h3>
+      
 
 
 
 
-    <div class="flex justify-center space-x-4">
+    <br/>
+  
+
+
+
+ <div class="h-56 grid grid-cols-3 gap-4 content-center ...">
+
+
+
+
+
+
+  <div>
+ <div class="flex justify-center space-x-4">
   <div>
 <div class="flex space-x-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
@@ -72,7 +53,6 @@ const WorkPage = () => {
         />
 </video>
 </a>
-
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">Loving Years</div>
     <p class="text-gray-700 text-base" className="text">
@@ -86,19 +66,32 @@ const WorkPage = () => {
   </div>
   
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#react-router</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#react</span>
+    
     
   </div>
   </div>
     </div>
     </div>
+    </div></div>
 
 
-    
-  <div><div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto">
+
+
+
+
+
+
+
+
+
+
+  <div>
+  <div>
+ <div class="flex justify-center space-x-4">
+  <div>
+<div class="flex space-x-4">
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
+
 <a href="https://agency-beige.vercel.app/" className="ico">
 <video autoPlay loop muted id='video'>
         <source
@@ -111,23 +104,38 @@ const WorkPage = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">Agency Page</div>
     <p class="text-gray-700 text-base" className="text">
-      Marketing agency Page advertising services to generate revenue.
+      Marketing agency page advertising services to generate revenue.
     </p>
     <a href="https://github.com/4lexmendez/agency"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
     </a>
+    
   </div>
+  
   <div class="px-6 pt-4 pb-2">
     
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Smooth Scroll</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Framer Motion</span>
+    
   </div>
+  </div>
+    </div>
+    </div>
+    </div></div>
   </div>
 
-    </div></div>
-  <div><div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto">
+
+
+
+
+
+
+
+  <div><div>
+ <div class="flex justify-center space-x-4">
+  <div>
+<div class="flex space-x-4">
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
+
 <a href="https://github-finder-pi-pink.vercel.app/" className="ico">
 <video autoPlay loop muted id='video'>
         <source
@@ -140,32 +148,37 @@ const WorkPage = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">Github Finder</div>
     <p class="text-gray-700 text-base" className="text">
-      Locate your github profile with this github finder.
+      Find your github profile with this finder that uses an API.
     </p>
     <a href="https://github.com/4lexmendez/github-finder"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
     </a>
-    <br/>
+    
   </div>
+  
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#github</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#api</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Find Yourself</span>
+    
+    
   </div>
   </div>
+    </div>
+    </div>
+    </div></div></div>
 
-    </div></div>
-</div>
 
 
-<br/>
-      
-       <br/>
-       <br/>
-       <div class="flex justify-center space-x-4">
-  <div><div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto">
+
+
+
+
+  <div>
+  <div>
+ <div class="flex justify-center space-x-10">
+  <div>
+<div class="flex space-x-4">
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
+
 <a href="https://advancepages.vercel.app/" className="ico">
 <video autoPlay loop muted id='video'>
         <source
@@ -176,26 +189,33 @@ const WorkPage = () => {
 </video>
 </a>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Advance Pages</div>
+    <div class="font-bold text-xl mb-2 h-12">ADV PGS</div>
     <p class="text-gray-700 text-base" className="text">
-      Bare bones for advance pages, business advice on achieving financial independece through investing in real estate
+    Achieve financial indepedence
     </p>
     <a href="https://github.com/4lexmendez/advancepages"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
     </a>
+    
   </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Real Estate</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Financial Independence</span>
+  
+  <div class="px-6 pt-4 pb-2 space-x-4">
+    
     
   </div>
   </div>
-
+    </div>
+    </div>
     </div></div>
-  
-  <div><div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto">
+  </div>
+  <div>
+  <div>
+ <div class="flex justify-center space-x-4">
+  <div>
+<div class="flex space-x-4">
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
+
 
 <video autoPlay loop muted id='video'>
         <source
@@ -206,32 +226,93 @@ const WorkPage = () => {
 </video>
 
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Restaurant</div>
+    <div class="font-bold text-xl mb-2 h-12"> Resturant </div>
     <p class="text-gray-700 text-base" className="text">
-     El Cazador Cafe located at 20 Park Hill Ave in Yonkers 
-     <p>Check back later for deployed result</p>
+      El Cazador Cafe in Yonkers, NY. Check back later for deployed upshot.
     </p>
     <a href="https://github.com/4lexmendez/restaurant"
         className="ico">
         <FontAwesomeIcon icon={faGithub} size="2x" />
-    </a>
+      </a>
+    
   </div>
+  
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Framer Motion</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Developing</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ReactRouterDom</span>
+    
+    
   </div>
   </div>
+    </div>
+    </div>
+    </div></div>
+  </div>
+  <div>
+
+  <div>
+ <div class="flex justify-center space-x-4">
+  <div>
+<div class="flex space-x-4">
+<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
+
+
+<video autoPlay loop muted id='video'>
+        <source
+          src={CS}
+          type="video/mp4"
+          alt="" width="15" height="15"
+        />
+</video>
+
+
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2 h-12">Art Growth</div>
+    <p class="text-gray-700 text-base" className="text">
+     Collection of Artwork done with multiple softwares.
+    </p>
+    <a href="https://github.com/4lexmendez"
+        className="ico">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+      </a>
+    
+  </div>
+  
+  <div class="px-6 pt-4 pb-2">
+    
+    
   </div>
   </div>
+    </div>
+    </div>
+    </div></div>
+
+
+
+  </div>
+  <div class="h-56 grid grid-cols-3 gap-4 content-center ...">
+  <div></div>
+  <div></div>
+  
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
-    </div>
-    </div>
-    </div>
+
+</div>
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div></div></div>
+
+
+   
     
   )
 }
