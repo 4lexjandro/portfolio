@@ -7,12 +7,25 @@ function Junk() {
   return (
       <div className="main">
       <div className="overlay"></div>
-      <video autoPlay loop muted id='video' className="vid">
+      <div
+      dangerouslySetInnerHTML = {{
+        __html:
+      <video 
+      autoPlay 
+      loop 
+      muted 
+      playsinline
+      >
         <source
           src={Boat}
           type="video/mp4"
         />
         </video>
+      }}
+      ></div>
+
+
+
         <div className="content">
          <br/><br/>
           <motion.div animate={{ x: 100,rotate:360 }}   

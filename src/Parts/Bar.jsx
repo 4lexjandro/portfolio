@@ -32,7 +32,7 @@ function Bar () {
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex">
-          <img src={AM} alt="" width="80" height="80" />
+          <img src={AM} alt="" width="50" height="50" />
           
           
         </Navbar.Brand>
