@@ -14,7 +14,7 @@ function Junk() {
         />
         </video>
         <div className="content">
-         <br/><br/>
+         <br/><br/><br/><br/><br/><br/><br/><br/>
           <motion.div animate={{ x: 100,rotate:360 }}   
 transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
           
