@@ -20,7 +20,7 @@ function Junk() {
     
   return (
     
-<div className='bg-gradient-to-tl from purple-900 to-green-700'>
+<div className='bg-gradient-to-tl 0'>
     <img src={head4} className='w-full h-full object-cover absolute ' alt=''/>
 
    

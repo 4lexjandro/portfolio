@@ -10,7 +10,7 @@ import rock2 from '../Visuals/rock2.png'
 import '../home.css'
 
 
-function Junk() {
+function Home() {
 
     
 
@@ -29,7 +29,7 @@ function Junk() {
 
         <div class="contextt" >
         <h1>Hello !</h1>
-        <h1>I'm Alex!</h1>
+        <h1>I'm Alex</h1>
     </div>
 
 
@@ -86,4 +86,4 @@ function Junk() {
   )
 }
 
-export default Junk
+export default Home
