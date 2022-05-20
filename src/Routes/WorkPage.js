@@ -45,7 +45,7 @@ const Junk = () => {
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
 
 <a href="https://loving-years.vercel.app/" className="ico">
-<video autoPlay loop muted id='video'>
+<video autoPlay loop muted playsinline id='video'>
         <source
           src={LY}
           type="video/mp4"
@@ -93,7 +93,7 @@ const Junk = () => {
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
 
 <a href="https://agency-beige.vercel.app/" className="ico">
-<video autoPlay loop muted id='video'>
+<video autoPlay loop muted playsinline id='video'>
         <source
           src={agency}
           type="video/mp4"
@@ -137,7 +137,7 @@ const Junk = () => {
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
 
 <a href="https://github-finder-pi-pink.vercel.app/" className="ico">
-<video autoPlay loop muted id='video'>
+<video autoPlay loop muted playsinline id='video'>
         <source
           src={github}
           type="video/mp4"
@@ -180,7 +180,7 @@ const Junk = () => {
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
 
 <a href="https://advancepages.vercel.app/" className="ico">
-<video autoPlay loop muted id='video'>
+<video autoPlay loop muted playsinline id='video'>
         <source
           src={ADVP}
           type="video/mp4"
@@ -217,7 +217,7 @@ const Junk = () => {
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
 
 
-<video autoPlay loop muted id='video'>
+<video autoPlay loop muted playsinline id='video'>
         <source
           src={rest}
           type="video/mp4"
@@ -255,7 +255,7 @@ const Junk = () => {
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
 
 
-<video autoPlay loop muted id='video'>
+<video autoPlay loop muted playsinline id='video'>
         <source
           src={CS}
           type="video/mp4"
