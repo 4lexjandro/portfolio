@@ -1,11 +1,11 @@
 import React from 'react'
 
-import LY from '../Visuals/LY.mov'
-import agency from '../Visuals/agency.mov'
-import github from '../Visuals/github.mov'
-import ADVP from '../Visuals/ADVP.mov'
-import rest from '../Visuals/rest.mov'
-import CS from '../Visuals/CS.mov'
+import LY from '../Visuals/LY.mp4'
+import agency from '../Visuals/agency.mp4'
+import github from '../Visuals/github.mp4'
+import ADVP from '../Visuals/ADVP.mp4'
+import rest from '../Visuals/rest.mp4'
+import CS from '../Visuals/CS.mp4'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
