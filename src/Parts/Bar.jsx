@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Soundbar from './Soundbar.jsx';
 import AM from '../Visuals/AM.png';
 
+
 function Bar () {
 
     const [expand, updateExpanded] = useState(false);
@@ -37,9 +38,9 @@ function Bar () {
         </Navbar.Brand>
         <br/>
 
-        <div className="bar">  
+        <div className="rotate">  
         <Nav.Item  >
-          <Soundbar />
+          <Soundbar className="rotate"/>
         </Nav.Item>
         </div>
         <Navbar.Toggle
