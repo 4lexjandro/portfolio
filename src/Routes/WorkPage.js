@@ -11,7 +11,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
 
-const WorkPage = () => {
+const Junk = () => {
   return (
     <div className="change">
     <div className="content">
@@ -104,7 +104,7 @@ const WorkPage = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">Agency Page</div>
     <p class="text-gray-700 text-base" className="text">
-      Marketing agency page advertising services to generate revenue.
+      Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
     <a href="https://github.com/4lexmendez/agency"
         className="ico">
@@ -148,7 +148,7 @@ const WorkPage = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">Github Finder</div>
     <p class="text-gray-700 text-base" className="text">
-      Find your github profile with this finder that uses an API.
+      Showcase of the past 5 years where I've created memories with the girl of my dreams.
     </p>
     <a href="https://github.com/4lexmendez/github-finder"
         className="ico">
@@ -174,7 +174,7 @@ const WorkPage = () => {
 
   <div>
   <div>
- <div class="flex justify-center space-x-10">
+ <div class="flex justify-center space-x-4">
   <div>
 <div class="flex space-x-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
@@ -191,7 +191,7 @@ const WorkPage = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">ADV PGS</div>
     <p class="text-gray-700 text-base" className="text">
-    Achieve financial indepedence
+      Barebones of site, check back later for finished result!
     </p>
     <a href="https://github.com/4lexmendez/advancepages"
         className="ico">
@@ -200,7 +200,7 @@ const WorkPage = () => {
     
   </div>
   
-  <div class="px-6 pt-4 pb-2 space-x-4">
+  <div class="px-6 pt-4 pb-2">
     
     
   </div>
@@ -228,7 +228,7 @@ const WorkPage = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12"> Resturant </div>
     <p class="text-gray-700 text-base" className="text">
-      El Cazador Cafe in Yonkers, NY. Check back later for deployed upshot.
+    Barebones of site, check back later for finished result!
     </p>
     <a href="https://github.com/4lexmendez/restaurant"
         className="ico">
@@ -259,15 +259,14 @@ const WorkPage = () => {
         <source
           src={CS}
           type="video/mp4"
-          alt="" width="15" height="15"
+          alt="" width="20" height="20"
         />
 </video>
 
-
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Art Growth</div>
+    <div class="font-bold text-xl mb-2 h-12">Artwork</div>
     <p class="text-gray-700 text-base" className="text">
-     Collection of Artwork done with multiple softwares.
+      Collection of artwork created through variety of software
     </p>
     <a href="https://github.com/4lexmendez"
         className="ico">
@@ -317,4 +316,4 @@ const WorkPage = () => {
   )
 }
 
-export default WorkPage
+export default Junk
