@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Exo', sans-serif;
-    background: #000000; 
+    
     
 }
 
@@ -16,15 +16,17 @@ body{
 .contextt {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:30vh;
     
 }
 
-.contextt h1{
+.contextt {
     text-align: center;
     color: #fff;
     font-size: 50px;
 }
+
+
 
 
 .area{

@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from './Routes/Home'
 import Contact from './Routes/Contact'
 import About from './Routes/About'
-import Junk from './Routes/Junk'
+
 import WorkPage from './Routes/WorkPage'
 import NotFound from './Routes/NotFound'
 import Bar from './Parts/Bar'
@@ -26,7 +26,7 @@ function App() {
      <Route path='/' element={<Home />} />
      <Route path='/home' element={<Home />} />
      <Route path='/about' element={<About />} />
-     <Route path='/junk' element={<Junk />} />
+     
      <Route path='/work' element={<WorkPage />} />
      <Route path='/contact' element={<Contact />} />
      <Route path='/notfound' element={<NotFound />} />

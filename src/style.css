@@ -37,26 +37,11 @@
   /*Scrollbar   */
   /* --------- */
   
-  ::-webkit-scrollbar {
-    width: 7px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #000000;
-  }
   
   /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(98, 5, 42, 0.959);
-    border-radius: 12px;
-  }
-  
+ 
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgba(146, 222, 38, 0.911);
-    border-radius: 12px;
-  }
+ 
   
   /* --------- */
   /* Navbar Section  */

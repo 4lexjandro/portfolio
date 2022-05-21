@@ -1,3 +1,7 @@
+
+
+
+
 import React from 'react'
 import { motion } from 'framer-motion'
 import head4 from '../Visuals/head4.png'
@@ -10,7 +14,7 @@ import rock2 from '../Visuals/rock2.png'
 import '../home.css'
 
 
-function Home() {
+export const Home = () => {
 
     
 
@@ -20,7 +24,7 @@ function Home() {
     
   return (
     
-<div className='bg-gradient-to-tl from purple-900 to-green-700'>
+<div className='bg-gradient-to-tl 0'>
     <img src={head4} className='w-full h-full object-cover absolute ' alt=''/>
 
    
@@ -28,8 +32,56 @@ function Home() {
 
 
         <div class="contextt" >
-        <h1>Hello !</h1>
-        <h1>I'm Alex</h1>
+
+        <motion.div
+  animate={{ x: -30, y: 120, opacity: 1 }}
+  transition={{
+    delay: 1,
+    x: { type: "spring", stiffness: 400 },
+    default: { duration: 3 },
+  }}
+><h1>I'm Alex</h1></motion.div>
+
+<motion.div
+  animate={{ x: [0, -30, 0] }}
+>
+    <h1>Welcome Everyone !</h1>
+</motion.div>
+
+
+<motion.div
+  animate={{ x: -30, y: 100, opacity: 1 }}
+  transition={{
+    delay: 2,
+    x: { type: "spring", stiffness: 100 },
+    default: { duration: 2 },
+  }}
+>
+    <h3>Web Developer</h3>
+    <h3>Animator</h3>
+    <h3>Food Enthusiast</h3>
+</motion.div>
+
+
+
+<motion.div
+  animate={{ x: -30, y: 90, opacity: 5 }}
+  transition={{
+    delay: 2,
+    x: { type: "spring", stiffness: 400 },
+    default: { duration: 1 },
+  }}
+><h1>Creating Projects Daily</h1></motion.div>
+
+
+
+
+
+
+
+
+        
+        
     </div>
 
 
