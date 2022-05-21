@@ -56,7 +56,7 @@ const Junk = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">Loving Years</div>
     <p class="text-gray-700 text-base" className="text">
-      Showcase of the past 5 years where I've created memories with the girl of my dreams.
+      Memories I've created with the girl of my dreams.
     </p>
     <a href="https://github.com/4lexmendez/LovingYears"
         className="ico">
@@ -104,7 +104,7 @@ const Junk = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">Agency Page</div>
     <p class="text-gray-700 text-base" className="text">
-      Showcase of the past 5 years where I've created memories with the girl of my dreams.
+      Marketing agency landing page ready to generate revenue.
     </p>
     <a href="https://github.com/4lexmendez/agency"
         className="ico">
@@ -148,7 +148,7 @@ const Junk = () => {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 h-12">Github Finder</div>
     <p class="text-gray-700 text-base" className="text">
-      Showcase of the past 5 years where I've created memories with the girl of my dreams.
+      Find your github profile using this github finder. 
     </p>
     <a href="https://github.com/4lexmendez/github-finder"
         className="ico">

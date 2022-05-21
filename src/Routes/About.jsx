@@ -14,11 +14,12 @@ function Junk() {
         />
         </video>
         <div className="content">
-         <br/><br/><br/><br/><br/><br/>
-          <motion.div animate={{ x: 100,rotate:360 }}   
+       
+         <br/><br/><br/>
+          <motion.div animate={{ x: 100, y: 0, rotate:360 }}   
 transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
           
-               <h5>my creative boundaries</h5>
+          <h5>my creative boundaries</h5>
                <motion.div
                 drag
                 dragTransition=
@@ -31,8 +32,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
                 Otherwise, life is a drag
                 </motion.div>
           <br/>
-          <br/>
-          <br/>
+          
           <h3 className="h3"> 
           <motion.div animate={{ scale: [2, 2, 1] }} >
           <motion.div animate={{ x: 150, y: 50, rotate:90 }} >Web Development</motion.div>
@@ -43,19 +43,16 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
               <li>HTML, Javascript, Python</li>
               <li>CSS, TailwindCSS, Daisyui</li>
             </ul>
-            <br/>
 
             <h3 className="h3"> 
             <motion.div animate={{ scale: [2, 2, 1] }} > 
-          <motion.div animate={{ x: -150, y: 50, rotate:90 }} >Animations & Art</motion.div>
+          <motion.div animate={{ x: -150, rotate:90 }} >Animations & Art</motion.div>
           </motion.div>
           </h3>
             <ul>
               <li>Blender, GIMP, Darktable</li>
               <li>Short Films Coming soon</li>
-             
             </ul>
-            <br/><br/><br/><br/>
             <h3 className="h3"> 
             <motion.div animate={{ scale: [2, 2, 1] }} > 
           <motion.div animate={{ x: 150, y: 50, rotate:90 }} >Wealth</motion.div>

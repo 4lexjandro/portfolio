@@ -21,7 +21,7 @@ export const Home = () => {
     
   return (
     
-<div className='bg-gradient-to-tl 0'>
+<div className='area'>
     <img src={head4} className='w-full h-full object-cover absolute ' alt=''/>
 
    
