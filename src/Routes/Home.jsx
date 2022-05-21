@@ -1,7 +1,4 @@
 
-
-
-
 import React from 'react'
 import { motion } from 'framer-motion'
 import head4 from '../Visuals/head4.png'
@@ -106,22 +103,22 @@ export const Home = () => {
                         <img src ={rock2} alt="" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rock1} alt="" height="" width="" /> 
+                        <img src ={rock2} alt="" height="" width="" /> 
                     </li>
                     <li>
                         <img src ={rock1} alt="" height="" width="" /> 
                     </li>
                     <li>
-                        <img src ={rock1} alt="" height="" width="" /> 
+                        <img src ={rock2} alt="" height="" width="" /> 
                     </li>
                     <li>
-                        <img src ={rock2} alt="" height="" width="" />
+                        <img src ={rock1} alt="" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rock2} alt="" height="" width="" />
+                        <img src ={rock1} alt="" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rock2} alt="" height="" width="" />
+                        <img src ={rock1} alt="" height="" width="" />
                     </li>
                     <li>
                         <img src ={rocket2} alt="" height="" width="" />
