@@ -11,7 +11,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
 
-const Junk = () => {
+const WorkPage = () => {
   return (
     <div className="change">
     <div className="content">
@@ -316,4 +316,4 @@ const Junk = () => {
   )
 }
 
-export default Junk
+export default WorkPage

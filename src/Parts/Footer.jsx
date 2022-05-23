@@ -1,7 +1,7 @@
 import Social from './Social'
 
 
-function Footer() {
+const Footer = () => {
     const footerYear = new Date().getFullYear()
 
 

@@ -3,7 +3,8 @@ import {FaHome} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import {motion} from "framer-motion"
 
-function NotFound() {
+
+export const NotFound = () => {
   return (
    
      <div className='hero'>

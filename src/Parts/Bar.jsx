@@ -7,7 +7,8 @@ import Soundbar from './Soundbar.jsx';
 import AM from '../Visuals/AM.png';
 
 
-function Bar () {
+
+const Bar = () => {
 
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);

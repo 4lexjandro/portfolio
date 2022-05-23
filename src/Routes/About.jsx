@@ -3,7 +3,8 @@ import city from '../Visuals/city.mov';
 import { motion } from "framer-motion"
 
 
-function Junk() {
+
+export const About = () => {
   return (
       <div className="main">
       <div className="overlay"></div>
@@ -69,4 +70,4 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
   )
 }
 
-export default Junk
+export default About

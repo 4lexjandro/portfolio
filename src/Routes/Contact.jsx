@@ -26,7 +26,8 @@ const Container = styled.div`
 `;
 
 
-function Contact() {
+
+export const Contact = () => {
   const [click] = useState(false);
   
 
