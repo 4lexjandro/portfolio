@@ -1,5 +1,5 @@
-import React from 'react'
-import Boat from '../Visuals/Boat.mp4';
+
+import city from '../Visuals/city.mov';
 import { motion } from "framer-motion"
 
 
@@ -9,7 +9,7 @@ function Junk() {
       <div className="overlay"></div>
       <video autoPlay loop muted playsinline id='video' className="vid">
         <source
-          src={Boat}
+          src={city}
           type="video/mp4"
         />
         </video>

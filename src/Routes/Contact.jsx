@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import ButtonMailto from './ButtonMailto'
 
-import Drive from '../Visuals/Drive.mp4';
+import Spark from '../Visuals/Spark.mov';
 
 
 
@@ -46,7 +46,7 @@ const mq = window.matchMedia("(max-width: 50em)").matches;
       <div className="overlay"></div>
       <video autoPlay loop muted id='video' className="vid">
         <source
-          src={Drive}
+          src={Spark}
           type="video/mp4"
         />
         </video>
