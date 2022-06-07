@@ -1,323 +1,192 @@
-import React from 'react'
-
-import LY from '../Visuals/LY.mp4'
-import agency from '../Visuals/agency.mp4'
-import github from '../Visuals/github.mp4'
-import ADVP from '../Visuals/ADVP.mp4'
-import rest from '../Visuals/rest.mp4'
-import CS from '../Visuals/CS.mp4'
+import Footer from '../Parts/Footer'
+import P1 from '../Visuals/P1.png'
+import P2 from '../Visuals/P2.png'
+import P3 from '../Visuals/P3.png'
+import P4 from '../Visuals/P4.png'
+import P5 from '../Visuals/P5.png'
+import P6 from '../Visuals/P6.png'
+import { FaGithub } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import Footer from '../Parts/Footer'
-
 
 
 const WorkPage = () => {
   return (
-    <main className="change">
-    <main className="content">
-    <main className="text">
-    
-    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
-    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
-    <br/> <br/> <br/> <br/> <br/> <br/>
-       
+    <main>
+<br/><br/><br/><br/>
+
+<main class="container">
+
+<section class="main-div main-div3">
+     <header class="card">
+       <div class="face face1">
+         <div class="content">   
+         <a href="https://re-sable.vercel.app/">
+         <img src ={P1} width="300px" height="300px" /> </a>        
+         
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>
+             Create or login to an account and list your property to be contacted regarding the sale or rent.
+           </p>
+           
+           
+             
+           <a href="https://github.com/4lexmendez/Housing-Marketplace"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
+        
+             
+           
+           
+           
+         </div>
+       </div>
+    </header>
+    </section>
+
+
+  
       
-
-
-
-
-    <br/>
   
-
-
-
- <div class="h-56 grid grid-cols-3 gap-4 content-center ...">
-
-
-
- 
-
-
-  <div>
- <div class="flex justify-center space-x-4">
-  <div>
-<div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
-
-<a href="https://loving-years.vercel.app/" className="ico">
-<video autoPlay loop muted playsinline id='video'>
-        <source
-          src={LY}
-          type="video/mp4"
-          alt="" width="20" height="20"
-        />
-</video>
-</a>
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Loving Years</div>
-    <p class="text-gray-700 text-base" className="text">
-      Memories I've created with the girl of my dreams.
-    </p>
-    <a href="https://github.com/4lexmendez/LovingYears"
-        className="ico">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-    </a>
-    
-  </div>
-  
-  <div class="px-6 pt-4 pb-2">
-    
-    
-  </div>
-  </div>
-    </div>
-    </div>
-    </div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <div>
-  <div>
- <div class="flex justify-center space-x-4">
-  <div>
-<div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
-
-<a href="https://agency-beige.vercel.app/" className="ico">
-<video autoPlay loop muted playsinline id='video'>
-        <source
-          src={agency}
-          type="video/mp4"
-          alt="" width="20" height="20"
-        />
-</video>
-</a>
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Agency Page</div>
-    <p class="text-gray-700 text-base" className="text">
-      Marketing agency landing page ready to generate revenue.
-    </p>
-    <a href="https://github.com/4lexmendez/agency"
-        className="ico">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-    </a>
-    
-  </div>
-  
-  <div class="px-6 pt-4 pb-2">
-    
-    
-  </div>
-  </div>
-    </div>
-    </div>
-    </div></div>
-  </div>
-
-
-
-
-
-
-
-
-  <div><div>
- <div class="flex justify-center space-x-4">
-  <div>
-<div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
-
-<a href="https://github-finder-pi-pink.vercel.app/" className="ico">
-<video autoPlay loop muted playsinline id='video'>
-        <source
-          src={github}
-          type="video/mp4"
-          alt="" width="20" height="20"
-        />
-</video>
-</a>
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Github Finder</div>
-    <p class="text-gray-700 text-base" className="text">
-      Find your github profile using this github finder. 
-    </p>
-    <a href="https://github.com/4lexmendez/github-finder"
-        className="ico">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-    </a>
-    
-  </div>
-  
-  <div class="px-6 pt-4 pb-2">
-    
-    
-  </div>
-  </div>
-    </div>
-    </div>
-    </div></div></div>
-
-
-
-
-
-
-
-  <div>
-  <div>
- <div class="flex justify-center space-x-4">
-  <div>
-<div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
-
-<a href="https://advancepages.vercel.app/" className="ico">
-<video autoPlay loop muted playsinline id='video'>
-        <source
-          src={ADVP}
-          type="video/mp4"
-          alt="" width="20" height="20"
-        />
-</video>
-</a>
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">ADV PGS</div>
-    <p class="text-gray-700 text-base" className="text">
-      Barebones of site, check back later for finished result!
-    </p>
-    <a href="https://github.com/4lexmendez/advancepages"
-        className="ico">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-    </a>
-    
-  </div>
-  
-  <div class="px-6 pt-4 pb-2">
-    
-    
-  </div>
-  </div>
-    </div>
-    </div>
-    </div></div>
-  </div>
-  <div>
-  <div>
- <div class="flex justify-center space-x-4">
-  <div>
-<div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
-
-
-<video autoPlay loop muted playsinline id='video'>
-        <source
-          src={rest}
-          type="video/mp4"
-          alt="" width="20" height="20"
-        />
-</video>
-
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12"> Resturant </div>
-    <p class="text-gray-700 text-base" className="text">
-    Barebones of site, check back later for finished result!
-    </p>
-    <a href="https://github.com/4lexmendez/restaurant"
-        className="ico">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
-    
-  </div>
-  
-  <div class="px-6 pt-4 pb-2">
-    
-    
-  </div>
-  </div>
-    </div>
-    </div>
-    </div></div>
-  </div>
-  <div>
-
-  <div>
- <div class="flex justify-center space-x-4">
-  <div>
-<div class="flex space-x-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg bg-cyan-900 h-auto ">
-
-
-<video autoPlay loop muted playsinline id='video'>
-        <source
-          src={CS}
-          type="video/mp4"
-          alt="" width="20" height="20"
-        />
-</video>
-
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 h-12">Artwork</div>
-    <p class="text-gray-700 text-base" className="text">
-      Collection of artwork created through variety of software
-    </p>
-    <a href="https://github.com/4lexmendez"
-        className="ico">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
-    
-  </div>
-  
-  <div class="px-6 pt-4 pb-2">
-    
-    
-  </div>
-  </div>
-    </div>
-    </div>
-    </div></div>
-
-
-
-  </div>
-  <div class="h-56 grid grid-cols-3 gap-4 content-center ...">
-  <div></div>
-  <div></div>
-  
-</div>
-
-</div>
-
-
-
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    </main></main>
-    <div className="bottom"> 
-      <Footer />
-   </div>
-   </main>
-
-
+   
+      
    
     
+
+
+
+
+
+
+
+
+
+    <section class="main-div main-div3"> 
+    
+    <header class="card">
+       <div class="face face1">
+         <div class="content">     
+         <a href="https://agency-beige.vercel.app/">
+         <img src ={P2} width="300px" height="300px" /> </a>        
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>
+           Marketing agency landing page ready to generate revenue. Created with react smooth scroll.
+           </p>
+           <a href="https://github.com/4lexmendez/agency"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
+         </div>
+       </div>
+    </header>
+    </section>
+
+    <section class="main-div main-div3"> 
+    
+    
+    <header class="card">
+       <div class="face face1">
+         <div class="content">
+         <a href="https://loving-years.vercel.app/">
+         <img src ={P3} width="300px" height="300px" /> </a>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>Gallery of the memories I've created with the girl of my dreams.</p>
+           
+           <a href="https://github.com/4lexmendez/LovingYears"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
+         </div>
+       </div>
+    </header>
+    </section>
+
+
+    <section class="main-div main-div3"> 
+    <header class="card">
+       <div class="face face1">
+         <div class="content">           
+         <a href="https://github-finder-pi-pink.vercel.app/">
+         <img src ={P4} width="300px" height="300px" /> </a>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>Find your github profile using this github finder. </p>
+           <a href="https://github.com/4lexmendez/github-finder"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
+         </div>
+       </div>
+    </header>
+    </section>
+
+
+
+
+
+    <section class="main-div main-div3"> 
+    <header class="card">
+       <div class="face face1">
+         <div class="content">           
+         <a href="https://mendozasupportcenter.herokuapp.com/">
+         <img src ={P5} width="300px" height="300px" /> </a>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>Login or register an account to submit a ticket for support.</p>
+           <p>View your tickets, add notes, or close open tickets.</p>
+           <a href="https://github.com/4lexmendez/support"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
+         </div>
+       </div>
+    </header>
+    </section>
+
+
+
+
+
+    <section class="main-div main-div3"> 
+    <header class="card">
+       <div class="face face1">
+         <div class="content">           
+         <a href="">
+         <img src ={P6} width="300px" height="300px" /> </a>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>El Cazador Cafe located in Yonkers, NY</p>
+           <p>Barebones of site, check back later for finished result!</p>
+           <a href="https://github.com/4lexmendez/restaurant"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
+         </div>
+       </div>
+    </header>
+    </section>
+
+  </main>
+  <Footer/>
+
+
+    </main>
   )
 }
 

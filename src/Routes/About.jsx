@@ -40,9 +40,9 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
           </motion.div>
           </h3>
             <ul>
-              <li>React, Django</li>
+              <li>React, Express, Django</li>
               <li>HTML, Javascript, Python</li>
-              <li>CSS, TailwindCSS, Daisyui</li>
+              <li>S/CSS, TailwindCSS, Daisyui</li>
             </ul>
 
             <h3 className="h3"> 
@@ -51,7 +51,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
           </motion.div>
           </h3>
             <ul>
-              <li>Blender, GIMP, Darktable</li>
+              <li>Blender, Cinema4D, Affinity Photo</li>
               <li>Short Films Coming soon</li>
             </ul>
             <h3 className="h3"> 
