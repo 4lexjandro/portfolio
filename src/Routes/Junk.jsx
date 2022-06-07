@@ -17,7 +17,7 @@ function Junk() {
 <main class="container">
 
 <section class="main-div main-div3">
-     <div class="card">
+     <header class="card">
        <div class="face face1">
          <div class="content">   
          <a href="https://re-sable.vercel.app/">
@@ -44,7 +44,7 @@ function Junk() {
            
          </div>
        </div>
-    </div>
+    </header>
     </section>
 
 
@@ -66,7 +66,7 @@ function Junk() {
 
     <section class="main-div main-div3"> 
     
-    <div class="card">
+    <header class="card">
        <div class="face face1">
          <div class="content">     
          <a href="https://agency-beige.vercel.app/">
@@ -84,13 +84,13 @@ function Junk() {
          </a>
          </div>
        </div>
-    </div>
+    </header>
     </section>
 
     <section class="main-div main-div3"> 
     
     
-    <div class="card">
+    <header class="card">
        <div class="face face1">
          <div class="content">
          <a href="https://loving-years.vercel.app/">
@@ -107,12 +107,12 @@ function Junk() {
          </a>
          </div>
        </div>
-    </div>
+    </header>
     </section>
 
 
     <section class="main-div main-div3"> 
-    <div class="card">
+    <header class="card">
        <div class="face face1">
          <div class="content">           
          <a href="https://github-finder-pi-pink.vercel.app/">
@@ -128,7 +128,7 @@ function Junk() {
          </a>
          </div>
        </div>
-    </div>
+    </header>
     </section>
 
 
@@ -136,7 +136,7 @@ function Junk() {
 
 
     <section class="main-div main-div3"> 
-    <div class="card">
+    <header class="card">
        <div class="face face1">
          <div class="content">           
          <a href="https://mendozasupportcenter.herokuapp.com/">
@@ -153,7 +153,7 @@ function Junk() {
          </a>
          </div>
        </div>
-    </div>
+    </header>
     </section>
 
 
@@ -161,7 +161,7 @@ function Junk() {
 
 
     <section class="main-div main-div3"> 
-    <div class="card">
+    <header class="card">
        <div class="face face1">
          <div class="content">           
          <a href="">
@@ -178,7 +178,7 @@ function Junk() {
          </a>
          </div>
        </div>
-    </div>
+    </header>
     </section>
 
   </main>

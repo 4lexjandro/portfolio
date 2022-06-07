@@ -845,7 +845,7 @@ color: white;
 
 
 .container{
-  width: 1000px;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -855,12 +855,14 @@ color: white;
 
 .container .card{
   position: relative;
+  background: #333;
 }
 
 .container .card .face{
   width:300px;
   height: 200px;
   transition:.4s;
+
   
 }
 
@@ -905,14 +907,14 @@ color: white;
 
 .container .card .face.face1 .content i{
   font-size: 3em;
-  color: white;
+  
   display: inline-block;
    
 }
 
 .container .card .face.face1 .content h3{
   font-size: 1em;
-  color: white;
+  background: #333;
   text-align: center;
   
 
@@ -924,7 +926,7 @@ color: white;
 
 .container .card .face.face2{
    position: relative;
-   background: whitesmoke;
+   background: #333;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -944,12 +946,11 @@ color: white;
   font-size: 10pt;
   margin: 0 ;
   padding: 0;
-  color:#333;
 }
 
 .container .card .face.face2 .content a{
   text-decoration:none;
-  color: black;
+  
   box-sizing: border-box;
   outline : 1px dashed #333;
   padding: 10px;
@@ -958,14 +959,13 @@ color: white;
 }
 
 .container .card .face.face2 .content a:hover{
-  background: #333 ;
-  color: whitesmoke; 
+  
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 
 .git {
-  color: black;
+  color: rgb(189, 8, 8);
   
 }
 
@@ -993,7 +993,7 @@ color: white;
   width: 50%;
   height: 100%;
   -webkit-box-shadow: 0 0 17px 3px rgb(4, 5, 5),0 0 4px 2px rgb(4, 5, 5);
-          box-shadow: 0 0 17px 3px rgb(5, 189, 177),0 0 4px 2px rgb(23, 171, 137);
+          box-shadow: 0 0 17px 3px rgb(15, 222, 208),0 0 4px 2px rgb(23, 171, 137);
   z-index: -1;
   -webkit-animation-name: half-cyan-shadow;
           animation-name: half-cyan-shadow;
