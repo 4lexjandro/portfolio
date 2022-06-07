@@ -11,12 +11,12 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Junk() {
   return (
-    <div>
+    <main>
 <br/><br/><br/><br/>
 
-<div class="container">
+<main class="container">
 
-
+<section class="main-div main-div3">
      <div class="card">
        <div class="face face1">
          <div class="content">   
@@ -27,11 +27,13 @@ function Junk() {
        </div>
        <div class="face face2">
          <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+           <p>
+             Create or login to an account and list your property to be contacted regarding the sale or rent
+           </p>
            
            
              
-           <a href="https://github.com/4lexmendez/LovingYears"
+           <a href="https://github.com/4lexmendez/Housing-Marketplace"
         className="git">
         <FontAwesomeIcon icon={faGithub} size="2x" />
          </a>
@@ -43,6 +45,26 @@ function Junk() {
          </div>
        </div>
     </div>
+    </section>
+
+
+  
+      
+  
+   
+      
+   
+    
+
+
+
+
+
+
+
+
+
+    <section class="main-div main-div3"> 
     
     <div class="card">
        <div class="face face1">
@@ -53,11 +75,19 @@ function Junk() {
        </div>
        <div class="face face2">
          <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-           <a href="#" type="button">Read More</a>
+           <p>
+           Marketing agency landing page ready to generate revenue. Created with react smooth scroll
+           </p>
+           <a href="https://github.com/4lexmendez/agency"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
          </div>
        </div>
     </div>
+    </section>
+
+    <section class="main-div main-div3"> 
     
     
     <div class="card">
@@ -69,14 +99,19 @@ function Junk() {
        </div>
        <div class="face face2">
          <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-           <a href="#" type="button">Read More</a>
+           <p>Gallery of the memories I've created with the girl of my dreams.</p>
+           
+           <a href="https://github.com/4lexmendez/LovingYears"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
          </div>
        </div>
     </div>
+    </section>
 
 
-
+    <section class="main-div main-div3"> 
     <div class="card">
        <div class="face face1">
          <div class="content">           
@@ -86,17 +121,21 @@ function Junk() {
        </div>
        <div class="face face2">
          <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-           <a href="#" type="button">Read More</a>
+           <p>Find your github profile using this github finder. </p>
+           <a href="https://github.com/4lexmendez/github-finder"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
          </div>
        </div>
     </div>
+    </section>
 
 
 
 
 
-
+    <section class="main-div main-div3"> 
     <div class="card">
        <div class="face face1">
          <div class="content">           
@@ -106,17 +145,22 @@ function Junk() {
        </div>
        <div class="face face2">
          <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-           <a href="#" type="button">Read More</a>
+           <p>Login or register an account to submit a ticket for support</p>
+           <p>View your tickets, add notes, or close open tickets</p>
+           <a href="https://github.com/4lexmendez/support"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
          </div>
        </div>
     </div>
+    </section>
 
 
 
 
 
-
+    <section class="main-div main-div3"> 
     <div class="card">
        <div class="face face1">
          <div class="content">           
@@ -126,33 +170,21 @@ function Junk() {
        </div>
        <div class="face face2">
          <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-           <a href="#" type="button">Read More</a>
+           <p>El Cazador Cafe located in Yonkers, NY</p>
+           <p>Barebones of site, check back later for finished result!</p>
+           <a href="https://github.com/4lexmendez/restaurant"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
          </div>
        </div>
     </div>
+    </section>
+
+  </main>
 
 
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-  </div>
-
-
-    </div>
+    </main>
   )
 }
 

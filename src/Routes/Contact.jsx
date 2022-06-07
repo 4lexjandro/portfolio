@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-
+import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
 
 import Spark from '../Visuals/Spark.mov';
@@ -137,6 +137,9 @@ const mq = window.matchMedia("(max-width: 50em)").matches;
       
       
        </div>
+       <div className="bottom"> 
+      <Footer />
+   </div>
       </div>
   )
 }

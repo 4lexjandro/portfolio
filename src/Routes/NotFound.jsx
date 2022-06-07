@@ -2,6 +2,7 @@ import React from 'react'
 import {FaHome} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import {motion} from "framer-motion"
+import Footer from '../Parts/Footer'
 
 
 export const NotFound = () => {
@@ -27,6 +28,9 @@ export const NotFound = () => {
       <div className="bottom"> 
       
       </div>
+      <div className="bottom"> 
+      <Footer />
+   </div>
   
     </div>
   )

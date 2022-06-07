@@ -9,6 +9,7 @@ import rocket4 from '../Visuals/rocket4.png'
 import rock1 from '../Visuals/rock1.png'
 import rock2 from '../Visuals/rock2.png'
 import '../home.css'
+import Footer from '../Parts/Footer'
 
 
 export const Home = () => {
@@ -129,6 +130,9 @@ export const Home = () => {
             </ul>
             
     </div >
+    <div className="bottom"> 
+      <Footer />
+   </div>
     
       
     </div>

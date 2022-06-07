@@ -8,14 +8,15 @@ import rest from '../Visuals/rest.mp4'
 import CS from '../Visuals/CS.mp4'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Footer from '../Parts/Footer'
 
 
 
 const WorkPage = () => {
   return (
-    <div className="change">
-    <div className="content">
-    <div className="text">
+    <main className="change">
+    <main className="content">
+    <main className="text">
     
     <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
     <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
@@ -302,13 +303,17 @@ const WorkPage = () => {
     
     
     
+
     
     
     
     
     
-    
-    </div></div></div>
+    </main></main>
+    <div className="bottom"> 
+      <Footer />
+   </div>
+   </main>
 
 
    

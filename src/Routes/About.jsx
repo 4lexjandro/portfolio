@@ -1,4 +1,4 @@
-
+import Footer from '../Parts/Footer'
 import city from '../Visuals/city.mov';
 import { motion } from "framer-motion"
 
@@ -65,6 +65,9 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
               <li>Real Estate</li>
             </ul>
            </div>
+           <div className="bottom"> 
+      <Footer />
+   </div>
       </div>
       
   )
