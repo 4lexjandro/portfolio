@@ -1116,7 +1116,7 @@ color: white;
 .boxes {
   display: grid;
   grid-gap: 10px;
-  color: #444;
+  color: rgb(4, 209, 216);
   text-align: center;
   display: flex;
   justify-content: center;

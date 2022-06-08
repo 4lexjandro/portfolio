@@ -1,7 +1,7 @@
 import Footer from '../Parts/Footer'
 import { motion } from "framer-motion"
 import {FaReact, FaSass, FaCss3, FaHtml5, FaPython, FaBootstrap} from "react-icons/fa"
-import { SiDjango, SiVisualstudio, SiTailwindcss, SiBlender, SiCinema4D, SiAffinityphoto, SiMacos, SiJavascript, SiMongodb, SiPostgresql } from "react-icons/si";
+import { SiDjango, SiVisualstudio, SiTailwindcss, SiBlender, SiCinema4D, SiJavascript, SiMongodb, SiPostgresql } from "react-icons/si";
 import { DiNodejs, DiGit, } from "react-icons/di";
 
 
@@ -68,32 +68,31 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-           <h1 className="boxes">Skills</h1>
+    <h1 className="boxes">Skills</h1>
   <div className="boxes">
   <div className="box"><FaReact/></div>
   <div className="box"><SiDjango/></div>
   <div className="box"><SiJavascript/></div>
   <div className="box"><FaPython/></div>
   <div className="box"><FaHtml5/></div>
-  <div className="box">< FaCss3/></div>
+  
   </div>
   <br/>
   <div className="boxes">
   <div className="box"><FaSass/></div>
   <div className="box"><SiTailwindcss/></div>
-  <div className="box"><FaBootstrap/></div>
+  <div className="box">< FaCss3/></div>
   <div className="box"><SiBlender/></div>
   <div className="box"><SiCinema4D/></div>
-  <div className="box"><SiAffinityphoto/></div>
   </div>
   <br/>
   <div className="boxes">
-  <div className="box"><SiMacos/></div>
-  <div className="box"><SiVisualstudio/></div>
+  <div className="box"><DiGit/></div>
+  <div className="box"><FaBootstrap/></div>
   <div className="box"><DiNodejs/></div>
   <div className="box"><SiMongodb/></div>
   <div className="box"><SiPostgresql/></div>
-  <div className="box"><DiGit/></div>
+  
   </div>
 
   <div>
