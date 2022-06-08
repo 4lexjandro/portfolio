@@ -1,7 +1,7 @@
 import Footer from '../Parts/Footer'
 import { motion } from "framer-motion"
 import {FaReact, FaSass, FaCss3, FaHtml5, FaPython, FaBootstrap} from "react-icons/fa"
-import { SiDjango, SiVisualstudio, SiTailwindcss, SiBlender, SiCinema4D, SiJavascript, SiMongodb, SiPostgresql } from "react-icons/si";
+import { SiDjango, SiTailwindcss, SiBlender, SiCinema4D, SiJavascript, SiMongodb, SiPostgresql } from "react-icons/si";
 import { DiNodejs, DiGit, } from "react-icons/di";
 
 
@@ -94,7 +94,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
   <div className="box"><SiPostgresql/></div>
   
   </div>
-
+<br/><br/><br/>
   <div>
     <Footer />
   </div>
