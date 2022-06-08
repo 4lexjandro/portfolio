@@ -14,6 +14,7 @@ export const Junk = () => {
          <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
+<br/><br/><br/><br/><br/><br/><br/>
 
          
           <motion.div animate={{ x: 100, y: 0, rotate:360 }}   
@@ -35,38 +36,40 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
           
           <h3 className="h3"> 
           <motion.div animate={{ scale: [2, 2, 1] }} >
-          <motion.div animate={{ x: 150, y: 50, rotate:90 }} >Web Development</motion.div>
+          <motion.div animate={{ x: 170, y: 50, rotate:90 }} >Web Development</motion.div>
           </motion.div>
           </h3>
-            <ul>
-              <li>React, Express, Django</li>
-              <li>HTML, Javascript, Python</li>
-              <li>S/CSS, TailwindCSS, Daisyui</li>
-            </ul>
+           <p>I enjoy creating and designing.</p>
+           <p>I have a passion for constantly learning</p>
+           <p>new things, and using those learning</p>
+           <p>tools, not just to obtain them.</p>
+           <br/>
 
             <h3 className="h3"> 
             <motion.div animate={{ scale: [2, 2, 1] }} > 
-          <motion.div animate={{ x: -150, rotate:90 }} >Animations & Art</motion.div>
+          <motion.div animate={{ x: -150, y:100, rotate:90 }} >Animations & Art</motion.div>
           </motion.div>
           </h3>
-            <ul>
-              <li>Blender, Cinema4D, Affinity Photo</li>
-              <li>Short Films Coming soon</li>
-            </ul>
+            
+              <p>I also am fascinated by 3D art</p>
+              <p>Hopefully I can combine my</p>
+              <p>upshots with my web exp</p>
+              <p>Short Films (& website) coming soon</p>
+            
             <h3 className="h3"> 
             <motion.div animate={{ scale: [2, 2, 1] }} > 
-          <motion.div animate={{ x: 150, y: 50, rotate:90 }} >Wealth</motion.div>
+          <motion.div animate={{ x: 150, y: 100, rotate:90 }} >Wealth</motion.div>
           </motion.div>
           </h3>
-            <ul>
-              <li>Investing</li>
-              <li>Seeking oppurtunities </li>
-              <li>Real Estate</li>
-            </ul>
+            <p>Financial Independece is a goal</p>
+            <p>I wish to achieve in a decade by</p>
+            <p>consistently investing, discipline, &</p>
+            <p>being open minded to new</p>
+            <p>oppurtunities.</p>
            </div> 
           
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
     <h1 className="boxes">Skills</h1>
   <div className="boxes">
