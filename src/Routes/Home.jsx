@@ -130,9 +130,9 @@ export const Home = () => {
             </ul>
             
     </div >
-    <div className="bottom"> 
+    
       <Footer />
-   </div>
+  
     
       
     </div>

@@ -137,9 +137,8 @@ const mq = window.matchMedia("(max-width: 50em)").matches;
       
       
        </div>
-       <div className="bottom"> 
       <Footer />
-   </div>
+   
       </div>
   )
 }

@@ -64,10 +64,9 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
               <li>Seeking oppurtunities </li>
               <li>Real Estate</li>
             </ul>
-           </div>
-           <div className="bottom"> 
+           </div> 
       <Footer />
-   </div>
+   
       </div>
       
   )

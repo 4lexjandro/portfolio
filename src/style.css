@@ -807,7 +807,7 @@ html, body {
 body {
     background: linear-gradient(-80deg, #4225cf, #87274c, #4225cf, #87274c);
     background-size: 400% 400%;
-    animation: gradient 3s ease infinite;
+    animation: gradient 4s ease infinite;
     position: center;
 }
 
@@ -1058,4 +1058,75 @@ color: white;
     height: 50%;
     width: 50%;
   }
+}
+
+
+
+
+
+
+
+/* About page */
+
+
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #4225cf 50%, #87274c 50%);
+  
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.boxes {
+  display: grid;
+  grid-gap: 10px;
+  color: #444;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  border:1px solid rgb(215, 202, 18)
 }
