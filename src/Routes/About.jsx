@@ -1,7 +1,7 @@
 import Footer from '../Parts/Footer'
 import { motion } from "framer-motion"
 import {FaReact, FaSass, FaCss3, FaHtml5, FaPython, FaBootstrap} from "react-icons/fa"
-import { SiDjango, SiTailwindcss, SiBlender, SiCinema4D, SiJavascript, SiMongodb, SiPostgresql } from "react-icons/si";
+import { SiDjango, SiTailwindcss, SiBlender, SiCinema4D, SiJavascript, SiMongodb, SiFirebase } from "react-icons/si";
 import { DiNodejs, DiGit, } from "react-icons/di";
 
 
@@ -69,7 +69,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
            </div> 
           
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
     <h1 className="boxes">Skills</h1>
   <div className="boxes">
@@ -94,7 +94,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
   <div className="box"><FaBootstrap/></div>
   <div className="box"><DiNodejs/></div>
   <div className="box"><SiMongodb/></div>
-  <div className="box"><SiPostgresql/></div>
+  <div className="box"><SiFirebase/></div>
   
   </div>
 <br/><br/><br/>
