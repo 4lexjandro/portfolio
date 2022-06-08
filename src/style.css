@@ -988,7 +988,7 @@ color: white;
   width: 50%;
   height: 100%;
   -webkit-box-shadow: 0 0 17px 3px rgb(4, 5, 5),0 0 4px 2px rgb(4, 5, 5);
-          box-shadow: 0 0 17px 3px rgb(2, 216, 195),0 0 4px 2px rgb(218, 97, 10);
+          box-shadow: 0 0 17px 3px rgb(4, 253, 228),0 0 4px 2px rgb(218, 97, 10);
   z-index: -1;
   -webkit-animation-name: outterColor;
           animation-name: outterColor;
@@ -1116,7 +1116,7 @@ color: white;
 .boxes {
   display: grid;
   grid-gap: 10px;
-  color: rgb(4, 209, 216);
+  color:rgb(4, 253, 228);
   text-align: center;
   display: flex;
   justify-content: center;
