@@ -23,7 +23,8 @@ export const Home = () => {
   return (
     
 <div className='area'>
-    <img src={head4} className='w-full h-full object-cover absolute ' alt=''/>
+  
+    <img src={head4} className='left-16 bottom-7 object-cover absolute ' width="90%" height="90%" alt=''/>
 
    
 
