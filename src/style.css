@@ -721,11 +721,7 @@
   width:100%;
  }
 
- {/* .bottom{
-  position:fixed;
-  bottom:0%;
-  width:100%;
- }*/}
+ 
 
 
 .text {
@@ -1125,8 +1121,16 @@ color: white;
 .box {
   
   color: rgb(255, 255, 255);
-  border-radius: 5px;
+  
   padding: 20px;
-  font-size: 150%;
-  border:1px solid rgb(215, 202, 18)
+  border:1px solid rgb(215, 202, 18);
 }
+
+
+
+.sidecons {
+  color: white;
+ 
+ width: 10px;
+float: left;
+padding: 20px; }
