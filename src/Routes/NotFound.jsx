@@ -3,9 +3,19 @@ import {FaHome} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import {motion} from "framer-motion"
 import Footer from '../Parts/Footer'
+import { useState} from 'react'
+import Spinner from '../Parts/Spinner.jsx'
 
 
 export const NotFound = () => {
+
+
+  const [loading] = useState(false)
+    
+
+  if (loading) {
+    return <Spinner />
+  }
   return (
    
      <div className='hero'>

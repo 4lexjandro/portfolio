@@ -10,13 +10,19 @@ import rock1 from '../Visuals/rock1.png'
 import rock2 from '../Visuals/rock2.png'
 import '../home.css'
 import Footer from '../Parts/Footer'
+import { useState} from 'react'
+import Spinner from '../Parts/Spinner.jsx'
 
 
 export const Home = () => {
 
+  
+  const [loading] = useState(false)
     
 
-   
+  if (loading) {
+    return <Spinner />
+  }
 
 
     

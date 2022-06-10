@@ -3,10 +3,19 @@ import { motion } from "framer-motion"
 import {FaReact, FaSass, FaCss3, FaHtml5, FaPython, FaBootstrap} from "react-icons/fa"
 import { SiDjango, SiTailwindcss, SiBlender, SiCinema4D, SiJavascript, SiMongodb, SiFirebase } from "react-icons/si";
 import { DiNodejs, DiGit, } from "react-icons/di";
+import { useState} from 'react'
+import Spinner from '../Parts/Spinner.jsx'
 
 
 
 export const About = () => {
+
+  const [loading] = useState(false)
+    
+
+  if (loading) {
+    return <Spinner />
+  }
   return (
       <div className="main">
         <div className="content">

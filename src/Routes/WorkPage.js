@@ -10,9 +10,18 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {FaReact, FaSass, FaCss3, FaHtml5, FaBootstrap} from "react-icons/fa"
 import { SiSwiper, SiTailwindcss, SiJavascript, SiMongodb, SiFirebase } from "react-icons/si";
 import { DiNodejs, DiGit, } from "react-icons/di";
+import { useState} from 'react'
+import Spinner from '../Parts/Spinner.jsx'
 
 
 const WorkPage = () => {
+
+  const [loading] = useState(false)
+    
+
+  if (loading) {
+    return <Spinner />
+  }
   return (
     <main>
 <br/><br/><br/><br/>

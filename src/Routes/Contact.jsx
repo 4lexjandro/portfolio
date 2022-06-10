@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
-
 import Spark from '../Visuals/Spark.mov';
+import Spinner from '../Parts/Spinner.jsx'
 
 
 
@@ -37,6 +37,13 @@ export const Contact = () => {
 const mq = window.matchMedia("(max-width: 50em)").matches;
 
 
+
+const [loading] = useState(false)
+    
+
+if (loading) {
+  return <Spinner />
+}
 
 
 
