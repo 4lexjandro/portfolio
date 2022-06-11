@@ -16,17 +16,8 @@ export default function SocialFollow() {
   const footerYear = new Date().getFullYear()
   return (
     
-        
-      
-
-    
-    <div className="grid grid-flow-col gap-3 bg-black-900 shadow-xl shadow-orange-600/20">
+    <div className="grid grid-flow-col gap-10">
        <p>Copyright &copy; {footerYear} 4lexmendez</p>
-      
-      
- 
-
-
       <a href="https://github.com/4lexmendez"
         className="bar">
         <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -51,20 +42,7 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <br/>
-      
-      
-      
-      
-      
-      
-     
-
-
-     
-
-
-      
-
+    
       </div>
       
      

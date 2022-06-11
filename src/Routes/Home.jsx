@@ -8,7 +8,7 @@ import rocket3 from '../Visuals/rocket3.png'
 import rocket4 from '../Visuals/rocket4.png'
 import rock1 from '../Visuals/rock1.png'
 import rock2 from '../Visuals/rock2.png'
-import '../home.css'
+import '../style.css'
 import Footer from '../Parts/Footer'
 import { useState} from 'react'
 import Spinner from '../Parts/Spinner.jsx'
@@ -37,7 +37,7 @@ export const Home = () => {
 
 
 
-        <div class="contextt" >
+<section class="contextt" >
 
         <motion.div
   animate={{ x: -30, y: 120, opacity: 1 }}
@@ -78,18 +78,7 @@ export const Home = () => {
     default: { duration: 1 },
   }}
 ><h1>Creating Projects Daily</h1></motion.div>
-
-
-
-
-
-
-
-
-        
-        
-    </div>
-
+</section>
 
 <div class="area" >
             <ul class="circles" >

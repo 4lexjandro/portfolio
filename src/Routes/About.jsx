@@ -17,8 +17,8 @@ export const About = () => {
     return <Spinner />
   }
   return (
-      <div className="main">
-        <div className="content">
+      <main className="main">
+        <section className="content">
          <br/><br/><br/>
          <div class="bg"></div>
 <div class="bg bg2"></div>
@@ -75,7 +75,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
             <p>consistently investing, discipline, &</p>
             <p>being open minded to new</p>
             <p>oppurtunities.</p>
-           </div> 
+           </section> 
           
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -111,7 +111,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
   </div>
   
    
-      </div>
+      </main>
       
   )
 }
