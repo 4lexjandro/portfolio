@@ -78,8 +78,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
            </div> 
           
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
+           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <h1 className="boxes">SKILLSET</h1>
   <div className="boxes">
   <div className="box"><FaReact class="animate-bounce h-7 w-7"/></div>
