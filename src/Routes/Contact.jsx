@@ -52,7 +52,7 @@ if (loading) {
     
     <div className="main">
       <div className="overlay"></div>
-      <video autoPlay loop muted playsinline id='video' className="vid">
+      <video autoPlay loop muted playsinline="true" disablePictureInPicture="true" id='video' className="vid">
         <source
           src={Spark}
           type="video/mp4"
