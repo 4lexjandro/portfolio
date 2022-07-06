@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
-import Spark from '../Visuals/Spark.mov';
+import Spark from '../Visuals/Spark.mp4';
 import Spinner from '../Parts/Spinner.jsx'
 
 
@@ -52,7 +52,7 @@ if (loading) {
     
     <div className="main">
       <div className="overlay"></div>
-      <video autoPlay loop muted id='video' className="vid">
+      <video autoPlay loop muted playsinline id='video' className="vid">
         <source
           src={Spark}
           type="video/mp4"
