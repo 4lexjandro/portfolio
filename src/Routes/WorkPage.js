@@ -1,15 +1,12 @@
 import Footer from '../Parts/Footer'
-import P1 from '../Visuals/P1.png'
 import P2 from '../Visuals/P2.png'
 import P3 from '../Visuals/P3.png'
-import P4 from '../Visuals/P4.png'
-import P5 from '../Visuals/P5.png'
 import P6 from '../Visuals/P6.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import {FaReact, FaSass, FaCss3, FaHtml5, FaBootstrap} from "react-icons/fa"
-import { SiSwiper, SiTailwindcss, SiJavascript, SiMongodb, SiFirebase } from "react-icons/si";
-import { DiNodejs, DiGit, } from "react-icons/di";
+import {FaReact, FaSass, FaCss3, FaHtml5} from "react-icons/fa"
+import { SiTailwindcss, SiJavascript} from "react-icons/si";
+import {  DiGit } from "react-icons/di";
 import { useState} from 'react'
 import Spinner from '../Parts/Spinner.jsx'
 
@@ -28,38 +25,8 @@ const WorkPage = () => {
 
 <main class="container">
 
-<section class="main-div main-div3">
-     <header class="card">
-       <div class="face face1">
-         <div class="content">   
-         <a href="https://re-sable.vercel.app/">
-         <img src ={P1} width="300px" height="300px" alt="" /> </a>
-            
-         <section className=" space-x-2 flex flex-row">
-           <small>Tools: </small>
-      
-      <FaReact/>
-      <SiFirebase/>
-      <FaBootstrap/>
-      <SiTailwindcss/>
-      <SiSwiper/>
-      <DiGit/>
-    </section>
-         </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           <p>
-             Create or login to an account and list your property to be contacted regarding the sale or rent.
-           </p>
-           <a href="https://github.com/4lexmendez/Housing-Marketplace"
-        className="git">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-         </a>
-         </div>
-       </div>
-    </header>
-    </section>
+
+     
 
 
 
@@ -71,34 +38,7 @@ const WorkPage = () => {
 
 
 
-    <section class="main-div main-div3"> 
-    <header class="card">
-       <div class="face face1">
-         <div class="content">           
-         <a href="https://mendozasupportcenter.herokuapp.com/">
-         <img src ={P5} width="300px" height="300px" alt="" /> </a>
-         <section className=" space-x-2 flex flex-row">
-           <small>Tools: </small>
-      <SiMongodb/>
-      <DiNodejs/>
-      <DiGit/>
-      <SiTailwindcss/>
-      <FaReact/>
-    </section>
-         </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           <p>Login or register an account to submit a ticket for support.</p>
-           <p>View your tickets, add notes, or close open tickets.</p>
-           <a href="https://github.com/4lexmendez/support"
-        className="git">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-         </a>
-         </div>
-       </div>
-    </header>
-    </section>
+    
    
 
 
@@ -175,37 +115,7 @@ const WorkPage = () => {
     </section>
     
     
-
-
-    <section class="main-div main-div3"> 
-    <header class="card">
-       <div class="face face1">
-         <div class="content">           
-         <a href="https://github-finder-pi-pink.vercel.app/">
-         <img src ={P4} width="300px" height="300px" alt="" /> </a>
-         <section className=" space-x-2 flex flex-row">
-           <small>Tools: </small>
-      <FaReact/>
-      <SiJavascript/>
-      <DiGit/>
-      <SiTailwindcss/>
-      <SiSwiper/>
-      <FaCss3/>
-      <FaHtml5/>
-    </section>
-         </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           <p>Find your github profile using this github finder. </p>
-           <a href="https://github.com/4lexmendez/github-finder"
-        className="git">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-         </a>
-         </div>
-       </div>
-    </header>
-    </section>
+      
     
    
     
@@ -259,6 +169,8 @@ const WorkPage = () => {
     
 
   </main>
+  <br/><br/><br/><br/><br/><br/><br/><br/>
+  <br/><br/><br/><br/><br/><br/>
   <Footer/>
 
 
