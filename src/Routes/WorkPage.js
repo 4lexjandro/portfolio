@@ -4,8 +4,8 @@ import P3 from '../Visuals/P3.png'
 import P6 from '../Visuals/P6.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import {FaReact, FaSass, FaCss3, FaHtml5} from "react-icons/fa"
-import { SiTailwindcss, SiJavascript} from "react-icons/si";
+import {FaReact, FaSass, FaHtml5} from "react-icons/fa"
+import { SiTailwindcss, SiJavascript, SiSwiper} from "react-icons/si";
 import {  DiGit } from "react-icons/di";
 import { useState} from 'react'
 import Spinner from '../Parts/Spinner.jsx'
@@ -27,8 +27,39 @@ const WorkPage = () => {
 
 
      
-
-
+{/* Cazador website */}
+<section class="main-div main-div3"> 
+    <header class="card">
+       <div class="face face1">
+         <div class="content">           
+         <a href="https://elcazadorcafe.vercel.app/">
+         <img src ={P6} width="300px" height="300px" alt="" /> 
+         </a>
+   
+   <section className=" space-x-2 flex flex-row">
+           <small>Tools: </small>
+      
+      <FaReact/>
+      <SiJavascript/>
+      <DiGit/>
+      <FaSass/>
+      <SiSwiper/>
+      
+    </section>
+    </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>El Cazador Cafe located in Yonkers, NY</p>
+           <p>Solo project done for local business</p>
+           <a href="https://github.com/4lexmendez/restaurant"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
+         </div>
+       </div>
+    </header>
+    </section>
 
 
 
@@ -47,7 +78,7 @@ const WorkPage = () => {
 
 
 
-
+{/* Landing Page website */}
 
     <section class="main-div main-div3"> 
     <header class="card">
@@ -61,7 +92,6 @@ const WorkPage = () => {
       <SiJavascript/>
       <DiGit/>
       <SiTailwindcss/>
-      <FaCss3/>
       <FaHtml5/>
     </section>        
          </div>
@@ -83,6 +113,10 @@ const WorkPage = () => {
     
     
 
+
+
+    {/* Loving Years website */}
+
     <section class="main-div main-div3"> 
     <header class="card">
        <div class="face face1">
@@ -96,7 +130,6 @@ const WorkPage = () => {
       <SiJavascript/>
       <DiGit/>
       <SiTailwindcss/>
-      <FaCss3/>
       <FaHtml5/>
     </section>
          </div>
@@ -133,37 +166,7 @@ const WorkPage = () => {
 
 
 
-    <section class="main-div main-div3"> 
-    <header class="card">
-       <div class="face face1">
-         <div class="content">           
-         
-         <img src ={P6} width="300px" height="300px" alt="" /> 
-   
-   <section className=" space-x-2 flex flex-row">
-           <small>Tools: </small>
-      
-      <FaReact/>
-      <SiJavascript/>
-      <DiGit/>
-      <FaSass/>
-      <FaHtml5/>
-      <DiGit/>
-    </section>
-    </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           <p>El Cazador Cafe located in Yonkers, NY</p>
-           <p>Barebones of site, check back later for finished result!</p>
-           <a href="https://github.com/4lexmendez/restaurant"
-        className="git">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-         </a>
-         </div>
-       </div>
-    </header>
-    </section>
+    
     
     
     
