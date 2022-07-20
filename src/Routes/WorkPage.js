@@ -23,15 +23,15 @@ const WorkPage = () => {
     <main>
 <br/><br/><br/><br/>
 
-<main class="container">
+<main className="container">
 
 
      
 {/* Cazador website */}
-<section class="main-div main-div3"> 
-    <header class="card">
-       <div class="face face1">
-         <div class="content">           
+<section className="main-div main-div3"> 
+    <header className="card">
+       <div className="face face1">
+         <div className="content">           
          <a href="https://elcazadorcafe.vercel.app/">
          <img src ={P6} width="300px" height="300px" alt="" /> 
          </a>
@@ -48,8 +48,8 @@ const WorkPage = () => {
     </section>
     </div>
        </div>
-       <div class="face face2">
-         <div class="content">
+       <div className="face face2">
+         <div className="content">
            <p>El Cazador Cafe located in Yonkers, NY</p>
            <p>Solo project done for local business</p>
            <a href="https://github.com/4lexmendez/restaurant"
@@ -80,10 +80,10 @@ const WorkPage = () => {
 
 {/* Landing Page website */}
 
-    <section class="main-div main-div3"> 
-    <header class="card">
-       <div class="face face1">
-         <div class="content">     
+    <section className="main-div main-div3"> 
+    <header className="card">
+       <div className="face face1">
+         <div className="content">     
          <a href="https://agency-beige.vercel.app/">
          <img src ={P2} width="300px" height="300px" alt="" /> </a>
          <section className=" space-x-2 flex flex-row">
@@ -96,8 +96,8 @@ const WorkPage = () => {
     </section>        
          </div>
        </div>
-       <div class="face face2">
-         <div class="content">
+       <div className="face face2">
+         <div className="content">
            <p>
            Marketing agency landing page ready to generate revenue. Created with react smooth scroll.
            </p>
@@ -117,10 +117,10 @@ const WorkPage = () => {
 
     {/* Loving Years website */}
 
-    <section class="main-div main-div3"> 
-    <header class="card">
-       <div class="face face1">
-         <div class="content">
+    <section className="main-div main-div3"> 
+    <header className="card">
+       <div className="face face1">
+         <div className="content">
          <a href="https://loving-years.vercel.app/">
          <img src ={P3} width="300px" height="300px" alt="" /> </a>
          <section className=" space-x-2 flex flex-row">
@@ -134,8 +134,8 @@ const WorkPage = () => {
     </section>
          </div>
        </div>
-       <div class="face face2">
-         <div class="content">
+       <div className="face face2">
+         <div className="content">
            <p>Gallery of the memories I've created with the girl of my dreams.</p>
            
            <a href="https://github.com/4lexmendez/LovingYears"

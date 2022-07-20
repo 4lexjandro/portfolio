@@ -20,9 +20,9 @@ export const About = () => {
       <main className="main">
         <section className="content">
          <br/><br/><br/>
-         <div class="bg"></div>
-<div class="bg bg2"></div>
-<div class="bg bg3"></div>
+         <div className="bg"></div>
+<div className="bg bg2"></div>
+<div className="bg bg3"></div>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
          
@@ -81,28 +81,28 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <h1 className="boxes">SKILLSET</h1>
   <div className="boxes">
-  <div className="box"><FaReact class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiDjango class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiJavascript class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><FaPython class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><FaHtml5 class="animate-bounce h-7 w-7"/></div>
+  <div className="box"><FaReact className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><SiDjango className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><SiJavascript className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><FaPython className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><FaHtml5 className="animate-bounce h-7 w-7"/></div>
   
   </div>
   <br/>
   <div className="boxes">
-  <div className="box"><FaSass class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiTailwindcss class="animate-bounce h-7 w-7"/></div>
-  <div className="box">< FaCss3 class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiBlender class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiCinema4D class="animate-bounce h-7 w-7"/></div>
+  <div className="box"><FaSass className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><SiTailwindcss className="animate-bounce h-7 w-7"/></div>
+  <div className="box">< FaCss3 className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><SiBlender className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><SiCinema4D className="animate-bounce h-7 w-7"/></div>
   </div>
   <br/>
   <div className="boxes">
-  <div className="box"><DiGit class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><FaBootstrap class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><DiNodejs class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiMongodb class="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiFirebase class="animate-bounce h-7 w-7"/></div>
+  <div className="box"><DiGit className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><FaBootstrap className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><DiNodejs className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><SiMongodb className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><SiFirebase className="animate-bounce h-7 w-7"/></div>
   
   </div>
 <br/><br/><br/>

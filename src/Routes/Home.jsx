@@ -37,7 +37,7 @@ export const Home = () => {
 
 
 
-<section class="contextt" >
+<section className="contextt" >
 
         <motion.div
   animate={{ x: -30, y: 120, opacity: 1 }}
@@ -80,8 +80,8 @@ export const Home = () => {
 ><h1>Creating Projects Daily</h1></motion.div>
 </section>
 
-<div class="area" >
-            <ul class="circles" >
+<div className="area" >
+            <ul className="circles" >
                     <li>
                         <img src ={rocket1} alt="" height="" width="" />
                     </li>
