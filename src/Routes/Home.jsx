@@ -83,46 +83,46 @@ export const Home = () => {
 <div className="area" >
             <ul className="circles" >
                     <li>
-                        <img src ={rocket1} alt="" height="" width="" />
+                        <img src ={rocket1} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rocket2} alt="" height="" width="" />
+                        <img src ={rocket2} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rocket3} alt="" height="" width="" />
+                        <img src ={rocket3} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rocket4} alt="" height="" width="" />
+                        <img src ={rocket4} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rock1} alt="" height="" width="" />
+                        <img src ={rock1} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rock2} alt="" height="" width="" />
+                        <img src ={rock2} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rock2} alt="" height="" width="" /> 
+                        <img src ={rock2} alt="gravity" height="" width="" /> 
                     </li>
                     <li>
-                        <img src ={rock1} alt="" height="" width="" /> 
+                        <img src ={rock1} alt="gravity" height="" width="" /> 
                     </li>
                     <li>
-                        <img src ={rock2} alt="" height="" width="" /> 
+                        <img src ={rock2} alt="gravity" height="" width="" /> 
                     </li>
                     <li>
-                        <img src ={rock1} alt="" height="" width="" />
+                        <img src ={rock1} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rock1} alt="" height="" width="" />
+                        <img src ={rock1} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rock1} alt="" height="" width="" />
+                        <img src ={rock1} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rocket2} alt="" height="" width="" />
+                        <img src ={rocket2} alt="gravity" height="" width="" />
                     </li>
                     <li>
-                        <img src ={rocket4} alt="" height="" width="" />
+                        <img src ={rocket4} alt="gravity" height="" width="" />
                     </li>
             </ul>
             
