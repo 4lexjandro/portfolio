@@ -31,7 +31,7 @@ export const Home = () => {
 <div className='area'>
   
     
-    <img src={head4} className='w-full h-full object-cover absolute ' alt=''/>
+    <img src={head4} className='w-full h-full object-cover absolute ' alt='helmet'/>
 
    
 
