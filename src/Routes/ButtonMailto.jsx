@@ -1,10 +1,9 @@
 
 import React from "react";
-import { Link } from "react-router-dom";
 
 const ButtonMailto = ({ mailto, label }) => {
     return (
-        <Link
+        <main
             className="email"
             to='#'
             onClick={(e) => {
@@ -13,7 +12,7 @@ const ButtonMailto = ({ mailto, label }) => {
             }}
         >
             {label}
-        </Link>
+        </main>
     );
 };
 

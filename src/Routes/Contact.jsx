@@ -122,9 +122,9 @@ if (loading) {
               >
 
 
-          <button class=" p-2  shadow-xl shadow-orange-600/20 sm:px-1 rounded-md animate-bounce">
+          
           <ButtonMailto  label="E-Mail Me " mailto="mailto:alexjandrom99@gmail.com" />
-      </button>
+      
         
    
                  
