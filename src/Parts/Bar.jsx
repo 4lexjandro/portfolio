@@ -21,7 +21,8 @@ const Bar = () => {
     }
   }
 
-  window.onscroll("scroll", scrollHandler);
+  
+  window.addEventListener("scroll", scrollHandler);
 
 
   return (
