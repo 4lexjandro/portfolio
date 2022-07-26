@@ -33,7 +33,7 @@ const WorkPage = () => {
        <div className="face face1">
          <div className="content">           
          <a href="https://elcazadorcafe.vercel.app/">
-         <img src ={P6} width="300px" height="300px" alt="" /> 
+         <img src ={P6} width="300px" height="300px" alt="pro" /> 
          </a>
    
    <section className=" space-x-2 flex flex-row">
@@ -85,7 +85,7 @@ const WorkPage = () => {
        <div className="face face1">
          <div className="content">     
          <a href="https://agency-beige.vercel.app/">
-         <img src ={P2} width="300px" height="300px" alt="" /> </a>
+         <img src ={P2} width="300px" height="300px" alt="pro" /> </a>
          <section className=" space-x-2 flex flex-row">
            <small>Tools: </small>
       <FaReact/>
@@ -122,7 +122,7 @@ const WorkPage = () => {
        <div className="face face1">
          <div className="content">
          <a href="https://loving-years.vercel.app/">
-         <img src ={P3} width="300px" height="300px" alt="" /> </a>
+         <img src ={P3} width="300px" height="300px" alt="pro" /> </a>
          <section className=" space-x-2 flex flex-row">
            <small>Tools: </small>
       
