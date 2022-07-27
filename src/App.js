@@ -5,17 +5,8 @@ import About from './Routes/About'
 import WorkPage from './Routes/WorkPage'
 import NotFound from './Routes/NotFound'
 import Bar from './Parts/Bar'
-
-
-
 import './style.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-
-
-
-
-
-
 
 
 
