@@ -32,6 +32,8 @@ export const Home = () => {
   
     
     <img src={head4} className='w-full h-full object-cover absolute ' alt='helmet'/>
+    {/* Old classname for img
+    w-full h-full object-cover absolute  */}
 
    
 
