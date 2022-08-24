@@ -28,12 +28,12 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
 
-      <a href="https://twitter.com/__Alexjandro__"
+      <a href="https://twitter.com/4lexmendez/"
         className="bar">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
 
-      <a href="https://www.instagram.com/__alexjandro__/"
+      <a href="https://www.instagram.com/4lexmendez/"
         className="bar">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
