@@ -53,7 +53,7 @@ export const Home = () => {
 <motion.div
   animate={{ x: [0, -30, 0] }}
 >
-    <h1>Welcome Everyone !</h1>
+    <h1>Welcome Everyone!</h1>
 </motion.div>
 
 
