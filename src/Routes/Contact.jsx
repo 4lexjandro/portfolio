@@ -97,7 +97,7 @@ if (loading) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                 <ButtonMailto label="Write me an E-Mail" mailto="mailto:alexjandrom99@gmail.com" />
+                 <ButtonMailto label="E-Mail Me" mailto="mailto:alexjandrom99@gmail.com" />
                  
                  
               </motion.h3>
