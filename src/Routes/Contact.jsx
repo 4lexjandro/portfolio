@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
-import Spark from '../Visuals/Spark.mp4';
+import Sunset from '../Visuals/Sunset.mp4';
 import Spinner from '../Parts/Spinner.jsx'
 
 
@@ -55,7 +55,7 @@ if (loading) {
       {/* Finally it works! */}
       <video autoPlay loop muted playsInline={true} disablePictureInPicture={true} id='video' className="vid">
         <source
-          src={Spark}
+          src={Sunset}
           type="video/mp4"
         />
         </video>
