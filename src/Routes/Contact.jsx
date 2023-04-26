@@ -49,11 +49,23 @@ if (loading) {
 
 
   return (
-    
+    <>
     <div className="main">
       <div className="overlay"></div>
       {/* Finally it works! */}
-      <video autoPlay loop muted playsInline={true} disablePictureInPicture={true} id='video' className="vid">
+      <video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+
+      
+      
+      
+      
+      
+      
+      >
         <source
           src={Sunset}
           type="video/mp4"
@@ -148,6 +160,7 @@ if (loading) {
       <Footer />
    
       </div>
+      </>
   )
 }
 
