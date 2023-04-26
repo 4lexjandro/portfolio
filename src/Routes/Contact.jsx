@@ -55,7 +55,8 @@ if (loading) {
       {/* Finally it works! */}
       <video autoPlay loop muted playsInline={true} 
       controls={false}
-      disablePictureInPicture={true} 
+      disablePictureInPicture={false} 
+      
       id='video' className="vid"
 
 
