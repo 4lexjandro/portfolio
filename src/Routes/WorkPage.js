@@ -1,8 +1,6 @@
 import Footer from '../Parts/Footer'
-import P2 from '../Visuals/P2.png'
 import P3 from '../Visuals/P3.png'
 import P6 from '../Visuals/P6.png'
-import P8 from '../Visuals/P8.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {FaReact, FaSass, FaHtml5, FaBootstrap} from "react-icons/fa"
@@ -86,23 +84,19 @@ const WorkPage = () => {
     <header className="card">
        <div className="face face1">
          <div className="content">     
-         <a href="https://agency-beige.vercel.app/">
-         <img src ={P2} width="300px" height="300px" alt="pro" /> </a>
+         {/* Commented Out image for now until further notice */}
+         {/* <a href="https://agency-beige.vercel.app/">
+         <img src ={P2} width="300px" height="300px" alt="pro" /> </a> */}
          <section className=" space-x-2 flex flex-row">
            <small>Tools: </small>
-      <FaReact/>
-      <SiJavascript/>
-      <DiGit/>
-      <SiTailwindcss/>
-      <FaHtml5/>
+      <small>Placeholder For Now</small>
     </section>        
          </div>
        </div>
        <div className="face face2">
          <div className="content">
-           <p>
-           Marketing agency landing page ready to generate revenue. Created with react smooth scroll.
-           </p>
+         Empty Space
+           <br/> Placeholder for future project
            <a href="https://github.com/4lexmendez/agency"
         className="git">
         <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -165,28 +159,24 @@ const WorkPage = () => {
 
 
 
-    <section className="main-div main-div3"> 
+<section className="main-div main-div3"> 
     <header className="card">
        <div className="face face1">
          <div className="content">     
-         <a href="https://designp-4-d.vercel.app/">
-         <img src ={P8} width="300px" height="300px" alt="pro" /> </a>
+         {/* Commented Out image for now until further notice */}
+         {/* <a href="https://agency-beige.vercel.app/">
+         <img src ={P2} width="300px" height="300px" alt="pro" /> </a> */}
          <section className=" space-x-2 flex flex-row">
            <small>Tools: </small>
-      <FaReact/>
-      <SiJavascript/>
-      <DiGit/>
-
+      <small>Placeholder For Now</small>
     </section>        
          </div>
        </div>
        <div className="face face2">
          <div className="content">
-           
-           Group project
-           <br/> Drag and Drop colors onto empty pad.
-           
-           <a href="https://github.com/4lexmendez/DESIGNP4D"
+         Empty Space
+           <br/> Placeholder for future project
+           <a href="https://github.com/4lexmendez/agency"
         className="git">
         <FontAwesomeIcon icon={faGithub} size="2x" />
          </a>
@@ -194,7 +184,6 @@ const WorkPage = () => {
        </div>
     </header>
     </section>
-    
     
       
     
