@@ -56,29 +56,22 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
 
             <h3 className="h3">
             <motion.div animate={{ scale: [2, 2, 1] }} >
-          <motion.div animate={{ x: -150, y:100, rotate:90 }} >Animations & Art</motion.div>
+          <motion.div animate={{ x: -150, y:100, rotate:90 }} >Wealth</motion.div>
           </motion.div>
           </h3>
 
-              <p>I also am fascinated by 3D art</p>
-              <p>Hopefully I can combine my</p>
-              <p>upshots with my dev exp</p>
-              <p>Short Films (& website) coming soon</p>
-
-            <h3 className="h3">
-            <motion.div animate={{ scale: [2, 2, 1] }} >
-          <motion.div animate={{ x: 150, y: 100, rotate:90 }} >Wealth</motion.div>
-          </motion.div>
-          </h3>
             <p>Financial Independece is a goal</p>
             <p>I wish to achieve in a decade by</p>
             <p>consistently investing, discipline, &</p>
             <p>being open minded to new</p>
             <p>oppurtunities.</p>
+
+            
+            
            </section>
 
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <h1 className="boxes">SKILLSET</h1>
   <div className="boxes">
   <div className="box"><FaReact className="animate-bounce h-7 w-7"/></div>
