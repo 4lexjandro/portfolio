@@ -66,7 +66,9 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
             <p>being open minded to new</p>
             <p>oppurtunities.</p>
            </section>
-           
+
+
+
 
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
