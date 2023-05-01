@@ -15,15 +15,10 @@ import Spinner from '../Parts/Spinner.jsx'
 
 
 export const Home = () => {
-
-  
   const [loading] = useState(false)
-    
-
   if (loading) {
     return <Spinner />
   }
-
 
     
   return (
