@@ -5,6 +5,7 @@ import About from './Routes/About'
 import WorkPage from './Routes/WorkPage'
 import NotFound from './Routes/NotFound'
 import Bar from './Parts/Bar'
+import ScrollToTop from './Parts/ScrollToTop'
 import './style.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 //Im back
@@ -20,6 +21,7 @@ function App() {
    
    <Router>
    <Bar/>
+   <ScrollToTop/>
    
      <Routes>
      <Route path='/' element={<Home />} />
