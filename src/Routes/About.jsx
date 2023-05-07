@@ -23,7 +23,7 @@ export const About = () => {
          <div className="bg"></div>
 <div className="bg bg2"></div>
 <div className="bg bg3"></div>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
 
 
           <motion.div animate={{ x: 100, y: 0, rotate:360 }}
@@ -48,10 +48,9 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
           <motion.div animate={{ x: 170, y: 50, rotate:90 }} >Web Development</motion.div>
           </motion.div>
           </h3>
-           <p>I enjoy creating and designing.</p>
-           <p>I have a passion for constantly learning</p>
-           <p>new things, and using those learning</p>
-           <p>tools, not just to obtain them.</p>
+           <p>I enjoy creating websites, </p>
+           <p>constantly learning, and challenging</p>
+           <p>myself to improve who I am.</p>
            <br/>
 
             <h3 className="h3">
@@ -62,9 +61,8 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
 
             <p>Financial Independece is a goal</p>
             <p>I wish to achieve in a decade by</p>
-            <p>consistently investing, discipline, &</p>
-            <p>being open minded to new</p>
-            <p>oppurtunities.</p>
+            <p>consistently investing, and being</p>
+            <p>disciplined.</p>
            </section>
 
 
@@ -72,7 +70,11 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
 
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <h1 className="boxes">SKILLSET</h1>
+
+           <motion.div animate={{ x: -5, y:20, rotate:1080 }} >
+           <h1 className="boxes">SKILLSET</h1>
+           </motion.div>
+   \
   <div className="boxes">
   <div className="box"><FaReact className="animate-bounce h-7 w-7"/></div>
   <div className="box"><SiDjango className="animate-bounce h-7 w-7"/></div>
