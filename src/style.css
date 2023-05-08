@@ -1,4 +1,4 @@
-
+.contextt
 
 
   .sticky {
@@ -599,14 +599,12 @@ padding: 20px; }
   width: 100%;
   position: absolute;
   top:30vh;
-  
-}
-
-.contextt {
   text-align: center;
   color: #fff;
   font-size: 50px;
+  
 }
+
 
 
 

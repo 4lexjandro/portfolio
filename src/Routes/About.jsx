@@ -39,7 +39,7 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
                 bounceStiffness: 100
                 }}
                 >
-                Otherwise, life is a drag
+                Otherwise, life is a drag 
                 </motion.div>
           <br/>
 
@@ -70,34 +70,35 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
 
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
+           <motion.div animate={{ scale: [2, 2, 1] }} >
            <motion.div animate={{ x: -5, y:20, rotate:1080 }} >
            <h1 className="boxes">SKILLSET</h1>
            </motion.div>
+           </motion.div>
    \
   <div className="boxes">
-  <div className="box"><FaReact className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiDjango className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiJavascript className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><FaPython className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><FaHtml5 className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><FaReact className="h-7 w-7"/></div>
+  <div className="box"><SiDjango className="h-7 w-7"/></div>
+  <div className="box"><SiJavascript className="h-7 w-7"/></div>
+  <div className="box"><FaPython className="h-7 w-7"/></div>
+  <div className="box"><FaHtml5 className="h-7 w-7"/></div>
 
   </div>
   <br/>
   <div className="boxes">
-  <div className="box"><FaSass className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiTailwindcss className="animate-bounce h-7 w-7"/></div>
-  <div className="box">< FaCss3 className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiBlender className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiCinema4D className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><FaSass className="h-7 w-7"/></div>
+  <div className="box"><SiTailwindcss className="h-7 w-7"/></div>
+  <div className="box">< FaCss3 className="h-7 w-7"/></div>
+  <div className="box"><SiBlender className="h-7 w-7"/></div>
+  <div className="box"><SiCinema4D className="h-7 w-7"/></div>
   </div>
   <br/>
   <div className="boxes">
-  <div className="box"><DiGit className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><FaBootstrap className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><DiNodejs className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiMongodb className="animate-bounce h-7 w-7"/></div>
-  <div className="box"><SiFirebase className="animate-bounce h-7 w-7"/></div>
+  <div className="box"><DiGit className="h-7 w-7"/></div>
+  <div className="box"><FaBootstrap className="h-7 w-7"/></div>
+  <div className="box"><DiNodejs className="h-7 w-7"/></div>
+  <div className="box"><SiMongodb className="h-7 w-7"/></div>
+  <div className="box"><SiFirebase className="h-7 w-7"/></div>
 
   </div>
 <br/><br/><br/>

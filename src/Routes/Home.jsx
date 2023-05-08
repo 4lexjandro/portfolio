@@ -37,44 +37,43 @@ export const Home = () => {
 <section className="contextt" >
 
         <motion.div
-  animate={{ x: -30, y: 120, opacity: 1 }}
+  animate={{ x: -30, y: 90, opacity: 1 }}
   transition={{
-    delay: 1,
+    delay: .1,
     x: { type: "spring", stiffness: 400 },
     default: { duration: 3 },
   }}
-><h1>I'm Alex</h1></motion.div>
-
-<motion.div
-  animate={{ x: [0, -30, 0] }}
->
-    <h1>Welcome Everyone!</h1>
+><h1>I'm Alex </h1>
+<h3>Web Developer</h3>
+<h3>Attempting to improve myself daily</h3>
 </motion.div>
 
 
+
+
 <motion.div
-  animate={{ x: -30, y: 100, opacity: 1 }}
+  animate={{ x: [0, -9000, -20], y:-85 }}
+>
+    <h1>Welcome!</h1>
+</motion.div>
+
+
+{/* <motion.div
+  animate={{ x: -20, y: 30, opacity: 1 }}
   transition={{
     delay: 2,
-    x: { type: "spring", stiffness: 100 },
+    x: { type: "spring", stiffness: 1000 },
     default: { duration: 2 },
   }}
 >
     <h3>Web Developer</h3>
-    <h3>Animator</h3>
-    <h3>Food Enthusiast</h3>
-</motion.div>
+    
+    
+</motion.div> */}
 
 
 
-<motion.div
-  animate={{ x: -30, y: 90, opacity: 5 }}
-  transition={{
-    delay: 2,
-    x: { type: "spring", stiffness: 400 },
-    default: { duration: 1 },
-  }}
-><h1>Creating Projects Daily</h1></motion.div>
+
 </section>
 
 <div className="area" >
