@@ -77,28 +77,28 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
            </motion.div>
    \
   <div className="boxes">
-  <div className="box"><FaReact className="h-7 w-7"/></div>
-  <div className="box"><SiDjango className="h-7 w-7"/></div>
-  <div className="box"><SiJavascript className="h-7 w-7"/></div>
-  <div className="box"><FaPython className="h-7 w-7"/></div>
-  <div className="box"><FaHtml5 className="h-7 w-7"/></div>
+  <div className="box"><FaReact className="h-6 w-6"/></div>
+  <div className="box"><SiDjango className="h-6 w-6"/></div>
+  <div className="box"><SiJavascript className="h-6 w-6"/></div>
+  <div className="box"><FaPython className="h-6 w-6"/></div>
+  <div className="box"><FaHtml5 className="h-6 w-6"/></div>
 
   </div>
   <br/>
   <div className="boxes">
-  <div className="box"><FaSass className="h-7 w-7"/></div>
-  <div className="box"><SiTailwindcss className="h-7 w-7"/></div>
-  <div className="box">< FaCss3 className="h-7 w-7"/></div>
-  <div className="box"><SiBlender className="h-7 w-7"/></div>
-  <div className="box"><SiCinema4D className="h-7 w-7"/></div>
+  <div className="box"><FaSass className="h-6 w-6"/></div>
+  <div className="box"><SiTailwindcss className="h-6 w-6"/></div>
+  <div className="box">< FaCss3 className="h-6 w-6"/></div>
+  <div className="box"><SiBlender className="h-6 w-6"/></div>
+  <div className="box"><SiCinema4D className="h-6 w-6"/></div>
   </div>
   <br/>
   <div className="boxes">
-  <div className="box"><DiGit className="h-7 w-7"/></div>
-  <div className="box"><FaBootstrap className="h-7 w-7"/></div>
-  <div className="box"><DiNodejs className="h-7 w-7"/></div>
-  <div className="box"><SiMongodb className="h-7 w-7"/></div>
-  <div className="box"><SiFirebase className="h-7 w-7"/></div>
+  <div className="box"><DiGit className="h-6 w-6"/></div>
+  <div className="box"><FaBootstrap className="h-6 w-6"/></div>
+  <div className="box"><DiNodejs className="h-6 w-6"/></div>
+  <div className="box"><SiMongodb className="h-6 w-6"/></div>
+  <div className="box"><SiFirebase className="h-6 w-6"/></div>
 
   </div>
 <br/><br/><br/>
