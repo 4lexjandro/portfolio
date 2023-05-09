@@ -32,7 +32,7 @@ const WorkPage = () => {
     <header className="card">
        <div className="face face1">
          <div className="content">           
-         <a href="https://elcazadorcafe.vercel.app/">
+         <a href="http://www.elcazadorcafe.com/">
          <img src ={P6} width="300px" height="300px" alt="pro" /> 
          </a>
    
