@@ -58,18 +58,7 @@ export const Home = () => {
 </motion.div>
 
 
-{/* <motion.div
-  animate={{ x: -20, y: 30, opacity: 1 }}
-  transition={{
-    delay: 2,
-    x: { type: "spring", stiffness: 1000 },
-    default: { duration: 2 },
-  }}
->
-    <h3>Web Developer</h3>
-    
-    
-</motion.div> */}
+
 
 
 

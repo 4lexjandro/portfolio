@@ -1,4 +1,4 @@
-.contextt
+
 
 
   .sticky {
@@ -125,8 +125,13 @@
   .navbar-nav .nav-item a:hover::after {
     width: 100%;
   }
+
   
-  
+
+
+
+
+
 
 
 
@@ -734,4 +739,12 @@ padding: 20px; }
       border-radius: 100%;
   }
 
+}
+
+.projectCards {
+  
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  
 }
