@@ -113,6 +113,36 @@ const WorkPage = () => {
 
     
     
+<section className="main-div main-div3">
+    <header className="card">
+       <div className="face face1">
+         <div className="content">     
+         {/* Commented Out image for now until further notice  */}
+          <a href="https://designp-4-d.vercel.app/">
+         <img src ={P8} width="300px" height="300px" alt="pro" /> </a> 
+         <section className=" space-x-2 flex flex-row">
+           <small>Tools: </small>
+           <FaReact/>
+      <SiJavascript/>
+      <DiGit/>
+      
+      <FaHtml5/>
+      
+    </section>        
+         </div>
+       </div>
+       <div className="face face2">
+       <div className="projectCards">
+         Group Project
+           <br/>Change color of pad by editing, dragging and dropping.<br/>
+           <a href="https://github.com/4lexmendez/agency"
+        className="git">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+         </a>
+         </div>
+       </div>
+    </header>
+    </section>
     
     
 
@@ -162,36 +192,7 @@ const WorkPage = () => {
 
 
 
-<section className="main-div main-div3">
-    <header className="card">
-       <div className="face face1">
-         <div className="content">     
-         {/* Commented Out image for now until further notice  */}
-          <a href="https://designp-4-d.vercel.app/">
-         <img src ={P8} width="300px" height="300px" alt="pro" /> </a> 
-         <section className=" space-x-2 flex flex-row">
-           <small>Tools: </small>
-           <FaReact/>
-      <SiJavascript/>
-      <DiGit/>
-      
-      <FaHtml5/>
-      
-    </section>        
-         </div>
-       </div>
-       <div className="face face2">
-       <div className="projectCards">
-         Group Project
-           <br/>Change color of pad by editing, dragging and dropping.<br/>
-           <a href="https://github.com/4lexmendez/agency"
-        className="git">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-         </a>
-         </div>
-       </div>
-    </header>
-    </section>
+
     
       
     
@@ -218,7 +219,7 @@ const WorkPage = () => {
 
   </main>
   <br/><br/><br/><br/><br/><br/><br/><br/>
-  <br/><br/><br/><br/><br/><br/>
+  
   <Footer/>
 
 
