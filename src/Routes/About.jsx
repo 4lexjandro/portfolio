@@ -102,9 +102,9 @@ transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
 
   </div>
 <br/><br/><br/>
-  <div>
-    <Footer />
-  </div>
+<div className="bottom"> 
+      <Footer />
+   </div>
 
 
       </main>

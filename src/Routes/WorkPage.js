@@ -220,8 +220,10 @@ const WorkPage = () => {
   </main>
   <br/><br/><br/><br/><br/><br/><br/><br/>
   
-  <Footer/>
-
+  
+  <div className="bottom"> 
+      <Footer />
+   </div>
 
     </main>
   )

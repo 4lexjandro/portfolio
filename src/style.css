@@ -748,3 +748,12 @@ padding: 20px; }
   font-size: 15px;
   
 }
+
+
+
+.footerBar{
+  position:fixed;
+bottom:0%;
+width:100%;
+
+}
