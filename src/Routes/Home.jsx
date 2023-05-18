@@ -43,16 +43,17 @@ export const Home = () => {
     x: { type: "spring", stiffness: 400 },
     default: { duration: 3 },
   }}
-><h1>I'm Alex </h1>
-<h3>Web Developer</h3>
-<h3>Attempting to improve myself daily</h3>
+><h1>Hi, I'm Alex.</h1>
+<h3>I design and code</h3>
+<h3> pulchritudinous websites</h3>
+
 </motion.div>
 
 
 
 
 <motion.div
-  animate={{ x: [0, -9000, -20], y:-85 }}
+  animate={{ x: [0, -9000, -20], y:-110 }}
 >
     <h1>Welcome!</h1>
 </motion.div>
