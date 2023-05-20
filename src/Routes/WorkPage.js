@@ -182,41 +182,6 @@ const WorkPage = () => {
     </section>
 
 
-
-
-
-
-
-
-{/* Design Pad done in class project */}
-
-
-
-
-    
-      
-    
-   
-    
-
-
-
-
-
-    
-    
-  
-    
-
-
-
-
-
-    
-    
-    
-    
-
   </main>
   <br/><br/><br/><br/><br/><br/><br/><br/>
   

@@ -6,14 +6,16 @@ const Footer = () => {
 
   return (
     
+    <>
     
-    <footer className='footer p-0 bg-black
-    text-primary-content footer-center '>
+    <footer className='footer overflow-x-auto p-0  justify-end'>
       <div className="bar">
       <p></p>
       <Social />
     </div>
     </footer>
+    
+    </>
   )
 }
 

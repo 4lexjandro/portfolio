@@ -13,11 +13,11 @@ import {
 
 
 export default function SocialFollow() {
-  const footerYear = new Date().getFullYear()
+  
   return (
     
     <div className="grid grid-flow-col gap-3">
-       <p>Copyright &copy; {footerYear} 4lexmendez</p>
+       
       <a href="https://github.com/4lexmendez"
         className="bar">
         <FontAwesomeIcon icon={faGithub} size="2x" />
