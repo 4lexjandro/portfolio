@@ -37,7 +37,7 @@ export const Home = () => {
 <section className="contextt" >
 
         <motion.div
-  animate={{ x: -20, y: 90, opacity: 1 }}
+  animate={{ x: 0, y: 90, opacity: 1 }}
   transition={{
     delay: .1,
   

@@ -1,5 +1,5 @@
 
-
+/* Navbar */
 
   .sticky {
     background-color: #1b1a2ea9 !important;
@@ -25,9 +25,10 @@
     display: block !important;
     background-color: #a60c51 !important;
     height: 4px !important;
-    width: 27px !important;
+    width: 30px !important;
     margin-top: 5px !important;
     margin-bottom: 5px !important;
+    margin-left: 250px !important;
     transform: rotate(0deg) !important;
     left: 0 !important;
     opacity: 1 !important;
@@ -128,18 +129,9 @@
 
   
 
-
-
-
-
-
-
-
-
- 
 .bar {
   right: 150px;
-  color: rgba(0, 244, 195, 0.953);
+  color: rgba(0, 0, 0, 0.953);
 }
 
 
