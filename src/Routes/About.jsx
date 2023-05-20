@@ -20,14 +20,12 @@ export const About = () => {
       <main className="main">
         <section className="content">
          <br/><br/><br/>
-         <div className="bg"></div>
-<div className="bg bg2"></div>
-<div className="bg bg3"></div>
+        
 <br/><br/><br/><br/><br/><br/>
 
 
           <motion.div animate={{ x: 100, y: 0, rotate:360 }}
-transition={{ duration: 2, repeat: Infinity }} >Pushing</motion.div>
+transition={{ duration: 5, repeat: Infinity }} >Pushing</motion.div>
 
           <h5>my creative boundaries</h5>
                <motion.div

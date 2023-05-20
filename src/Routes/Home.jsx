@@ -40,7 +40,7 @@ export const Home = () => {
   animate={{ x: -20, y: 90, opacity: 1 }}
   transition={{
     delay: .1,
-    x: { type: "spring", stiffness: 400 },
+  
     default: { duration: 3 },
   }}
 ><h1>Hi, I'm Alex.</h1>
