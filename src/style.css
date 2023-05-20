@@ -129,9 +129,36 @@
 
   
 
-.bar {
+.barOne {
   right: 150px;
-  color: rgba(0, 0, 0, 0.953);
+  color: rgba(0, 224, 236, 0.953);
+  position: absolute;
+  bottom: 90%;
+  right: 2%;
+}
+
+.barTwo {
+  right: 150px;
+  color: rgba(0, 224, 236, 0.953);
+  position: absolute;
+  bottom: 190%;
+  right: 2%;
+}
+
+.barThree {
+  right: 150px;
+  color: rgba(0, 224, 236, 0.953);
+  position: absolute;
+  bottom: 290%;
+  right: 2%;
+}
+
+.barFour {
+  right: 150px;
+  color: rgba(0, 224, 236, 0.953);
+  position: absolute;
+  bottom: 0;
+  right: 2%;
 }
 
 

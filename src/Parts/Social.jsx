@@ -15,31 +15,33 @@ import {
 export default function SocialFollow() {
   
   return (
+    <div >
     
-    <div className="grid grid-flow-col gap-3">
+    <div className="grid grid-flow-col gap-3 ">
        
       <a href="https://github.com/4lexmendez"
-        className="bar">
+        className="barOne">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
 
      
 
       <a href="https://twitter.com/4lexmendez/"
-        className="bar">
+        className="barTwo">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
 
       <a href="https://www.instagram.com/4lexmendez/"
-        className="bar">
+        className="barThree">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
 
-      <a href="https://www.linkedin.com/in/alexjandro-mendoza-17b28a19b/" className="bar">
+      <a href="https://www.linkedin.com/in/alexjandro-mendoza-17b28a19b/" className="barFour">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <br/>
     
+      </div>
       </div>
       
      
