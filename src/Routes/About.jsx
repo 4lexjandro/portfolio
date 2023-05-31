@@ -17,6 +17,8 @@ export const About = () => {
     return <Spinner />
   }
   return (
+    <>
+    
       <main className="main">
         <section className="content">
          <br/><br/><br/>
@@ -106,6 +108,8 @@ transition={{ duration: 5, repeat: Infinity }} >Pushing</motion.div>
 
 
       </main>
+      
+      </>
 
   )
 }

@@ -17,6 +17,7 @@ export const NotFound = () => {
     return <Spinner />
   }
   return (
+    
    
      <div className='hero'>
      <motion.div animate={{ scale: [2, 2, 1] }} >
@@ -43,6 +44,7 @@ export const NotFound = () => {
    </div>
   
     </div>
+    
   )
 }
 

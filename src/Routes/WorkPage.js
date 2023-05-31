@@ -20,7 +20,7 @@ const WorkPage = () => {
     return <Spinner />
   }
   return (
-    <main>
+    <>
 <br/><br/><br/><br/>
 
 <main className="container">
@@ -190,7 +190,7 @@ const WorkPage = () => {
       <Footer />
    </div>
 
-    </main>
+    </>
   )
 }
 
