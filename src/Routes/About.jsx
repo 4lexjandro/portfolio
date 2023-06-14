@@ -27,7 +27,7 @@ export const About = () => {
 
 
           <motion.div animate={{ x: 100, y: 0, rotate:360 }}
-transition={{ duration: 5, repeat: Infinity }} >Pushing</motion.div>
+transition={{ duration: 3 }} >Pushing</motion.div>
 
           <h5>my creative boundaries</h5>
                <motion.div
@@ -69,12 +69,10 @@ transition={{ duration: 5, repeat: Infinity }} >Pushing</motion.div>
 
 
            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-           <motion.div animate={{ scale: [2, 2, 1] }} >
-           <motion.div animate={{ x: -5, y:20, rotate:1080 }} >
+           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+           
            <h1 className="boxes">SKILLSET</h1>
-           </motion.div>
-           </motion.div>
+          
    \
   <div className="boxes">
   <div className="box"><FaReact className="h-6 w-6"/></div>
