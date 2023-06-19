@@ -53,7 +53,7 @@ const WorkPage = () => {
          <div className="projectCards">
            El Cazador Cafe located in Yonkers, NY
            <br/>
-           Solo project done for local business
+           Project done for local business
            <br/>
            <a href="https://github.com/4lexmendez/restaurant"
         className="git">
