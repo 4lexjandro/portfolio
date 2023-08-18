@@ -150,7 +150,7 @@ const WorkPage = () => {
 
     {/* Loving Years website */}
 
-    <section className="main-div main-div3"> 
+    {/* <section className="main-div main-div3"> 
     <header className="card">
        <div className="face face1">
          <div className="content">
@@ -179,7 +179,7 @@ const WorkPage = () => {
          </div>
        </div>
     </header>
-    </section>
+    </section> */}
 
 
   </main>

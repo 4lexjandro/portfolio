@@ -19,7 +19,7 @@ function App() {
     
     
    
-   <Router>
+   {/* <Router>
    <Bar/>
    <ScrollToTop/>
    
@@ -34,8 +34,8 @@ function App() {
      <Route path='/notfound' element={<NotFound />} />
      <Route path='/*' element={<NotFound />} />
      </Routes>
-   </Router>
-
+   </Router> */}
+<h1>.</h1>
 
    
 
