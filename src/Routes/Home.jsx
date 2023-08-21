@@ -24,12 +24,14 @@ export const Home = () => {
     
   return (
     
-<div className='area'>
+<div className=''>
   
-    
-    <img src={head5} className='w-5/6 h-5/6 object-cover absolute ' alt='helmet'/>
+    <div className="picture">
+    <img src={head5} className='picture' alt='helmet'/>
     {/* Old classname for img
     w-full h-full object-cover absolute  */}
+    {/* w-5/6 h-5/6  */}
+    </div>
 
    
 

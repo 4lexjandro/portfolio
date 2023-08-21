@@ -8,6 +8,7 @@ import { SiJavascript, SiSwiper} from "react-icons/si";
 import {  DiGit } from "react-icons/di";
 import { useState} from 'react'
 import Spinner from '../Parts/Spinner.jsx'
+import head5 from '../Visuals/head5.png'
 
 
 const WorkPage = () => {
@@ -20,6 +21,11 @@ const WorkPage = () => {
   }
   return (
     <>
+
+<div className="picture">
+    <img src={head5} className='picture' alt='helmet'/>
+   
+    </div>
 <br/><br/><br/><br/>
 
 <main className="container">
