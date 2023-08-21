@@ -21,9 +21,9 @@ export const About = () => {
     
       <main className="main">
         <section className="content">
-         <br/><br/><br/>
+         
         
-<br/><br/><br/><br/><br/><br/>
+
 
 
           <motion.div animate={{ x: 100, y: 0, rotate:360 }}
@@ -39,14 +39,17 @@ transition={{ duration: 3 }} >Pushing</motion.div>
                 bounceStiffness: 100
                 }}
                 >
-                Otherwise, life is a drag 
+               <h5> Otherwise, life is a drag </h5>
                 </motion.div>
           <br/>
 
           
-          <p>
-            lorem ipsum
-          </p>
+          <h5>I capture pictures and videos with my drone
+          </h5>
+          <h5>I design and code websites</h5>
+          <h5>&</h5>
+          <h5>I'm also trying to learn 3D modeling</h5>
+
            </section>
 
 

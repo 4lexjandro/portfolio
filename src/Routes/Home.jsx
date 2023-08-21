@@ -2,6 +2,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import head4 from '../Visuals/head4.png'
+import head5 from '../Visuals/head5.png'
 import rocket1 from '../Visuals/rocket1.png'
 import rocket2 from '../Visuals/rocket2.png'
 import rocket3 from '../Visuals/rocket3.png'
@@ -26,7 +27,7 @@ export const Home = () => {
 <div className='area'>
   
     
-    <img src={head4} className='w-full h-full object-cover absolute ' alt='helmet'/>
+    <img src={head5} className='w-5/6 h-5/6 object-cover absolute ' alt='helmet'/>
     {/* Old classname for img
     w-full h-full object-cover absolute  */}
 
