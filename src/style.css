@@ -665,10 +665,10 @@ padding: 20px; }
   top: 50%;
   left: 50%;
   width: 700px;
-  height: 700px;
-  margin-top: -15em;
+  height: 600px;
+  margin-top: -20em;
   margin-left: -15em;
-  
+
   position: fixed;
 
   
