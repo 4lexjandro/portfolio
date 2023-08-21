@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
-// import Sunset from '../Visuals/Sunset.mp4';
+import Sunset from '../Visuals/Sunset.mp4';
 import Spinner from '../Parts/Spinner.jsx'
 
 
@@ -68,7 +68,7 @@ if (loading) {
       
       >
         <source
-          // src={Sunset}
+          src={Sunset}
           type="video/mp4"
         />
         </video>
