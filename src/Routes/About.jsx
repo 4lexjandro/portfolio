@@ -43,26 +43,10 @@ transition={{ duration: 3 }} >Pushing</motion.div>
                 </motion.div>
           <br/>
 
-          <h3 className="h3">
-          <motion.div animate={{ scale: [2, 2, 1] }} >
-          <motion.div animate={{ x: 170, y: 50, rotate:90 }} >Web Development</motion.div>
-          </motion.div>
-          </h3>
-           <p>I enjoy creating websites, </p>
-           <p>constantly learning, and challenging</p>
-           <p>myself to improve who I am.</p>
-           <br/>
-
-            <h3 className="h3">
-            <motion.div animate={{ scale: [2, 2, 1] }} >
-          <motion.div animate={{ x: -150, y:100, rotate:90 }} >Wealth</motion.div>
-          </motion.div>
-          </h3>
-
-            <p>Financial Independece is a goal</p>
-            <p>I wish to achieve in a decade by</p>
-            <p>consistently investing, and being</p>
-            <p>disciplined.</p>
+          
+          <p>
+            lorem ipsum
+          </p>
            </section>
 
 

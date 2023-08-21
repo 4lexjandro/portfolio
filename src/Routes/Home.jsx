@@ -37,25 +37,36 @@ export const Home = () => {
 <section className="contextt" >
 
         <motion.div
-  animate={{ x: 0, y: 90, opacity: 1 }}
+  animate={{ x: 0, y: 100, opacity: 1 }}
   transition={{
-    delay: .1,
+    
   
     default: { duration: 3 },
   }}
-><h1>Hi, I'm Alex.</h1>
-<h3>I design and code</h3>
-<h3> pulchritudinous websites</h3>
+><h1>Hi, I'm Alex</h1>
+<h3>I create digital content</h3>
 
 </motion.div>
 
 
 
 
-<motion.div
+{/* <motion.div
   animate={{ x: [0, -9000, -20], y:-110 }}
 >
     <h1>Welcome!</h1>
+</motion.div> */}
+
+<motion.div
+  animate={{ x: 0, y: -40, opacity: 1 }}
+  transition={{
+    
+  
+    default: { duration: 3 },
+  }}
+><h1>Welcome</h1>
+
+
 </motion.div>
 
 
