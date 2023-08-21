@@ -160,6 +160,13 @@
   bottom: 390%;
   right: 2%;
 }
+.barFive {
+  right: 150px;
+  color: rgba(0, 224, 236, 0.953);
+  position: absolute;
+  bottom: 490%;
+  right: 2%;
+}
 
 
 .bottom{

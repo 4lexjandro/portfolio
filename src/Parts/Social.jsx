@@ -5,6 +5,7 @@ import {
     faGithub,
     faTwitter,
     faInstagram,
+    faYoutube,
     faLinkedin
   } from "@fortawesome/free-brands-svg-icons";
 
@@ -39,6 +40,13 @@ export default function SocialFollow() {
       <a href="https://www.linkedin.com/in/alexjandro-mendoza-17b28a19b/" className="barFour">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
+
+      <a href="https://www.youtube.com/channel/UC5NCUm2KF_xwbuYPImIYcCA" className="barFive">
+        <FontAwesomeIcon icon={faYoutube} size="2x" />
+      </a>
+
+
+
       <br/>
     
       </div>
