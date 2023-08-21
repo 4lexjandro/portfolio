@@ -19,19 +19,19 @@ export default function SocialFollow() {
     
     <div className="grid grid-flow-col gap-3 ">
        
-      <a href="https://github.com/4lexmendez"
+      <a href="https://github.com/4lexjandro"
         className="barOne">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
 
      
 
-      <a href="https://twitter.com/4lexmendez/"
+      <a href="https://twitter.com/4lexjandro_m"
         className="barTwo">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
 
-      <a href="https://www.instagram.com/4lexmendez/"
+      <a href="https://www.instagram.com/4lexjandro_m/"
         className="barThree">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
