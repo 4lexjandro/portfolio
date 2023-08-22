@@ -146,7 +146,7 @@ Retake images with the same size window to update visuals/pictures of projects i
        <div className="projectCards">
          Flower Project
            <br/>Local Flower shop<br/>
-           <a href="https://github.com/4lexmendez/agency"
+           <a href="https://www.4lexmendez.com/work"
         className="git">
         <FontAwesomeIcon icon={faGithub} size="2x" />
          </a>
