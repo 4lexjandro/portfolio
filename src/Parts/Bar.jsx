@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import Soundbar from './Soundbar.jsx';
 import AM from '../Visuals/AM.png';
 
 
@@ -40,11 +39,7 @@ const Bar = () => {
         </Navbar.Brand>
         <br/>
 
-        <div className="rotate">  
-        <Nav.Item  >
-          <Soundbar className="rotate"/>
-        </Nav.Item>
-        </div>
+        
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

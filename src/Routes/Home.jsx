@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import head4 from '../Visuals/head4.png'
+
 import head5 from '../Visuals/head5.png'
 import rocket1 from '../Visuals/rocket1.png'
 import rocket2 from '../Visuals/rocket2.png'
