@@ -4,6 +4,7 @@ import Contact from './Routes/Contact'
 import About from './Routes/About'
 import WorkPage from './Routes/WorkPage'
 import NotFound from './Routes/NotFound'
+import Egg from './Routes/Egg'
 import Bar from './Parts/Bar'
 import ScrollToTop from './Parts/ScrollToTop'
 import './style.css';
@@ -27,6 +28,7 @@ function App() {
      <Route path='/' element={<Home />} />
      <Route path='/home' element={<Home />} />
      <Route path='/about' element={<About />} />
+     <Route path='/egg' element={<Egg />} />
      
      
      <Route path='/work' element={<WorkPage />} />
