@@ -100,8 +100,8 @@ const WorkPage = () => {
        </div>
        <div className="face face2">
        <div className="projectCards">
-         Flower Project
-           <br/>Website for local flower shop<br/>
+         Design Pad
+           <br/>Group project where a pad changes color based off of the options dragged onto it<br/>
            <a href="https://github.com/4lexjandro/DESIGNP4D"
         className="git">
         <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -129,7 +129,7 @@ Retake images with the same size window to update visuals/pictures of projects i
        <div className="face face1">
          <div className="content">     
          {/* Commented Out image for now until further notice  */}
-          <a href="https://designp-4-d.vercel.app/">
+          <a href="https://4lexmendez.com/work">
          <img src ={head4} width="300px" height="300px" alt="pro" /> </a> 
          <section className=" space-x-2 flex flex-row">
            <small>Tools: </small>
