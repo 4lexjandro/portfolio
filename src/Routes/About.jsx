@@ -54,8 +54,6 @@ transition={{ duration: 3 }} >Pushing</motion.div>
           <h5>I capture pictures and videos with my drone
           </h5>
           <h5>I design and code websites</h5>
-          <h5>&</h5>
-          <h5>I'm also trying to learn 3D modeling</h5>
 
            </section>
 
