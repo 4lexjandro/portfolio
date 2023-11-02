@@ -67,7 +67,7 @@
     transform: rotate(-135deg) !important;
     opacity: 0.9 !important;
   }
-  
+  /* Mobile navbar */
   @media (max-width: 767px) {
     .navbar {
       padding: 1rem 2rem !important;
