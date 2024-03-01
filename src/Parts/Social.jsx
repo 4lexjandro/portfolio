@@ -27,7 +27,7 @@ export default function SocialFollow() {
 
      
 
-      {/* <a href="https://twitter.com/4lexjandro_m"
+      <a href="https://twitter.com/4lexjandro_m"
         className="barTwo">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
@@ -35,7 +35,7 @@ export default function SocialFollow() {
       <a href="https://www.instagram.com/4lexjandro_m/"
         className="barOne">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a> */}
+      </a>
 
       <a href="https://www.linkedin.com/in/alexjandro-mendoza-17b28a19b/" className="barFour">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
