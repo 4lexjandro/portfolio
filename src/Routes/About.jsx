@@ -5,7 +5,7 @@ import { SiDjango, SiTailwindcss, SiBlender, SiCinema4D, SiJavascript, SiMongodb
 import { DiNodejs, DiGit, } from "react-icons/di";
 import { useState} from 'react'
 import Spinner from '../Parts/Spinner.jsx'
-import head5 from '../Visuals/head5.png'
+
 
 
 
@@ -20,10 +20,7 @@ export const About = () => {
   return (
     <>
 
-<div className="picture">
-    <img src={head5} className='picture' alt='helmet'/>
-   
-    </div>
+
 
     
       <main className="main">

@@ -69,6 +69,23 @@ export const Home = () => {
 
 
 
+<motion.div
+  animate={{ x: 0, y: -40, opacity: 1 }}
+  transition={{
+    
+  
+    default: { duration: 3 },
+  }}
+>
+  
+
+</motion.div>
+
+
+
+
+
+
 
 
 

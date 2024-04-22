@@ -62,11 +62,11 @@ const Bar = () => {
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                Home
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -89,13 +89,36 @@ const Bar = () => {
               </Nav.Link>
             </Nav.Item>
 
+            
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/work"
                 onClick={() => updateExpanded(false)}
               >
-                 Projects 
+                 Portfolio 
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/services"
+                onClick={() => updateExpanded(false)}
+              >
+                 Services
+              </Nav.Link>
+            </Nav.Item>
+
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/prints"
+                onClick={() => updateExpanded(false)}
+              >
+                 Prints
               </Nav.Link>
             </Nav.Item>
 

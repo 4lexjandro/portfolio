@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
-import Sunset from '../Visuals/Sunset.mp4';
+// import Sunset from '../Visuals/Sunset.mp4';
 import Spinner from '../Parts/Spinner.jsx'
 
 
@@ -54,24 +54,16 @@ if (loading) {
     <div className="main">
       <div className="overlay"></div>
       {/* Finally it works! */}
-      <video autoPlay loop muted playsInline={true} 
+      {/* <video autoPlay loop muted playsInline={true} 
       controls={false}
       disablePictureInPicture={true} 
       id='video' className="vid"
-
-
-      
-      
-      
-      
-      
-      
       >
         <source
           src={Sunset}
           type="video/mp4"
         />
-        </video>
+        </video> */}
 
       <div className="content">
         
@@ -140,11 +132,14 @@ if (loading) {
       
         
    
-                 
+          
                  
                  
               </motion.h3>
+              
             </Message>
+
+            
           )}
 
 </Container>
