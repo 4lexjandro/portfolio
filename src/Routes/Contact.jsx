@@ -6,6 +6,7 @@ import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
 // import Sunset from '../Visuals/Sunset.mp4';
 import Spinner from '../Parts/Spinner.jsx'
+import ContactForm from '../Parts/ContactForm.jsx'
 
 
 
@@ -50,9 +51,9 @@ if (loading) {
 
   return (
     <>
-    
-    <div className="main">
-      <div className="overlay"></div>
+      <div className=''>
+    {/* <div className="main">
+      <div className="overlay"></div> */}
       {/* Finally it works! */}
       {/* <video autoPlay loop muted playsInline={true} 
       controls={false}
@@ -65,7 +66,7 @@ if (loading) {
         />
         </video> */}
 
-      <div className="content">
+      <div className="">
         
        
       
@@ -81,6 +82,8 @@ if (loading) {
 
 
     <Container className="content">
+
+    <ContactForm />
    
       
 
@@ -102,7 +105,7 @@ if (loading) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                 <ButtonMailto label="E-Mail Me" mailto="mailto:alexjandrom99@gmail.com" />
+                 <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:alexjandrom99@gmail.com" />
                  
                  
               </motion.h3>

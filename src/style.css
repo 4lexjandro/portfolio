@@ -127,7 +127,7 @@
     width: 100%;
   }
 
-  
+  /* Footer below ------------------------------------ */
 
 .barOne {
   right: 150px;
@@ -168,7 +168,7 @@
   right: 2%;
 }
 
-
+/* --------------------------------- */
 .bottom{
   position:fixed;
   bottom:0%;
@@ -176,8 +176,50 @@
  }
 
  
+/* ----------------------------------------------------------------
+Contact Form */
 
 
+
+form {
+  margin-top: 20px;
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.submit-btn {
+  padding: 15px 50px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------------- */
 .text {
   color:white !important;
   text-align:center;
@@ -223,6 +265,7 @@
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
+  font-size: 14px !important;
   
 }
 

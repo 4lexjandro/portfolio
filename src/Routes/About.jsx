@@ -64,7 +64,10 @@ transition={{ duration: 3 }} >Pushing</motion.div>
           
    \
   <div className="boxes">
-  <div className="box"><FaReact className="h-6 w-6"/></div>
+  <div className="box"><FaReact className="h-6 w-6"/>wrggrwhr3h3
+  
+  <small>3rgr4gr4g4gg</small><small>3rgr4gr4g4gg</small><small>3rgr4gr4g4gg</small>
+  </div>
   <div className="box"><SiDjango className="h-6 w-6"/></div>
   <div className="box"><SiJavascript className="h-6 w-6"/></div>
   <div className="box"><FaPython className="h-6 w-6"/></div>
