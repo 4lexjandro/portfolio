@@ -78,6 +78,7 @@ const ContactForm = () => {
                 {/* Row 1 of form */}
                 <div className='row formRow'>
                   <div className='col-6'>
+                  
                     <input
                       type='text'
                       name='name'
@@ -92,7 +93,7 @@ const ContactForm = () => {
                         },
                       })}
                       className='form-control formInput'
-                      placeholder='Name'
+                      placeholder='So'
                     ></input>
                     {errors.name && (
                       <span className='errorMessage'>
@@ -100,7 +101,9 @@ const ContactForm = () => {
                       </span>
                     )}
                   </div>
+                  
                   <div className='col-6'>
+                  
                     <input
                       type='email'
                       name='email'

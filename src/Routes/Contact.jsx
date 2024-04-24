@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { motion } from "framer-motion";
+
 import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
 // import Sunset from '../Visuals/Sunset.mp4';
@@ -66,15 +66,12 @@ if (loading) {
         />
         </video> */}
 
-      <div className="">
+      
         
        
       
       
       
-  
-  
-
 
 
     
@@ -83,7 +80,7 @@ if (loading) {
 
     <Container className="content">
 
-    <ContactForm />
+    
    
       
 
@@ -93,22 +90,8 @@ if (loading) {
               target="_blank"
               to={{ pathname: "mailto:alexjandrom99@gmail.com" }}
             >
-              <motion.h3
-                initial={{
-                  y: -200,
-                  transition: { type: "spring", duration: 1.5, delay: 1 },
-                }}
-                animate={{
-                  y: 0,
-                  transition: { type: "spring", duration: 1.5, delay: 1 },
-                }}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-              >
-                 <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:alexjandrom99@gmail.com" />
-                 
-                 
-              </motion.h3>
+             <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:alexjandrom99@gmail.com" />
+              
             </Message>
           ) : (
             <Message
@@ -116,37 +99,26 @@ if (loading) {
               target="_blank"
               to={{ pathname: "mailto:alexjandrom99@gmail.com" }}
             >
-              <motion.h3
-                initial={{
-                  y: -200,
-                  transition: { type: "spring", duration: 1.5, delay: 1 },
-                }}
-                animate={{
-                  y: 0,
-                  transition: { type: "spring", duration: 1.5, delay: 1 },
-                }}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-              >
+          <ButtonMailto  label="alexjandrom99@gmail.com " mailto="mailto:alexjandrom99@gmail.com" />
 
-
-          
-          <ButtonMailto  label="E-Mail Me " mailto="mailto:alexjandrom99@gmail.com" />
-      
         
-   
-          
-                 
-                 
-              </motion.h3>
-              
             </Message>
 
             
           )}
+         
+              
+          
 
 </Container>
-   
+<div className="content">
+<ContactForm />
+</div>
+{/* <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+          <a href = "tel:914-230-3744" className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-md'>
+            <p className="glassButton">914 - 230 - 3744</p>
+            </a>
+    */}
 
       
 
@@ -160,7 +132,6 @@ if (loading) {
       <Footer />
    </div>
    
-      </div>
       
       </>
   )

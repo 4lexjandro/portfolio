@@ -182,7 +182,7 @@ Contact Form */
 
 
 form {
-  margin-top: 20px;
+  margin-top: -20%;
 }
 
 .formRow {
@@ -201,22 +201,24 @@ form {
 }
 
 .submit-btn {
-  padding: 15px 50px;
+  
   border-radius: 10px;
   margin-bottom: 25px;
+  color: black;
+  background-color: #d70000 !important;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .submit-message {
-    width: 125px;
-    margin-left: 200px;
+    width: 125px !important;
+    height: 90% !important;
+    margin-left: 200px !important;
   }
 }
 
 
 
-
-
+ 
 
 
 /* ----------------------------------------------------- */
