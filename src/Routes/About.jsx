@@ -1,10 +1,7 @@
 import Footer from '../Parts/Footer'
-import { motion } from "framer-motion"
-import {FaReact, FaSass, FaCss3, FaHtml5, FaPython, FaBootstrap} from "react-icons/fa"
-import { SiDjango, SiTailwindcss, SiBlender, SiCinema4D, SiJavascript, SiMongodb, SiFirebase } from "react-icons/si";
-import { DiNodejs, DiGit, } from "react-icons/di";
 import { useState} from 'react'
 import Spinner from '../Parts/Spinner.jsx'
+import RAW from '../Visuals/RAW.DNG'
 
 
 
@@ -19,85 +16,43 @@ export const About = () => {
   }
   return (
     <>
+    <main className='about'>
+    {/* <img src={RAW} className='aboutpic' alt='helmet'/>
+      <h1>About Us</h1>
+      <p> My name is Alex, and I love capturing moments in time through the lens of my drones whether that is a photo or video.</p>
+      <p> I’ve always wanted to fly, so I decided to buy a dii mini 3 pro since I was fascinated by its capabilities. When I launched it for the first time and flew out into the Hudson River, life was never the same to me. I have been flying since, trying to see the world in a completely new way, from above. I specifically enjoy capturing content of vehicles, their mechanical operation, their speed and power, their engaging appearance, and the sound of when they takeoff.  </p>
+      <p>  Moments in time are so precious. They can be the moment you married your significant other, spent quality time with someone not knowing it would be the last, played with your children or pets knowing they are only this age once, celebrating your own achievements The list is endless.
+These moments can also be quite unfortunate and may be with people, places, or objects that will no longer be in our lives. 
+But, these moments shape us to be who we are today.</p>
+      <p> Due to my awful memory of my own past, reminiscing for me is cloudy until I look at my gallery. That is when my memories emerge and are transparent. My soul feels content as I now can reminisce clearly about the past since I cannot relive it. Whether you have good or bad memory, you cannot relive the past. The closest we get to that would be through our gallery. Sometimes we cannot live in our moment to the fullest since we desire to capture it ourselves. I want you to live in your moment while I capture every second of it knowing one day you will enjoy these time capsules showcasing the magic you have experienced.  </p>
+      <p> For those who desire their moments captured, whether it is on foot or from an aerial view, contact me, I would love to capture your magic. 
+I’m based out in New York. However, I love to travel to create new content, to meet amazing people, witness the world go on, and gain the experiences that I will cherish for my own memories.
+  </p> */}
+      
+
+
+  
+    </main>
 
 
 
     
-      <main className="main">
-        <section className="content">
+      
          
         
 
 
 
-          <motion.div animate={{ x: 100, y: 0, rotate:360 }}
-transition={{ duration: 3 }} >Pushing</motion.div>
-
-          <h5>my creative boundaries</h5>
-               <motion.div
-                drag
-                dragTransition=
-                {{
-                min: 0,
-                max: 300,
-                bounceStiffness: 100
-                }}
-                >
-               <h5> Otherwise, life is a drag </h5>
-                </motion.div>
-          <br/>
+         
 
           
-          <h5>I capture pictures and videos with my drone
-          </h5>
-          <h5>I design and code websites</h5>
-
-           </section>
-
-
-
-
-           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-           
-           <h1 className="boxes">SKILLSET</h1>
-          
-   \
-  <div className="boxes">
-  <div className="box"><FaReact className="h-6 w-6"/>wrggrwhr3h3
-  
-  <small>3rgr4gr4g4gg</small><small>3rgr4gr4g4gg</small><small>3rgr4gr4g4gg</small>
-  </div>
-  <div className="box"><SiDjango className="h-6 w-6"/></div>
-  <div className="box"><SiJavascript className="h-6 w-6"/></div>
-  <div className="box"><FaPython className="h-6 w-6"/></div>
-  <div className="box"><FaHtml5 className="h-6 w-6"/></div>
-
-  </div>
-  <br/>
-  <div className="boxes">
-  <div className="box"><FaSass className="h-6 w-6"/></div>
-  <div className="box"><SiTailwindcss className="h-6 w-6"/></div>
-  <div className="box">< FaCss3 className="h-6 w-6"/></div>
-  <div className="box"><SiBlender className="h-6 w-6"/></div>
-  <div className="box"><SiCinema4D className="h-6 w-6"/></div>
-  </div>
-  <br/>
-  <div className="boxes">
-  <div className="box"><DiGit className="h-6 w-6"/></div>
-  <div className="box"><FaBootstrap className="h-6 w-6"/></div>
-  <div className="box"><DiNodejs className="h-6 w-6"/></div>
-  <div className="box"><SiMongodb className="h-6 w-6"/></div>
-  <div className="box"><SiFirebase className="h-6 w-6"/></div>
-
-  </div>
-<br/><br/><br/>
-<div className="bottom"> 
+         
+{/* <div className="bottom"> 
       <Footer />
-   </div>
+   </div> */}
 
 
-      </main>
+   
       
       </>
 

@@ -74,7 +74,7 @@ const ContactForm = () => {
           <div className='col-12 text-center'>
             
             <div className='contactForm'>
-              <h3>Drop us a Line</h3>
+              <h3>Inquire Below</h3>
               <form
                 id='contact-form'
                 onSubmit={handleSubmit(onSubmit)}
@@ -136,38 +136,11 @@ const ContactForm = () => {
                       {...register('subject', {
                         required: {
                           value: true,
-                          message: 'Please enter a subject',
+                          message: 'Please enter a phone number',
                         },
                         maxLength: {
-                          value: 75,
-                          message: 'Subject cannot exceed 75 characters',
-                        },
-                      })}
-                      className='form-control formInput'
-                      placeholder='Subject'
-                    ></input>
-                    {errors.subject && (
-                      <span className='errorMessage'>
-                        {errors.subject.message}
-                      </span>
-                    )}
-                  </div>
-                </div>
-
-
-                <div className='row formRow'>
-                  <div className='col'>
-                    <input
-                      type='text'
-                      name='subject'
-                      {...register('subject', {
-                        required: {
-                          value: true,
-                          message: 'Please enter a subject',
-                        },
-                        maxLength: {
-                          value: 75,
-                          message: 'Subject cannot exceed 75 characters',
+                          value: 10,
+                          message: 'Number cannot exceed 10 characters',
                         },
                       })}
                       className='form-control formInput'
@@ -180,6 +153,9 @@ const ContactForm = () => {
                     )}
                   </div>
                 </div>
+
+
+                
 
 
 
