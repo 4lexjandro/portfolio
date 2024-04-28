@@ -256,19 +256,15 @@ Contact Form */
 
 @media screen and (max-width: 660px) {
 .contactsForm {
-  position: absolute;
-  width: 80%;
-  height: 40%;
-  
   border: 1px solid;
-  top:90%;
-  left: 10%;
   border-color: red;
-  
-  
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
+  position: relative;
+  top: 100%;
+  left: 25%;
+  
 
 }
 }
