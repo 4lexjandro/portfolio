@@ -139,13 +139,14 @@ Contact Form */
   position: absolute;
   width: 100%;
   height: 110%;
-  top: 0; 
+  top: 10; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(255, 255, 255);
+  
   font-size: 1px !important;
+  
 }
 
 
@@ -382,9 +383,7 @@ Contact Form */
   background-color: rgba(0,0,0,.3);
 }
 
-.h3 {
-  color:rgb(4, 253, 228) 
-}
+
 
 
 
@@ -868,3 +867,12 @@ padding: 20px; }
    }
 
    
+
+
+   .daisyfooter  {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0rem; 
+  text-align: center;           
+   }
