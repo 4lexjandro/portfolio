@@ -222,7 +222,7 @@ Contact Form */
 
   position: absolute;
   width: 100%;
-  height: 110%;
+  height: 135%;
   top: 0; 
   display: flex;
   flex-direction: column;
@@ -237,13 +237,10 @@ Contact Form */
 
 .contactsForm {
   position: absolute;
-  width: 50%;
-  height: 40%;
-  border-radius: 30px;
-  border: 1px solid;
-  top:90%;
-  left: 25%;
-  border-color: red;
+  width: 100%;
+  height: 50%;
+  top: 90%;
+  border:solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -255,18 +252,20 @@ Contact Form */
 
 
 @media screen and (max-width: 660px) {
-.contactsForm {
-  border: 1px solid;
-  border-color: red;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  position: relative;
-  top: 100%;
-  left: 25%;
+  .contactsForm {
+    position: absolute;
+    max-width: fit-content;
+    bottom: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px !important;
   
+  }
 
-}
 }
 .contactsLine {
   position: absolute;
@@ -281,12 +280,12 @@ Contact Form */
 
 
 @media screen and (max-width: 768px) {
+  /* phone number line */
   .phone {
     position: absolute;
-    
-left: 20;
-top: 5%;
-transform: translate(-20, -20);
+    left: 20;
+    top: -10%;
+    transform: translate(-20, -20);
 
   }
 
@@ -294,7 +293,7 @@ transform: translate(-20, -20);
     position: absolute;
     
     left: 20;
-    top: 10%;
+    top:-5%;
     transform: translate(-20, -20);
     }
 
