@@ -6,7 +6,7 @@ import Footer from '../Parts/Footer'
 import ButtonMailto from './ButtonMailto'
 // import Sunset from '../Visuals/Sunset.mp4';
 import Spinner from '../Parts/Spinner.jsx'
-import ContactForm from '../Parts/ContactForm.jsx'
+
 
 
 
@@ -31,7 +31,7 @@ export const Contact = () => {
   const [click] = useState(false);
   const mq = window.matchMedia("(max-width: 50em)").matches;  
   const [loading] = useState(false)
-    
+
 
 if (loading) {
   return <Spinner />
@@ -156,43 +156,22 @@ if (loading) {
   </Message>
   
           )}
+          
 
 </Container>
-
-
-
-
-      
     </div>
   </div>
 </div>
+<Footer/>
 
 </div>
-
-
-
-
-
-
-<div className='contactsForm'>
-
-<br/><br/><br/>
-<ContactForm />
-
-</div>
-
-
        </div>
-
+       
+      
 
       
 
 
-
-
-
-       
-      {/* <Footer /> */}
    
       
       </>

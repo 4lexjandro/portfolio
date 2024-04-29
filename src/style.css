@@ -127,48 +127,7 @@
 }
 
 
-  /* Footer below ------------------------------------ */
 
-.barOne {
-  right: 150px;
-  color: rgba(0, 224, 236, 0.953);
-  position: absolute;
-  bottom: 90%;
-  right: 2%;
-}
-
-.barTwo {
-  right: 150px;
-  color: rgba(0, 224, 236, 0.953);
-  position: absolute;
-  bottom: 190%;
-  right: 2%;
-}
-
-.barThree {
-  right: 150px;
-  color: rgba(0, 224, 236, 0.953);
-  position: absolute;
-  bottom: 290%;
-  right: 2%;
-}
-
-.barFour {
-  right: 150px;
-  color: rgba(0, 224, 236, 0.953);
-  position: absolute;
-  bottom: 390%;
-  right: 2%;
-}
-.barFive {
-  right: 150px;
-  color: rgba(0, 224, 236, 0.953);
-  position: absolute;
-  bottom: 490%;
-  right: 2%;
-}
-
-/* --------------------------------- */
 
  
 /* ----------------------------------------------------------------
@@ -235,38 +194,9 @@ Contact Form */
 }
 
 
-.contactsForm {
-  position: absolute;
-  width: 100%;
-  height: 50%;
-  top: 90%;
-  border:solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  font-size: 14px !important;
-
-}
 
 
-@media screen and (max-width: 660px) {
-  .contactsForm {
-    position: absolute;
-    max-width: fit-content;
-    bottom: 50%;
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-size: 14px !important;
-  
-  }
 
-}
 .contactsLine {
   position: absolute;
   top: 15%;
@@ -398,44 +328,6 @@ Contact Form */
 }
 
 
-
-form {
-  margin-top: 50px;
-}
-
-.formRow {
-  margin: 10px 0 20px 0;
-}
-
-.formInput {
-  padding: 15px 10px;
-}
-
-.errorMessage {
-  color: #f45532;
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-}
-
-.submit-btn {
-  
-  border-radius: 10px;
-  margin-bottom: 25px;
-  color: black;
-  background-color: #d70000 !important;
-}
-
-@media screen and (max-width: 768px) {
-  .submit-message {
-    width: 25px !important;
-    margin-left: 200px !important;
-    color: black;
-  background-color: #d70000 !important;
-  }
-
-
-}
 
 
 
@@ -951,6 +843,11 @@ padding: 20px; }
 
 
 
+
+
+
+
+
    .footerHeader{
     color:red;
    }
@@ -963,7 +860,7 @@ padding: 20px; }
    .footerLines {
     position: absolute;
     left: 0;
-    bottom: -100%;
+    bottom: 0%;
     width: 40%;
     
     color: white;
