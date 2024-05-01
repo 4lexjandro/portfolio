@@ -9,14 +9,21 @@ import Egg from './Routes/Egg'
 import Services from './Routes/Services'
 import Prints from './Routes/Prints'
 import Bar from './Parts/Bar'
+import Spinner from './Parts/Spinner'
 import ScrollToTop from './Parts/ScrollToTop'
 import './style.css';
+import { useState} from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
 
 function App() {
+
+  const [loading] = useState(false)
+  if (loading) {
+    return <Spinner />
+  }
   return (
     <>
     

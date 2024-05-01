@@ -18,7 +18,7 @@ export const Prints = () => {
    
     <>
     <br/><br/><br/><br/><br/><br/>
-      <div className='hero'>
+      <div className='bots'>
        
       <h1>Coming Soon</h1>
       

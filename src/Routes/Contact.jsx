@@ -166,14 +166,6 @@ if (loading) {
 
 </div>
        </div>
-       
-      
-
-      
-
-
-   
-      
       </>
   )
 }
@@ -239,53 +231,3 @@ export default Contact
 
 
 
-
-
-
-{/* <Container className="emailLine">
-    {mq ? (
-            <Message
-              click={+click}
-              target="_blank"
-              to={{ pathname: "mailto:alexjandrom99@gmail.com" }}
-            >
-              
-               <motion.h3
-                initial={{
-                }}
-                animate={{
-                  
-                  
-                }}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-              >
-
-                 <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:alexjandrom99@gmail.com" />
-                 </motion.h3>
-
-            </Message>
-          ) : (
-            
-            <Message
-              click={+false}
-              target="_blank"
-              to={{ pathname: "mailto:alexjandrom99@gmail.com" }}
-            >
-              
-              <motion.h3
-                initial={{
-                  y: -200,
-                  
-                }}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-              >         
-          <ButtonMailto  label="alexjandrom99@gmail.com " mailto="mailto:alexjandrom99@gmail.com" />
-          
-              </motion.h3>
-  </Message>
-  
-          )}
-
-</Container> */}

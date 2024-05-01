@@ -41,8 +41,8 @@ export const Home = () => {
   
     default: { duration: 3 },
   }}
-><h1>Hi, I'm Alex</h1>
-<h3>I create digital content</h3>
+>
+
 
 </motion.div>
 
@@ -56,30 +56,20 @@ export const Home = () => {
 </motion.div> */}
 
 <motion.div
-  animate={{ x: 0, y: -40, opacity: 1 }}
+  animate={{ x: 0, y: -100, opacity: 1 }}
   transition={{
     
   
-    default: { duration: 3 },
+    default: { duration: 2 },
   }}
-><h1>Welcome</h1>
+><h1>Welcome to 4pulenz</h1>
 
 
 </motion.div>
 
 
 
-<motion.div
-  animate={{ x: 0, y: -40, opacity: 1 }}
-  transition={{
-    
-  
-    default: { duration: 3 },
-  }}
->
-  
 
-</motion.div>
 
 
 

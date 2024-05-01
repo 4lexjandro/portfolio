@@ -68,7 +68,7 @@ const Bar = () => {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -76,7 +76,7 @@ const Bar = () => {
               >
                  About
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
@@ -112,7 +112,7 @@ const Bar = () => {
             </Nav.Item>
 
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/prints"
@@ -120,7 +120,7 @@ const Bar = () => {
               >
                  Prints
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             
 

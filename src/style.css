@@ -827,9 +827,7 @@ padding: 20px; }
     color:white !important;
     line-height:0.3em !important;
    }
-   .about{
-    color: white;
-   }
+   
 
 
 
@@ -876,3 +874,28 @@ padding: 20px; }
   height: 0rem; 
   text-align: center;           
    }
+
+   
+
+
+
+/* About Page */
+
+
+   .aboutLine{
+    
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+   }
+
+   
+
+
+
+
+
+
+
