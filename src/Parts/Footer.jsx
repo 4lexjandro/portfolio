@@ -34,7 +34,7 @@ const Footer = ( ) => {
   <nav className="grid grid-flow-col gap-3">
     <a href='/'className="link link-hover">Home</a>
     <a href='/contact'className="link link-hover">Contact</a>
-    <a href='/portfolio'className="link link-hover">Portfolio</a>
+    <a href='/work'className="link link-hover">Portfolio</a>
     <a href='/services'className="link link-hover">Services</a>
     {/* <a href='/prints'className="link link-hover">Prints</a> */}
   </nav> 
@@ -111,7 +111,7 @@ const Footer = ( ) => {
     </div>
   </nav> 
   <aside>
-    <p className='bots'>Copyright © 2024 - All right reserved by 4pulenz</p>
+    <p className='copyright'>Copyright © 2024 - All right reserved by 4PULENZ</p>
 
     <button>
     <motion.h3

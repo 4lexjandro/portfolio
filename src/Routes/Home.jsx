@@ -1,13 +1,9 @@
-
-import React from 'react'
 import { motion } from 'framer-motion'
-
-import head5 from '../Visuals/head5.png'
-
 import '../style.css'
 import Footer from '../Parts/Footer'
 import { useState} from 'react'
 import Spinner from '../Parts/Spinner.jsx'
+import Water from '../Visuals/Water.JPG'
 
 
 export const Home = () => {
@@ -21,48 +17,46 @@ export const Home = () => {
     
 <div className=''>
   
-    <div className="picture">
-    <img src={head5} className='picture' alt='helmet'/>
-    {/* Old classname for img
-    w-full h-full object-cover absolute  */}
-    {/* w-5/6 h-5/6  */}
-    </div>
-
+  
+   
    
 
 
 
 <section className="contextt" >
 
-        <motion.div
-  animate={{ x: 0, y: 100, opacity: 1 }}
-  transition={{
-    
-  
-    default: { duration: 3 },
-  }}
->
-
-
-</motion.div>
-
-
-
-
-{/* <motion.div
-  animate={{ x: [0, -9000, -20], y:-110 }}
->
-    <h1>Welcome!</h1>
-</motion.div> */}
+        
 
 <motion.div
-  animate={{ x: 0, y: -100, opacity: 1 }}
+  animate={{ x: 0, y: 1, opacity: 1 }}
   transition={{
     
   
-    default: { duration: 2 },
+    default: { duration: .5 },
   }}
-><h1>Welcome to 4pulenz</h1>
+><h1 className='title'>4PULENZ</h1>
+
+
+<motion.div
+  animate={{
+   x:0,
+   y:0,
+    scale: 1.0,
+    rotate: 1440,
+    
+  }}
+>
+
+<h3 className='titlestwo'>Soar into Orbit</h3>
+<br/>
+
+
+
+
+
+</motion.div>
+
+ 
 
 
 </motion.div>
@@ -71,6 +65,48 @@ export const Home = () => {
 
 
 
+  <div class="picture">
+    <img src={Water}  alt='' /> 
+  </div>
+  
+  
+
+
+<div class="row">
+  <div class="column">
+    <h3>Understanding</h3>
+    <small>Listening to prioritize your needs & desires that you would like to achieve with offered services.</small>
+
+  </div>
+  <div class="column">
+    <h3>Comfort</h3>
+    <small> Projects consist of enjoyment for client as much as pilot to ensure we both receive a positive experience. </small>
+  </div>
+  <div class="column">
+    <h3>Expert</h3>
+    <small>Specialized in the offered services to enhance results and focus on what 4PULENZ does best, create quality </small>
+  </div>
+  <div class="column">
+    <h3>Visuals</h3>
+    <small>Experienced in editing content to ensure you receive quality results you will be content with</small>
+  </div>
+ 
+  
+  
+</div>
+
+{/* <div class="row">
+  <div class="column">
+    <img src={Water}  alt='' /> 
+  </div>
+  
+  <div class="column">
+    <img src={Water}  alt='' /> 
+  </div>
+</div> */}
+{/* 
+
+<p>Receive surperior aerial photography</p> */}
 
 
 
@@ -80,12 +116,16 @@ export const Home = () => {
 
 
 
+
+
+
+<Footer/>
 </section>
 
 
     
     <div className=""> 
-      <Footer />
+      {/* <Footer /> */}
    </div>
       
     </div>
