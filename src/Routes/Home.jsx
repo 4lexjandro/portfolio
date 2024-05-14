@@ -30,7 +30,7 @@ export const Home = () => {
 
 
   <div class="image-container">
-  <img src={Water} alt=""/>
+  <img src={Water} alt="4pulenz"/>
   <div class="overlay-text">
     
 <motion.div
@@ -86,23 +86,23 @@ export const Home = () => {
 
 
 <div class="grid-container">
-    <div class="grid-item">
+    <p class="grid-item">
         <img src={Water} alt="" />
-        <div class="overlay">Aerial & Ground Photo/Video</div>
-    </div>
-    <div class="grid-item">
+        <p class="overlay">Aerial & Ground Photo/Video</p>
+    </p>
+    <p class="grid-item">
         <img src={Water} alt="" />
-        <div class="overlay">FPV Drone Video</div>
-    </div>
-    <div class="grid-item">
+        <p class="overlay">FPV Drone Video</p>
+    </p>
+    <p class="grid-item">
         <img src={Water} alt="" />
-        <div class="overlay">Events</div>
-    </div>
+        <p class="overlay">Events</p>
+    </p>
     
-    <div class="grid-item">
+    <p class="grid-item">
         <img src={Water} alt="" />
-        <div class="overlay">Industrial Inspection</div>
-    </div>
+        <p class="overlay">Industrial Inspection</p>
+    </p>
    
     
 </div>
@@ -140,10 +140,10 @@ export const Home = () => {
 
 <div class="homenote">
   <img src={Water} alt=""/>
-  <small>
+  <small className='apulenz'>
   From live streaming events with countless people to capturing exquisite shots of vehicles, 
   4PULENZ has the capability to take on a variety of projects. 
-  With FAA certification, our pilots are well experienced in the field and will work with you to fulfill your needs.
+  With FAA certification, we are experienced in the field and will work with you to fulfill your needs.
   </small>
 </div>
 
