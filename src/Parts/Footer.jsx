@@ -1,4 +1,4 @@
-import AM from '../Visuals/AM.png';
+import AMM from '../Visuals/AMM.png';
 import ButtonMailto from '../Routes/ButtonMailto'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -168,7 +168,7 @@ const Footer = ( ) => {
 
         <br/>
         <a href='/'>
-    <img src={AM} alt="astro" width="70" height="70" />
+    <img src={AMM} alt="astro" width="70" height="70" />
     </a>
 
   </aside>

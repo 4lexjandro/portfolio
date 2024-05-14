@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import AM from '../Visuals/AM.png';
+import AMM from '../Visuals/AMM.png';
 
 
 
@@ -33,7 +33,7 @@ const Bar = () => {
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex">
-          <img src={AM} alt="astro" width="50" height="50" />
+          <img src={AMM} alt="astro" width="50" height="50" />
           
           
         </Navbar.Brand>

@@ -681,15 +681,7 @@ padding: 20px; }
 
  
 
-.contextt {
-  width: 100%;
-  position: absolute;
-  top:30vh;
-  text-align: center;
-  color: #fff;
-  
-  
-}
+
 
 
 
@@ -1133,7 +1125,172 @@ margin-top:-60% !important;
   margin-top:-100% !important;
   
   }
+
+  
      }
     
 
+     .grid-container {
+      display: grid;
+      grid-gap: 10px; /* Adjust as needed for spacing between images */
+  }
+  
+  .grid-item {
+      position: relative; /* Necessary for absolutely positioned overlays */
+      overflow: hidden; /* Ensures images won't overflow their containers */
+  }
+  
+  .grid-item img {
+      width: 100%; /* Ensures images take up the full width of their containers */
+      height: auto; /* Maintains aspect ratio */
+  }
+  
+  .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .grid-item:hover .overlay {
+      opacity: 1; /* Show overlay on hover */
+  }
+  
+
+  @media only screen and (min-width: 300px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for screens 600px and wider */
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns for screens 900px and wider */
+    }
+}
+
+
+.Wrappa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-box {
+  flex: 1 0 45%; /* Adjust width as needed */
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+h2 {
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+  .text-box {
+      flex-basis: 100%; /* Full width for mobile */
+  }
+}
+
+
+
+
+
+
+
+
+.image-container {
+  position: relative;
+  display: inline-flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  
+  color: #fff;
+  
+  box-sizing: border-box;
+  font-size: 1px;
+  text-align: center;
+}
+
+
+.contextt {
+  width: 100%;
+  position: absolute;
+  top:0vh;
+  text-align: center;
+  color: #fff;
+ opacity: 0;
+animation: fadeIn 1s ease forwards; /* Animation duration and easing */
+}
+
+
+@media screen and (max-width: 768px) {
+  .overlay-text {
     
+    width: 100%; /* Make text full width */
+    max-width: none; /* Remove max-width */
+    font-size: 10px; /* Adjust font size */
+    padding: 20px; /* Adjust padding */
+  }
+}
+
+
+.homenote {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+}
+
+.homenote img {
+  max-width: 40%; /* Limit image width to 50% of the homenote */
+  margin-right: 20px; /* Add spacing between the image and text */
+}
+
+.homenote p {
+  flex: 1; /* Allow paragraph to grow to fill available space */
+}
+
+
+
+
+
+
+
+@keyframes contextt {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* Fade in to opacity 1 */
+  }
+}
