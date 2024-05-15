@@ -81,3 +81,12 @@
 // But, these moments shape us to be who we are today.</p>
 //       <p>Whether you have good or bad memory, you cannot relive the past. The closest we get to that would be through our gallery. Sometimes we cannot live in our moment to the fullest since we desire to capture it ourselves. I want you to live in your moment while I capture every second of it knowing one day you will enjoy these time capsules showcasing the magic you have experienced.  </p>
 //       */}
+import React from 'react'
+
+export const About = () => {
+  return (
+    <div>About</div>
+  )
+}
+
+export default About

@@ -29,9 +29,9 @@ export const Home = () => {
 
 
 
-  <div class="image-container">
+  <div className="image-container">
   <img src={Water} alt="4pulenz"/>
-  <div class="overlay-text">
+  <div className="overlay-text">
     
 <motion.div
   animate={{ x: 0, y: 1, opacity: 1 }}
@@ -85,48 +85,48 @@ export const Home = () => {
 
 
 
-<div class="grid-container">
-    <p class="grid-item">
+<div className="grid-container">
+    <div className="grid-item">
         <img src={Water} alt="" />
-        <p class="overlay">Aerial & Ground Photo/Video</p>
-    </p>
-    <p class="grid-item">
+        <p className="overlay">Aerial & Ground Photo/Video</p>
+    </div>
+    <div className="grid-item">
         <img src={Water} alt="" />
-        <p class="overlay">FPV Drone Video</p>
-    </p>
-    <p class="grid-item">
+        <p className="overlay">FPV Drone Video</p>
+    </div>
+    <div className="grid-item">
         <img src={Water} alt="" />
-        <p class="overlay">Events</p>
-    </p>
+        <p className="overlay">Events</p>
+    </div>
     
-    <p class="grid-item">
+    <div className="grid-item">
         <img src={Water} alt="" />
-        <p class="overlay">Industrial Inspection</p>
-    </p>
+        <p className="overlay">Industrial Inspection</p>
+    </div>
    
     
 </div>
 
-<div class="Wrappa">
-    <div class="text-box">
+<div className="Wrappa">
+    <div className="text-box">
     <h3>Certified</h3>
     <small> FAA Part 107 certified professional. This certification demonstrates compliance with federal regulations, ensuring that operations meet the highest standards of safety and legality. </small>
   </div>
-    <div class="text-box">
+    <div className="text-box">
     <h3>Expert</h3>
     <small>Specialized in the offered services to enhance results and focus on what 4PULENZ does best, create quality. Quality is produced through flight, editing, and capturing the perfect motions at the perfect time. </small>
   </div>
-  <div class="text-box">
+  <div className="text-box">
     <h3>Safety</h3> 
     <small>Safety is always prioritized. With comprehensive aviation insurance coverage, operations are efficient with safety measures emphasized to ensure a secure enviroment.</small>
   </div>
-    <div class="text-box">
+    <div className="text-box">
     <h3>Understanding  </h3> 
     <small>Listening to prioritize your needs & desires that you would like to achieve with offered services.</small>
   </div>
 
 <a href='/contact' className='text-box'>
-<h4 class=''>Schedule A Free Consultation</h4>
+<h4 className=''>Schedule A Free Consultation</h4>
 </a>
   
 
@@ -138,7 +138,7 @@ export const Home = () => {
 
 
 
-<div class="homenote">
+<div className="homenote">
   <img src={Water} alt=""/>
   <small className='apulenz'>
   From live streaming events with countless people to capturing exquisite shots of vehicles, 
