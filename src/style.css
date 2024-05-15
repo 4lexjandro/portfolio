@@ -22,7 +22,7 @@
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #1b1a2ea9 !important;
+  background-color: #ffffffdd !important;
   height: 4px !important;
   width: 30px !important;
   margin-top: 5px !important;
@@ -76,7 +76,7 @@
 
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(254, 254, 255, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 
 
@@ -132,7 +132,7 @@
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #868687a9;
+  background: #ffffffdd !important;
   bottom: 1px;
   left: 0;
   z-index: -1;
