@@ -37,7 +37,6 @@ if (loading) {
   return <Spinner />
 }
 
-
   return (
     <>
       <div className=''>
