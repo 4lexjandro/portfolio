@@ -1153,11 +1153,13 @@ margin-top:-60% !important;
   .grid-item {
       position: relative; /* Necessary for absolutely positioned overlays */
       overflow: hidden; /* Ensures images won't overflow their containers */
+      padding: 5px;
   }
   
   .grid-item img {
       width: 100%; /* Ensures images take up the full width of their containers */
       height: auto; /* Maintains aspect ratio */
+      padding: 5px;
   }
   
   .overlay {
@@ -1182,12 +1184,14 @@ margin-top:-60% !important;
   @media only screen and (min-width: 300px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr); /* 2 columns for screens 600px and wider */
+        padding: 5px;
     }
 }
 
 @media only screen and (min-width: 900px) {
     .grid-container {
         grid-template-columns: repeat(4, 1fr); /* 4 columns for screens 900px and wider */
+        padding: 5px;
     }
 }
 
@@ -1284,6 +1288,7 @@ animation: fadeIn 1s ease forwards; /* Animation duration and easing */
 .homenote {
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Align items vertically */
+  padding: 5px;
 }
 
 .homenote img {
