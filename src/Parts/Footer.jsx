@@ -140,7 +140,7 @@ const Footer = ( ) => {
                 whileTap={{ scale: 0.9 }}
               >
 
-                 <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:alexjandrom99@gmail.com" />
+                 <ButtonMailto label="info@4pulenz.com" mailto="mailto:info@4pulenz.com" />
                  </motion.h3>
 
                  </button>
@@ -155,7 +155,7 @@ const Footer = ( ) => {
 
 {/*     
     <button className='footercontactlines'>
-        <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:alexjandrom99@gmail.com" />
+        <ButtonMailto label="info@4pulenz.com" mailto="mailto:info@4pulenz.com" />
         </button>
         <br/>
         

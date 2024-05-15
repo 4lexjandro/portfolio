@@ -116,7 +116,7 @@ if (loading) {
             <Message
               click={+click}
               target="_blank"
-              to={{ pathname: "mailto:alexjandrom99@gmail.com" }}
+              to={{ pathname: "mailto:info@4pulenz.com" }}
             >
               
                <motion.h3
@@ -130,7 +130,7 @@ if (loading) {
                 whileTap={{ scale: 0.9 }}
               >
 
-                 <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:alexjandrom99@gmail.com" />
+                 <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:info@4pulenz.com" />
                  </motion.h3>
 
             </Message>
@@ -139,7 +139,7 @@ if (loading) {
             <Message
               click={+false}
               target="_blank"
-              to={{ pathname: "mailto:alexjandrom99@gmail.com" }}
+              to={{ pathname: "mailto:info@4pulenz.com" }}
             >
               
               <motion.h3
@@ -150,7 +150,7 @@ if (loading) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >         
-          <ButtonMailto  label="alexjandrom99@gmail.com " mailto="mailto:alexjandrom99@gmail.com" />
+          <ButtonMailto  label="alexjandrom99@gmail.com " mailto="mailto:info@4pulenz.com" />
           
               </motion.h3>
   </Message>
