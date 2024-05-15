@@ -130,7 +130,7 @@ if (loading) {
                 whileTap={{ scale: 0.9 }}
               >
 
-                 <ButtonMailto label="alexjandrom99@gmail.com" mailto="mailto:info@4pulenz.com" />
+                 <ButtonMailto label="info@4pulenz.com" mailto="mailto:info@4pulenz.com" />
                  </motion.h3>
 
             </Message>
@@ -150,7 +150,7 @@ if (loading) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >         
-          <ButtonMailto  label="alexjandrom99@gmail.com " mailto="mailto:info@4pulenz.com" />
+          <ButtonMailto  label="info@4pulenz.com " mailto="mailto:info@4pulenz.com" />
           
               </motion.h3>
   </Message>
