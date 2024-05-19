@@ -6,7 +6,7 @@ const Egg = () => {
   return (
     <>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <div className="text-center hero-content">
+    <div className="text">
     <h1>Easter Egg</h1>
     
     <p>You found this secret page!</p>

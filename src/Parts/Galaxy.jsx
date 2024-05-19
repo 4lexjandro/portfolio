@@ -5,6 +5,7 @@ import rocket3 from '../Visuals/rocket3.png'
 import rocket4 from '../Visuals/rocket4.png'
 import rock1 from '../Visuals/rock1.png'
 import rock2 from '../Visuals/rock2.png'
+import space from '../Visuals/space.png'
 
 
 const Galaxy = () => {
@@ -22,6 +23,9 @@ const Galaxy = () => {
                         <img src ={rocket3} alt="gravity" height="" width="" />
                     </li>
                     <li>
+                        <img src ={space} alt="gravity" height="" width="" />
+                    </li>
+                    <li>
                         <img src ={rocket4} alt="gravity" height="" width="" />
                     </li>
                     <li>
@@ -29,6 +33,9 @@ const Galaxy = () => {
                     </li>
                     <li>
                         <img src ={rock2} alt="gravity" height="" width="" />
+                    </li>
+                    <li>
+                        <img src ={space} alt="gravity" height="" width="" />
                     </li>
                     <li>
                         <img src ={rock2} alt="gravity" height="" width="" /> 
