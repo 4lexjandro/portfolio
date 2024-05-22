@@ -51,8 +51,9 @@ export const Home = () => {
   }}
 >
   <br/>
+  <br/>
 
-<h3 className='titlestwo'>Soar into Orbit</h3>
+<h1 className='titlestwo'>Soar into Orbit</h1>
 <br/>
 </motion.div>
 </motion.div>
@@ -78,17 +79,16 @@ export const Home = () => {
 
 
 
-
-
-<h2>Services</h2>
-
+<div class="gradient-text">
+  <h2 className='Services'>Services</h2>
+</div>
 
 
 
 <div className="grid-container">
     <div className="grid-item">
         <img src={Water} alt="" />
-        <p className="overlay">Aerial & Ground Photo/Video</p>
+        <p className="overlay">Aerial Photo/Video</p>
     </div>
     <div className="grid-item">
         <img src={Water} alt="" />
@@ -96,12 +96,12 @@ export const Home = () => {
     </div>
     <div className="grid-item">
         <img src={Water} alt="" />
-        <p className="overlay">Events</p>
+        <p className="overlay">Ground Photo/Video</p>
     </div>
     
     <div className="grid-item">
         <img src={Water} alt="" />
-        <p className="overlay">Industrial Inspection</p>
+        <p className="overlay">Rollers</p>
     </div>
    
     
