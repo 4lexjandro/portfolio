@@ -51,24 +51,17 @@ export const Home = () => {
   }}
 >
   <br/>
-  <br/>
 
 <h1 className='titlestwo'>Soar into Orbit</h1>
 <br/>
 </motion.div>
 </motion.div>
 
-
-
-
-
-
-
-
-
-
   </div>
 </div>
+
+
+
 
 
 
@@ -109,24 +102,24 @@ export const Home = () => {
 
 <div className="Wrappa">
     <div className="text-box">
-    <h3>Certified</h3>
+    <h2>Certified</h2>
     <small> FAA Part 107 certified professional. This certification demonstrates compliance with federal regulations, ensuring that operations meet the highest standards of safety and legality. </small>
   </div>
     <div className="text-box">
-    <h3>Expert</h3>
+    <h2>Expert</h2>
     <small>Specialized in the offered services to enhance results and focus on what 4PULENZ does best, create quality. Quality is produced through flight, editing, and capturing the perfect motions at the perfect time. </small>
   </div>
   <div className="text-box">
-    <h3>Safety</h3> 
+    <h2>Safety</h2> 
     <small>Safety is always prioritized. With comprehensive aviation insurance coverage, operations are efficient with safety measures emphasized to ensure a secure enviroment.</small>
   </div>
     <div className="text-box">
-    <h3>Understanding  </h3> 
+    <h2>Understanding  </h2> 
     <small>Listening to prioritize your needs & desires that you would like to achieve with offered services.</small>
   </div>
 
 <a href='/contact' className='text-box'>
-<h4 className=''>Schedule A Free Consultation</h4>
+<h2 className=''>Schedule A Free Consultation</h2>
 </a>
   
 

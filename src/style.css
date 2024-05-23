@@ -1,3 +1,5 @@
+
+
 /* Navbar */
 
 .sticky {
@@ -6,20 +8,17 @@
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
-
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
 }
-
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
   border-color: transparent !important;
 }
-
 .navbar-toggler span {
   display: block !important;
   background-color: #ffffffdd !important;
@@ -32,7 +31,6 @@
   left: 0 !important;
   opacity: 1 !important;
 }
-
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: 0 !important;
@@ -72,13 +70,11 @@
     padding: 1.1rem 1rem !important;
     font-size: 1.4rem !important;
     
-    
 
-  background-color: #1b1a2ea9 !important;
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(254, 254, 255, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
-
+background-color: #1b1a2ea9 !important;
+transition: all 0.3s ease-out 0s !important;
+box-shadow: 0px 10px 10px 0px rgba(254, 254, 255, 0.171) !important;
+backdrop-filter: blur(15px) !important;
 
 
 
@@ -86,33 +82,32 @@
 
 
 
-  }
-  .navbar-nav .nav-item a::after {
-    display: none !important;
-  }
+
 }
-
+.navbar-nav .nav-item a::after {
+  display: none !important;
+}
+}
 
 
 
 
 
 .navbar-nav .nav-link {
-  color: rgb(239, 239, 239) !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+color: rgb(239, 239, 239) !important;
+padding-right: 1rem !important;
+padding-left: 1rem !important;
 }
 
 .nav-link {
-  padding: 0.8rem 1rem !important;
+padding: 0.8rem 1rem !important;
 }
 
 @media (max-width: 767px) {
-  .nav-link {
-    padding: 0.7rem 1rem !important;
-  }
+.nav-link {
+  padding: 0.7rem 1rem !important;
 }
-
+}
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
@@ -142,9 +137,6 @@
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
-
-
-
 
  
 /* ----------------------------------------------------------------
@@ -891,17 +883,6 @@ padding: 20px; }
 /* About Page */
 
 
-   .aboutLine{
-    
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-   }
-
-   
-
 
 
    .row {
@@ -917,224 +898,22 @@ padding: 20px; }
    color:red;
 
   }
-  @media screen and (max-height: 768px) {
-    .title {
-      position: absolute;
-  bottom: 25%;
-  width: 100%;
-  height: 1rem; 
-  text-align: center; 
-    }
-    .titlestwo {
-      position: absolute;
-      bottom: -100%;
-      width: 100%;
-      height: 1rem; 
-      text-align: center; 
-    }
-.picture{
-margin-top:-60% !important;
-}
-.row{
-  display: contents;
-}
-.column{
-
-}
-  }
+ 
 
 
 
 
 
-  @media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 2) { 
-      .title {
-        position: absolute;
-    bottom: 25%;
-    width: 100%;
-    height: 1rem; 
-    text-align: center; 
-      }
-      .titlestwo {
-        position: absolute;
-        bottom: -100%;
-        width: 100%;
-        height: 1rem; 
-        text-align: center; 
-      }
-  .picture{
-  margin-top:-80% !important;
-  }
 
 
 
-    }
+
+
+
+    
 
   
 
-    @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
-      .title {
-        position: absolute;
-    bottom: 25%;
-    width: 100%;
-    height: 1rem; 
-    text-align: center; 
-      }
-      .titlestwo {
-        position: absolute;
-        bottom: -100%;
-        width: 100%;
-        height: 1rem; 
-        text-align: center; 
-      }
-  .picture{
-  margin-top:-80% !important;
-  }
-
-
-
-    }
-
-    @media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 3) {
-
-      .title {
-        position: absolute;
-    bottom: 25%;
-    width: 100%;
-    height: 1rem; 
-    text-align: center; 
-      }
-      .titlestwo {
-        position: absolute;
-        bottom: -100%;
-        width: 100%;
-        height: 1rem; 
-        text-align: center; 
-      }
-  .picture{
-  margin-top:-80% !important;
-  }
-
-
-
-     }
-
-     @media only screen 
-     and (device-width : 390px) 
-     and (device-height : 844px) 
-     and (-webkit-device-pixel-ratio : 3) {
-      .title {
-        position: absolute;
-    bottom: 25%;
-    width: 100%;
-    height: 1rem; 
-    text-align: center; 
-      }
-      .titlestwo {
-        position: absolute;
-        bottom: -100%;
-        width: 100%;
-        height: 1rem; 
-        text-align: center; 
-      }
-  .picture{
-  margin-top:-80% !important;
-  }
-
-
-
-     }
-
-
-
-
-     @media only screen 
-     and (device-width : 430px) 
-     and (device-height : 932px) 
-     and (-webkit-device-pixel-ratio : 3) {
-      .title {
-        position: absolute;
-    bottom: 25%;
-    width: 100%;
-    height: 1rem; 
-    text-align: center; 
-      }
-      .titlestwo {
-        position: absolute;
-        bottom: -100%;
-        width: 100%;
-        height: 1rem; 
-        text-align: center; 
-      }
-  .picture{
-  margin-top:-80% !important;
-  }
-     }
-
-
-
-
-
-
-
-     /* ANDROID MOBILE */
-     @media only screen 
-     and (device-width : 360px) 
-     and (device-height : 740px) 
-     and (-webkit-device-pixel-ratio : 2) {
-      .title {
-        position: absolute;
-    bottom: 25%;
-    width: 100%;
-    height: 1rem; 
-    text-align: center; 
-      }
-      .titlestwo {
-        position: absolute;
-        bottom: -100%;
-        width: 100%;
-        height: 1rem; 
-        text-align: center; 
-      }
-  .picture{
-  margin-top:0% !important;
-  }
-     }
-
-     @media only screen 
-     and (device-width : 1080px) 
-     and (device-height : 2400px) 
-     and (-webkit-device-pixel-ratio : 2) {
-      .title {
-        position: absolute;
-    bottom: 25%;
-    width: 100%;
-    height: 1rem; 
-    text-align: center; 
-      }
-      .titlestwo {
-        position: absolute;
-        bottom: 10%;
-        width: 100%;
-        height: 1rem; 
-        text-align: center; 
-      }
-  .picture{
-  margin-top:-100% !important;
-  
-  }
-
-  
-     }
     
 
      .grid-container {
@@ -1407,11 +1186,6 @@ text-align: center;
 
 
 
-.gradient-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 /* h1 {
   font-family: 'Gotham', Arial, sans-serif; 
@@ -1435,7 +1209,7 @@ h2 {
 
 h1 {
   font-family: 'Gotham', Arial, sans-serif; 
-  font-size: 4rem;
+  
   background-image: linear-gradient(to right, #FF69B4 0%, #FFC0CB 25%, #ADD8E6 50%, #0000FF 100%); 
   background-clip: text; 
   -webkit-background-clip: text; 
@@ -1443,15 +1217,73 @@ h1 {
 }
 h2 {
   font-family: 'Gotham', Arial, sans-serif; 
-  font-size: 4rem;
+  
   background-image: linear-gradient(to right, #FF69B4 0%, #FFC0CB 25%, #ADD8E6 50%, #0000FF 100%); 
   background-clip: text; 
   -webkit-background-clip: text;
   color: transparent; 
 }
 
+.gradient-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 body {
   font-family: 'Gotham', sans-serif !important; /* Use San Francisco font */
+}
+
+@media (max-width: 767px) {
+  h1, h2 {
+    background-image: linear-gradient(to right, #FF69B4 0%, #FFC0CB 25%, #ADD8E6 50%, #0000FF 100%);
+    background-clip: text; /* Clip the background to the text */
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent; /* Hide the text */
+  }
+}
+
+
+/* All Phones */
+@media screen and (max-height: 768px) {
+  .title, .titlestwo {
+    width: 100%;
+    height: 1rem; 
+    text-align: center;
+  }
+  .title {
+    position: relative; /* Change to relative positioning */
+    bottom: auto; /* Remove bottom positioning */
+  }
+  .titlestwo {
+    position: relative; /* Change to relative positioning */
+    bottom: auto; /* Remove bottom positioning */
+  }
+}
+
+/* Example media query for iPhone SE */
+@media only screen and (max-width: 375px) {
+  .title, .titlestwo {
+    font-size: 18px; /* Adjust font size as needed */
+  }
+}
+
+/* Example media query for iPad Mini landscape mode */
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+  .title, .titlestwo {
+    font-size: 15px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height for better readability */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+}
+
+
+/* Example media query for Surface Duo */
+@media only screen and (max-width: 540px) {
+  .title, .titlestwo {
+    font-size: 15px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
 }
