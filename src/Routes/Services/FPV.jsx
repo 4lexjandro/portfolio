@@ -2,7 +2,7 @@
 
 import Water from '../../Visuals/Water.JPG'; // Importing an example image
 import AMM from '../../Visuals/AMM.png'; // Importing an example image
-import Sunset from '../../Visuals/Sunset.MP4'; // Importing an example image
+import Video from '../../Visuals/Video.MP4'; // Importing an example image
 import Footer from '../../Parts/Footer'
 
 // Define your array of images
@@ -36,7 +36,7 @@ const FPV = () => {
       
       >
         <source
-          src={Sunset}
+          src={Video}
           type="video/mp4"
         />
         </video>
