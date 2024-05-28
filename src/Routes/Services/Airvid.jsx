@@ -22,10 +22,10 @@ const Airvid = () => {
 	</div>
 
 
-    <EDIT autoPlay loop muted playsInline={true} 
+    <video autoPlay loop muted playsInline={true} 
       controls={false}
       disablePictureInPicture={true} 
-      id='EDIT' className="vid"
+      id='video' className="vid"
 
 
       
@@ -37,9 +37,9 @@ const Airvid = () => {
       >
         <source
           src={EDIT}
-          type="EDIT/mp4"
+          type="video/mp4"
         />
-        </EDIT>
+        </video>
 
 
 
