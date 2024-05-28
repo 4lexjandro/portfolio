@@ -91,7 +91,7 @@ const Bar = () => {
 
             
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/work"
@@ -99,7 +99,7 @@ const Bar = () => {
               >
                  Portfolio 
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link

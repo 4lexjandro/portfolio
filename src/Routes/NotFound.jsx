@@ -28,7 +28,7 @@ export const NotFound = () => {
           <h1 className="text-8xl font-bold mb-8">
           Error!
           </h1>
-          <p className="text-5xl mb-8">404 - Page Not Found</p>
+          <h2 className="text-5xl mb-8">404 - Page Not Found</h2>
           <Link to='/' className='btn px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 btn-lg' >
           <FaHome className='mr-2' />
           Back To Home

@@ -854,24 +854,13 @@ padding: 20px; }
 
 
 
-   .footerHeader{
-    color:red;
-   }
 
    a
    {
        color: #ffffff !important;
    }
 
-   .footerLines {
-    position: absolute;
-    left: 0;
-    bottom: 0%;
-    width: 40%;
-    
-    color: white;
-    text-align: center;
-   }
+ 
 
    
 
@@ -1138,19 +1127,6 @@ Test 5000 */
 
 
 
- .choicebottom {
-  margin-top: auto; /* Push footer to the bottom */
- }
-
-
- .daisyfooter  {
-  position: absolute;
-bottom: 0;
-width: 100%;
-height: 0rem; 
-text-align: center;    
- margin-top: auto; /* Push footer to the bottom */       
- }
 
 
  .fade-in {
@@ -1163,7 +1139,7 @@ text-align: center;
 }
 
 .portfoliogallery {
-  flex: 25%; /* Adjust width as needed */
+  flex: 33.3%; /* Adjust width as needed */
   padding: 40px;
   border: solid 0px;
   box-sizing: border-box;
@@ -1172,6 +1148,11 @@ text-align: center;
   margin: 0 auto; /* Center horizontally */
   
 }
+
+
+
+
+
 .elementz {
   max-width: fit-content;
   margin-left: auto;
@@ -1286,4 +1267,84 @@ body {
     font-size: 15px; /* Adjust font size as needed */
     line-height: 1.5; /* Adjust line height for better readability */
   }
+}
+
+
+
+
+
+
+footer
+
+.footerHeader{
+  color:red;
+ }
+
+ a
+ {
+     color: #ffffff !important;
+ }
+
+ .footerLines {
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  width: 40%;
+  
+  color: white;
+  text-align: center;
+ }
+
+ .choicebottom {
+  margin-top: auto; /* Push footer to the bottom */
+ }
+
+
+ .daisyfooter  {
+  position: absolute;
+bottom: 0;
+width: 100%;
+height: 0rem; 
+text-align: center;    
+ margin-top: auto; /* Push footer to the bottom */       
+ }
+
+ 
+
+.masonry {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
 }

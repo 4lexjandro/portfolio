@@ -4,7 +4,6 @@ import Water from '../Visuals/Water.JPG'
 
 
 
-
 const Services = () => {
  
 
@@ -34,7 +33,7 @@ const Services = () => {
   
     
     
-    <a href='/'>
+    <a href='/airpic'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
@@ -45,7 +44,7 @@ const Services = () => {
     <h2>Aerial Video</h2>
     
     
-    <a href='/'>
+    <a href='/airvid'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
@@ -55,7 +54,7 @@ const Services = () => {
     <h2>Ground Photo</h2>
     
     
-    <a href='/'>
+    <a href='/groundpic'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
@@ -65,7 +64,7 @@ const Services = () => {
     <h2>Ground Video</h2>
     
     
-    <a href='/'>
+    <a href='/groundvid'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
@@ -77,7 +76,7 @@ const Services = () => {
     <h2>FPV</h2>
     
     
-    <a href='/'>
+    <a href='/fpv'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
@@ -92,7 +91,7 @@ const Services = () => {
     <h2>Rollers</h2>
     
     
-    <a href='/'>
+    <a href='/rollers'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
