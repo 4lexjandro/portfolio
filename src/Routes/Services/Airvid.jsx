@@ -2,7 +2,7 @@
 
 import Water from '../../Visuals/Water.JPG'; // Importing an example image
 import AMM from '../../Visuals/AMM.png'; // Importing an example image
-import Video from '../../Visuals/Video.MP4'; // Importing an example image
+import EDIT from '../../Visuals/EDIT.MOV'; // Importing an example image
 import Footer from '../../Parts/Footer'
 
 // Define your array of images
@@ -22,10 +22,10 @@ const Airvid = () => {
 	</div>
 
 
-    <video autoPlay loop muted playsInline={true} 
+    <EDIT autoPlay loop muted playsInline={true} 
       controls={false}
       disablePictureInPicture={true} 
-      id='video' className="vid"
+      id='EDIT' className="vid"
 
 
       
@@ -36,10 +36,10 @@ const Airvid = () => {
       
       >
         <source
-          src={Video}
-          type="video/mp4"
+          src={EDIT}
+          type="EDIT/mp4"
         />
-        </video>
+        </EDIT>
 
 
 
