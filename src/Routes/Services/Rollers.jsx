@@ -42,10 +42,6 @@ const Rollers = () => {
         </video>
 
 
-
-
-
-
 	<div className="tall">
 		<img src={Water} alt='' className="masonry" />
 	</div>
