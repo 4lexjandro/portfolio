@@ -1,8 +1,10 @@
 
 
-import Water from '../../Visuals/Water.JPG'; // Importing an example image
-import AMM from '../../Visuals/AMM.png'; // Importing an example image
-import EDIT from '../../Visuals/EDIT.MOV'; // Importing an example image
+
+import Vid1 from '../../Visuals/Airvids/Vid1.MOV';
+import Vid2 from '../../Visuals/Airvids/Vid2.MOV';
+import Vid3 from '../../Visuals/Airvids/Vid3.MOV';
+import Vid4 from '../../Visuals/Airvids/Vid4.MOV';
 import Footer from '../../Parts/Footer'
 
 // Define your array of images
@@ -15,31 +17,32 @@ const Airvid = () => {
     <br/><br/><br/><br/><br/>
     <div className="grid-wrapper">
 	<div>
-		<img src={Water} alt='' className="masonry" />
-	</div>
-	<div>
-		<img src={AMM} alt='' className="masonry" />
-	</div>
-
-
-    <video autoPlay loop muted playsInline={true} 
+		 <video autoPlay loop muted playsInline={true} 
       controls={false}
       disablePictureInPicture={true} 
       id='video' className="vid"
-
-
-      
-      
-      
-      
-      
-      
       >
         <source
-          src={EDIT}
+          src={Vid1}
           type="video/mp4"
         />
         </video>
+	</div>
+	<div>
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+      >
+        <source
+          src={Vid2}
+          type="video/mp4"
+        />
+        </video>
+	</div>
+
+
+   
 
 
 
@@ -47,85 +50,104 @@ const Airvid = () => {
 
 
 	<div className="tall">
-		<img src={Water} alt='' className="masonry" />
+		
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+      >
+        <source
+          src={Vid3}
+          type="video/mp4"
+        />
+        </video>
 	</div>
 	<div className="wide">
-    <img src={AMM} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+      >
+        <source
+          src={Vid4}
+          type="video/mp4"
+        />
+        </video>
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="tall">
-    <img src={AMM} alt='' className="masonry" />
+    
 	</div>
 	<div className="big">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-    <img src={AMM} alt='' className="masonry" />
+    
 	</div>
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="big">
-    <img src={AMM} alt='' className="masonry" />
+    
 	</div>
 	<div className="tall">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="big">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="big">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="tall">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+		
 	</div>
     
 </div>

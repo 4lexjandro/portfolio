@@ -14,6 +14,8 @@ import Pic10 from '../../Visuals/Airpics/Pic10.JPG';
 import Pic12 from '../../Visuals/Airpics/Pic12.JPG';
 import Pic13 from '../../Visuals/Airpics/Pic13.JPG';
 import Pic14 from '../../Visuals/Airpics/Pic14.JPG';
+import Pic15 from '../../Visuals/Airpics/Pic15.JPG';
+import Pic16 from '../../Visuals/Airpics/Pic16.JPG';
 
 
 
@@ -70,6 +72,12 @@ const Air = () => {
 	</div>
 	<div>
 		<img src={Pic14} alt='' className="masonry" />
+	</div>
+	<div>
+		<img src={Pic15} alt='' className="masonry" />
+	</div>
+	<div>
+		<img src={Pic16} alt='' className="masonry" />
 	</div>
 	
 	
