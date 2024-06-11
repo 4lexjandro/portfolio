@@ -54,7 +54,7 @@ const Services = () => {
     <h2>Ground Photo</h2>
     
     
-    <a href='/groundpic'>
+    <a href='/services'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
@@ -64,7 +64,7 @@ const Services = () => {
     <h2>Ground Video</h2>
     
     
-    <a href='/groundvid'>
+    <a href='/services'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
