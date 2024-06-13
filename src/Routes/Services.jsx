@@ -51,10 +51,10 @@ const Services = () => {
   <div className="portfoliogallery">
     
     
-    <h2>Ground Photo</h2>
+    <h2>Rollers</h2>
     
     
-    <a href='/services'>
+    <a href='/rollers'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
@@ -76,7 +76,7 @@ const Services = () => {
     <h2>FPV</h2>
     
     
-    <a href='/fpv'>
+    <a href='/services'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
@@ -88,10 +88,10 @@ const Services = () => {
   <div className="portfoliogallery">
     
     
-    <h2>Rollers</h2>
+    <h2>Ground Photo</h2>
     
     
-    <a href='/rollers'>
+    <a href='/services'>
     <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>

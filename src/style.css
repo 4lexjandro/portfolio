@@ -1191,7 +1191,7 @@ h2 {
 h1 {
   font-family: 'Gotham', Arial, sans-serif; 
   
-  background-image: linear-gradient(to right, #FF69B4 0%, #FFC0CB 25%, #ADD8E6 50%, #0000FF 100%); 
+  background-image: linear-gradient(to right, #ADD8E6 0%, #ADD8E6 25%, #0000FF 75%, #0000FF 100%);
   background-clip: text; 
   -webkit-background-clip: text; 
   color: transparent; 
@@ -1199,7 +1199,7 @@ h1 {
 h2 {
   font-family: 'Gotham', Arial, sans-serif; 
   
-  background-image: linear-gradient(to right, #FF69B4 0%, #FFC0CB 25%, #ADD8E6 50%, #0000FF 100%); 
+  background-image: linear-gradient(to right, #ADD8E6 0%, #ADD8E6 25%, #0000FF 75%, #0000FF 100%);
   background-clip: text; 
   -webkit-background-clip: text;
   color: transparent; 
@@ -1219,7 +1219,7 @@ body {
 
 @media (max-width: 767px) {
   h1, h2 {
-    background-image: linear-gradient(to right, #FF69B4 0%, #FFC0CB 25%, #ADD8E6 50%, #0000FF 100%);
+    background-image: linear-gradient(to right, #0000FF 0%, #ADD8E6 25%, #ADD8E6 50%, #0000FF 100%);
     background-clip: text; /* Clip the background to the text */
     -webkit-background-clip: text; /* For Safari */
     color: transparent; /* Hide the text */
