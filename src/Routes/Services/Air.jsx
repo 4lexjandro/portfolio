@@ -1,5 +1,5 @@
 
-import Video from '../../Visuals/Video.MP4';
+
 import Footer from '../../Parts/Footer'
 import Pic1 from '../../Visuals/Airpics/Pic1.png';
 import Pic2 from '../../Visuals/Airpics/Pic2.jpg';

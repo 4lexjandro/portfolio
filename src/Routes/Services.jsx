@@ -1,5 +1,6 @@
 import Footer from '../Parts/Footer'
 import Water from '../Visuals/Water.JPG'
+// import SRT from '../Visuals/SRT.png'
 
 
 
@@ -61,7 +62,7 @@ const Services = () => {
     <div className="portfoliogallery">
     
     
-    <h2>Ground Video</h2>
+    <h2>Ground Photo</h2>
     
     
     <a href='/services'>
@@ -73,7 +74,7 @@ const Services = () => {
   <div className="portfoliogallery">
     
     
-    <h2>FPV</h2>
+    <h2>Ground Video</h2>
     
     
     <a href='/services'>
@@ -88,7 +89,7 @@ const Services = () => {
   <div className="portfoliogallery">
     
     
-    <h2>Ground Photo</h2>
+    <h2>FPV</h2>
     
     
     <a href='/services'>

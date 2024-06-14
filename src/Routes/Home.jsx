@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import LazyLoad from 'react-lazyload';
 import '../style.css'
 import Footer from '../Parts/Footer'
 import { useState} from 'react'
@@ -46,7 +47,7 @@ export const Home = () => {
    x:0,
    y:0,
     scale: 1.0,
-    rotate: 1440,
+    rotate: 4320,
     
   }}
 >
@@ -70,35 +71,59 @@ export const Home = () => {
 
 
 
-
-
 <div class="gradient-text">
   <h2 className='Services'>Services</h2>
+  
 </div>
 
 
 
-<div className="grid-container">
-    <div className="grid-item">
-        <img src={Water} alt="" />
-        <p className="overlay">Aerial Photo/Video</p>
-    </div>
-    <div className="grid-item">
-        <img src={Water} alt="" />
-        <p className="overlay">FPV Drone Video</p>
-    </div>
-    <div className="grid-item">
-        <img src={Water} alt="" />
-        <p className="overlay">Ground Photo/Video</p>
-    </div>
+
+
+
+
+    <div className="grid-container">
+  <div className="grid-item">
+    <a href='/airpic'>
+    <LazyLoad height={200} once>
+      <img src={Water} alt="" />
+      </LazyLoad>
+    </a>
+    <a href='/airpic' className="overlay">Aerial Photo/Video</a>
+  </div>
+
+
+
+
     
-    <div className="grid-item">
-        <img src={Water} alt="" />
-        <p className="overlay">Rollers</p>
-    </div>
+
+  <div className="grid-item">
+    <a href='/rollers'>
+      <img src={Water} alt="" />
+    </a>
+    <a href='/rollers' className="overlay">Rollers</a>
+  </div>
+
+
+
+  <div className="grid-item">
+    <a href='/groundpics'>
+      <img src={Water} alt="" />
+    </a>
+    <a href='/' className="overlay">Ground Photo/Video</a>
+  </div>
+    
+  <div className="grid-item">
+    <a href='/fpv'>
+      <img src={Water} alt="" />
+    </a>
+    <a href='/' className="overlay">FPV</a>
+  </div>
    
     
 </div>
+
+
 
 <div className="Wrappa">
     <div className="text-box">
@@ -118,8 +143,11 @@ export const Home = () => {
     <small>Listening to prioritize your needs & desires that you would like to achieve with offered services.</small>
   </div>
 
+
+  
+
 <a href='/contact' className='text-box'>
-<h2 className=''>Schedule A Free Consultation</h2>
+<h2 className=''>Free Quote</h2>
 </a>
   
 

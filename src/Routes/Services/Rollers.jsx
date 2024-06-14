@@ -1,11 +1,11 @@
-// Rollers.jsx
+// Rollers.js
 
-import Water from '../../Visuals/Water.JPG'; // Importing an example image
-import AMM from '../../Visuals/AMM.png'; // Importing an example image
 import Roll1 from '../../Visuals/Rollers/Roll1.MOV';
 import Roll2 from '../../Visuals/Rollers/Roll2.MOV';
 import Roll3 from '../../Visuals/Rollers/Roll3.MOV';
+import Roll4 from '../../Visuals/Rollers/Roll4.MOV';
 import Roll8 from '../../Visuals/Rollers/Roll8.MOV';
+import GR from '../../Visuals/Rollers/GR.MOV';
 import Footer from '../../Parts/Footer'
 
 // Define your array of images
@@ -18,6 +18,7 @@ const Rollers = () => {
     <br/><br/><br/><br/><br/>
     <div className="grid-wrapper">
 	<div>
+		
 	<video autoPlay loop muted playsInline={true} 
       controls={false}
       disablePictureInPicture={true} 
@@ -72,83 +73,420 @@ const Rollers = () => {
         </video>
 	</div>
 	<div className="wide">
-    <img src={AMM} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
 	</div>
+
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+	
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={GR}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
+
 	<div className="tall">
-    <img src={AMM} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+
+    
 	</div>
+
+
+
 	<div className="big">
-		<img src={Water} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div>
-    <img src={AMM} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+    
 	</div>
+
+
+
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
 	</div>
+
+
+
 	<div className="big">
-    <img src={AMM} alt='' className="masonry" />
+    <video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
 	</div>
+
+
+
 	<div className="tall">
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>	
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>	
 	</div>
+
+
 	<div className="big">
-		<img src={Water} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>	
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div className="big">
-		<img src={Water} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>	
 	</div>
+
+
 	<div className="tall">
-		<img src={Water} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>	
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div>
-		<img src={Water} alt='' className="masonry" />
+		<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
 	<div className="wide">
-		<img src={Water} alt='' className="masonry" />
+	<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Roll4}
+          type="video/mp4"
+        />
+        </video>
+		
 	</div>
+
+
     
 </div>
 <Footer/>
