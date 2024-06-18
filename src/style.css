@@ -902,39 +902,73 @@ padding: 20px; }
     
 
   
-
-    
-
-     .grid-container {
-      display: grid;
-      grid-gap: 10px; /* Adjust as needed for spacing between images */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid columns */
+    gap: 20px;
   }
   
   .grid-item {
-      position: relative; /* Necessary for absolutely positioned overlays */
-      overflow: hidden; /* Ensures images won't overflow their containers */
-      padding: 5px;
+    position: relative;
+    overflow: hidden;
   }
   
   .grid-item img {
-      width: 100%; /* Ensures images take up the full width of their containers */
-      height: auto; /* Maintains aspect ratio */
-      padding: 5px;
+    width: 100%;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
   }
   
-  .overlay {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-      padding: 10px;
-      font-size: 16px;
-      text-align: center;
-      opacity: 0; /* Initially hidden */
-      transition: opacity 0.3s ease; /* Smooth transition effect */
+  .grid-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity and color as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; /* Overlay always visible */
+    transition: opacity 0.3s ease;
   }
+  
+  .grid-item .overlay span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0; /* Text initially hidden */
+    transition: opacity 0.3s ease;
+  }
+  
+  .grid-item:hover .overlay span {
+    opacity: 1; /* Show text on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+  
+    .grid-item .overlay span {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+      opacity: 1; /* Show text always on mobile */
+
+    }
+  }
+  
+
+  
+   
+
+  
   
   .grid-item:hover .overlay {
       opacity: 1; /* Show overlay on hover */
@@ -954,6 +988,30 @@ padding: 20px; }
         padding: 5px;
     }
 }
+
+/* Show text and overlay on mobile */
+@media (max-width: 768px) {
+  .grid-item .overlay {
+    opacity: 1; /* Ensure overlay is always visible */
+  }
+
+  .grid-item .overlay span {
+    opacity: 1; /* Show text always on mobile */
+    font-size: 1.2rem;
+  }
+}
+
+
+  
+
+
+
+
+
+
+
+
+
 
 
 .Wrappa {
@@ -1348,3 +1406,5 @@ text-align: center;
 	grid-column: span 2;
 	grid-row: span 2;
 }
+
+

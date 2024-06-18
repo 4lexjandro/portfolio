@@ -1,5 +1,6 @@
 import Footer from '../Parts/Footer'
 import Water from '../Visuals/Water.JPG'
+import front from '../Visuals/Front/frontpic1.png'
 // import SRT from '../Visuals/SRT.png'
 
 
@@ -56,7 +57,7 @@ const Services = () => {
     
     
     <a href='/rollers'>
-    <img src={Water} height='250' width='250' alt='' className='elementz' href='/'></img>
+    <img src={front} height='250' width='250' alt='' className='elementz' href='/'></img>
     </a>
   </div>
     <div className="portfoliogallery">
