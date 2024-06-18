@@ -5,7 +5,7 @@ import About from './Routes/About'
 // import WorkPage from './Routes/WorkPage'
 import NotFound from './Routes/NotFound'
 import Test from './Routes/Test'
-import Egg from './Routes/Egg'
+
 import Services from './Routes/Services'
 import Prints from './Routes/Prints'
 import Air from './Routes/Services/Air'
@@ -49,7 +49,6 @@ function App() {
      <Route path='/' element={<Home />} />
      <Route path='/home' element={<Home />} />
      <Route path='/about' element={<About />} />
-     <Route path='/egg' element={<Egg />} />
      <Route path='/services' element={<Services />} />
      <Route path='/prints' element={<Prints />} />
      <Route path='/test' element={<Test />} />
