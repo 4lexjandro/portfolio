@@ -1,10 +1,11 @@
 // Rollers.js
 
-import Roll1 from '../../Visuals/Rollers/Roll1.MOV';
+
 
 import SRT from '../../Visuals/Rollers/SRT.png';
 import Lexus from '../../Visuals/Rollers/lexus.png';
 import A1 from '../../Visuals/Rollers/a1.png';
+import Dark from '../../Visuals/Rollers/Dark.png';
 
 import Footer from '../../Parts/Footer'
 
@@ -30,24 +31,26 @@ const Rollers = () => {
           type="video/mp4"
         />
         </video> */}
-        <img src={SRT} alt='srt'/>
+        
+	<img src={Dark} alt='srt'/>
+	
+	
 	</div>
 	<div>
-	<img src={SRT} alt='srt'/>
+		
+	
+	
+	
+	{/* <img src={SRT} alt='srt'/> */}
+	
+	
+
 	</div>
 
 
-    <video autoPlay loop muted playsInline={true} 
-      controls={false}
-      disablePictureInPicture={true} 
-      id='video' className="vid"
-
-      >
-        <source
-          src={Roll1}
-          type="video/mp4"
-        />
-        </video>
+   <div>
+   {/* <img src={SRT} alt='srt'/> */}
+   </div>
 
 
 	<div className="tall">
@@ -62,18 +65,29 @@ const Rollers = () => {
           type="video/mp4"
         />
         </video> */}
-        <img src={SRT} alt='srt'/>
+        
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
+		
 	</div>
 	<div className="wide">
-	{/* <img src={SRT} alt='srt'/> */}
-        <img src={SRT} alt='srt'/>
+	
+        
+		
+		
+		<img src={SRT} alt='srt'/>
+		
 	</div>
 
 
 
 	<div>
 	
-  <img src={SRT} alt='srt'/>
+  
+  
+  
+  {/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
@@ -88,13 +102,19 @@ const Rollers = () => {
 
 
 	<div className="big">
-	<img src={SRT} alt='srt'/>
+	
+	
+	
+	{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
     
 	</div>
 
@@ -107,115 +127,178 @@ const Rollers = () => {
 
 
 	<div className="big">
-    <img src={SRT} alt='srt'/>
+    
+	
+	
+	{/* <img src={SRT} alt='srt'/> */}
 	</div>
 
 
 
 	<div className="tall">
-		<img src={SRT} alt='srt'/>
-	</div>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
+		
+		</div>
+	
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
 		
-	</div>
-
-
-	<div className="wide">
-		<img src={SRT} alt='srt'/>
-	</div>
-
-
-	<div>
-		<img src={SRT} alt='srt'/>
 		
-	</div>
-
-
-	<div>
-		<img src={SRT} alt='srt'/>
 		
-	</div>
-
-
-	<div className="wide">
-	<img src={SRT} alt='srt'/>	
-	</div>
-
-
-	<div>
-		<img src={SRT} alt='srt'/>
+		{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 	<div className="wide">
-	<img src={SRT} alt='srt'/>	
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
+		
+	</div>
+
+
+	<div>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
+		
+	</div>
+
+
+	<div>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
+		
+	</div>
+
+
+	<div className="wide">
+	
+	
+	
+	{/* <img src={SRT} alt='srt'/>	 */}
+	</div>
+
+
+	<div>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
+		
+	</div>
+
+
+	<div className="wide">
+	
+	
+	
+	{/* <img src={SRT} alt='srt'/>	 */}
 	</div>
 
 
 	<div className="big">
-	<img src={SRT} alt='srt'/>	
+	
+	
+	
+	{/* <img src={SRT} alt='srt'/>	 */}
 	</div>
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 	<div className="big">
-	<img src={SRT} alt='srt'/>	
+	
+	
+	
+	{/* <img src={SRT} alt='srt'/>	 */}
 	</div>
 
 
 	<div className="tall">
-	<img src={SRT} alt='srt'/>	
+	
+	
+	
+	{/* <img src={SRT} alt='srt'/>	 */}
 	</div>
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 	<div>
-		<img src={SRT} alt='srt'/>
+		
+		
+		
+		{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 
 
 	<div className="wide">
-	<img src={SRT} alt='srt'/>
+	
+	
+	
+	{/* <img src={SRT} alt='srt'/> */}
 		
 	</div>
 

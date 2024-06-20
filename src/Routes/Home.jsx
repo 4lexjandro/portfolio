@@ -55,7 +55,7 @@ export const Home = () => {
         </div>
 
         <div className="grid-item">
-          <a href='/groundpics'>
+          <a href='/'>
             <img src={Blue} alt="" />
             <div className="overlay">
               <span>Ground Photo/Video</span>
@@ -64,7 +64,7 @@ export const Home = () => {
         </div>
         
         <div className="grid-item">
-          <a href='/fpv'>
+          <a href='/'>
             <img src={Night} alt="" />
             <div className="overlay">
               <span>FPV</span>
