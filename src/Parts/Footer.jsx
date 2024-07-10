@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faTwitter,
     faInstagram,
+    faTiktok,
     faYoutube,
     
   } from "@fortawesome/free-brands-svg-icons";
@@ -98,6 +99,22 @@ const Footer = ( ) => {
       <a className='icon' href="https://www.instagram.com/4lexjandro_/"
         >
         <FontAwesomeIcon icon={faInstagram} />
+    </a>
+          </motion.h3>
+
+
+
+          <motion.h3
+            initial={{
+              
+              transition: { type: "spring", duration: 1.5, delay: 1 },
+            }}
+            whileHover={{ scale: 1.3 }}
+            whileTap={{ scale: 0.9 }}      
+          >    
+      <a className='icon' href="https://www.tiktok.com/@4pulenz"
+        >
+        <FontAwesomeIcon icon={faTiktok} />
     </a>
           </motion.h3>
 
