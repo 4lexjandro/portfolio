@@ -6,6 +6,7 @@ import SRT from '../../Visuals/Rollers/SRT.png';
 import Lexus from '../../Visuals/Rollers/lexus.png';
 import A1 from '../../Visuals/Rollers/a1.png';
 import Dark from '../../Visuals/Rollers/Dark.png';
+import Z from '../../Visuals/Rollers/Z.jpg';
 
 import Footer from '../../Parts/Footer'
 
@@ -41,7 +42,7 @@ const Rollers = () => {
 	
 	
 	
-	{/* <img src={SRT} alt='srt'/> */}
+	<img src={Z} alt='z'/>
 	
 	
 
