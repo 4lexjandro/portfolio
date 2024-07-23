@@ -7,6 +7,10 @@ import Lexus from '../../Visuals/Rollers/lexus.png';
 import A1 from '../../Visuals/Rollers/a1.png';
 import Dark from '../../Visuals/Rollers/Dark.png';
 import Z from '../../Visuals/Rollers/Z.jpg';
+import S1 from '../../Visuals/Rollers/S1.png';
+import S2 from '../../Visuals/Rollers/S2.png';
+import S3 from '../../Visuals/Rollers/S3.png';
+import S4 from '../../Visuals/Rollers/S4.png';
 
 import Footer from '../../Parts/Footer'
 
@@ -50,7 +54,7 @@ const Rollers = () => {
 
 
    <div>
-   {/* <img src={SRT} alt='srt'/> */}
+   <img src={S2} alt='srt'/>
    </div>
 
 
@@ -69,7 +73,7 @@ const Rollers = () => {
         
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={S3} alt='srt'/>
 		
 	</div>
 	<div className="wide">
@@ -88,7 +92,7 @@ const Rollers = () => {
   
   
   
-  {/* <img src={SRT} alt='srt'/> */}
+  <img src={S4} alt='srt'/>
 		
 	</div>
 
@@ -106,7 +110,7 @@ const Rollers = () => {
 	
 	
 	
-	{/* <img src={SRT} alt='srt'/> */}
+	<img src={S1} alt='srt'/>
 		
 	</div>
 
