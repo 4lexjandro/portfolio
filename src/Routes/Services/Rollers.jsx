@@ -11,6 +11,17 @@ import S1 from '../../Visuals/Rollers/S1.png';
 import S2 from '../../Visuals/Rollers/S2.png';
 import S3 from '../../Visuals/Rollers/S3.png';
 import S4 from '../../Visuals/Rollers/S4.png';
+import C1 from '../../Visuals/Rollers/C1.jpg';
+import C2 from '../../Visuals/Rollers/C2.jpg';
+import C3 from '../../Visuals/Rollers/C3.jpg';
+import C4 from '../../Visuals/Rollers/C4.jpg';
+import C5 from '../../Visuals/Rollers/C5.jpg';
+import C6 from '../../Visuals/Rollers/C6.JPG';
+import C7 from '../../Visuals/Rollers/C7.JPG';
+import C9 from '../../Visuals/Rollers/C9.JPG';
+import C10 from '../../Visuals/Rollers/C10.JPG';
+import C11 from '../../Visuals/Rollers/C11.JPG';
+
 
 import Footer from '../../Parts/Footer'
 
@@ -110,7 +121,7 @@ const Rollers = () => {
 	
 	
 	
-	<img src={S1} alt='srt'/>
+	<img src={C7} alt='srt'/>
 		
 	</div>
 
@@ -119,7 +130,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={C1} alt='srt'/>
     
 	</div>
 
@@ -135,7 +146,7 @@ const Rollers = () => {
     
 	
 	
-	{/* <img src={SRT} alt='srt'/> */}
+	<img src={C11} alt=''/>
 	</div>
 
 
@@ -144,7 +155,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={C3} alt=''/>
 		
 		</div>
 	
@@ -154,7 +165,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={C4} alt='srt'/>
 		
 	</div>
 
@@ -163,7 +174,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={C5} alt='srt'/>
 		
 	</div>
 
@@ -172,7 +183,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={C6} alt='srt'/>
 		
 	</div>
 
@@ -182,7 +193,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={S1} alt='srt'/>
 		
 	</div>
 
@@ -191,7 +202,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={C2} alt='srt'/>
 		
 	</div>
 
@@ -200,7 +211,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={C10} alt='srt'/>
 		
 	</div>
 
@@ -209,7 +220,7 @@ const Rollers = () => {
 		
 		
 		
-		{/* <img src={SRT} alt='srt'/> */}
+		<img src={C9} alt='srt'/>
 		
 	</div>
 
@@ -243,7 +254,7 @@ const Rollers = () => {
 	
 	
 	
-	{/* <img src={SRT} alt='srt'/>	 */}
+	{/* <img src={C11} alt='srt'/> */}
 	</div>
 
 
